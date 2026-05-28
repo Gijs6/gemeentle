@@ -222,6 +222,23 @@ function renderHistory() {
     el.innerHTML = `<ul class="history-list">${rows.join("")}</ul>`;
 }
 
+function initShareButton() {
+    const btn = document.querySelector(".js-share");
+    if (!btn) return;
+    btn.addEventListener("click", () => {
+        const day = btn.dataset.day;
+        const guesses = btn.dataset.guesses;
+        const text = `Gemeentle #${day} — ${guesses}/5\ngijs6.nl/gemeentle`;
+        navigator.clipboard.writeText(text).then(() => {
+            const original = btn.textContent;
+            btn.textContent = "Gekopieerd!";
+            setTimeout(() => {
+                btn.textContent = original;
+            }, 2000);
+        });
+    });
+}
+
 function openDialog(id) {
     const dialog = document.getElementById(id);
     if (!dialog) return;
@@ -249,6 +266,7 @@ function initDialogs() {
 function initHtmx() {
     document.addEventListener("htmx:afterSwap", () => {
         syncResult();
+        initShareButton();
 
         const form = document.querySelector(".guess-form");
         if (form) initAutocomplete(form);
@@ -268,6 +286,7 @@ function init() {
     if (form) initAutocomplete(form);
 
     syncResult();
+    initShareButton();
     initDialogs();
     initHtmx();
 }

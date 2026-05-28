@@ -111,12 +111,20 @@
         <p class="game-result__title">Gewonnen!</p>
         <p class="game-result__gemeente">{{ gemeente }}</p>
         <p class="game-result__sub">In {{ guesses | length }} {{ "poging" if guesses | length == 1 else "pogingen" }}</p>
+        <button type="button"
+                class="btn btn--share js-share"
+                data-day="{{ day_number }}"
+                data-guesses="{{ guesses | length }}">Kopieer resultaat</button>
     </section>
 {% elif result == "lost" %}
     <section class="game-result game-result--lost">
         <i class="fa-solid fa-circle-xmark game-result__icon"></i>
         <p class="game-result__title">Verloren</p>
         <p class="game-result__gemeente">{{ gemeente }}</p>
+        <button type="button"
+                class="btn btn--share js-share"
+                data-day="{{ day_number }}"
+                data-guesses="X">Kopieer resultaat</button>
     </section>
 {% else %}
     {% if error == "duplicate" %}

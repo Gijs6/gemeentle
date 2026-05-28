@@ -50,6 +50,7 @@ def get_state():
         "max_hints": len(HINTS),
         "hints": _build_hints(info, hints_revealed),
         "has_data": bool(info),
+        "day_number": (date.today() - EPOCH).days + 1,
         "error": None,
     }
 
