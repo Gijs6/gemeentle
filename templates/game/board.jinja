@@ -12,9 +12,7 @@
         {% set ns = namespace(char_idx=0) %}
         {% set words = gemeente.split(' ') %}
         {% for word in words %}
-            {% if not loop.first %}
-                <span class="name-display__gap"></span>
-            {% endif %}
+            {% if not loop.first %}<span class="name-display__gap"></span>{% endif %}
             <span class="name-display__word">
                 {% for c in word %}
                     {% if c == '-' %}
@@ -66,7 +64,9 @@
                 <dl>
                     <div class="hint__cell">
                         <dt class="hint__label">Inwoners</dt>
-                        <dd class="hint__value">{{ "{:,}".format(hint.inwoners).replace(",", ".") if hint.inwoners else "-" }}</dd>
+                        <dd class="hint__value">
+                            {{ "{:,}".format(hint.inwoners).replace(",", ".") if hint.inwoners else "-" }}
+                        </dd>
                     </div>
                     <div class="hint__cell">
                         <dt class="hint__label">Oppervlakte</dt>
@@ -85,14 +85,18 @@
             <li class="hint hint--meta">
                 <dl>
                     <dt class="hint__label">Provincie</dt>
-                    <dd class="hint__value">{{ hint.provincie or "-" }}</dd>
+                    <dd class="hint__value">
+                        {{ hint.provincie or "-" }}
+                    </dd>
                 </dl>
             </li>
         {% elif hint.type == "burgemeester" %}
             <li class="hint hint--meta">
                 <dl>
                     <dt class="hint__label">Burgemeester</dt>
-                    <dd class="hint__value">{{ hint.burgemeester or "-" }}</dd>
+                    <dd class="hint__value">
+                        {{ hint.burgemeester or "-" }}
+                    </dd>
                 </dl>
             </li>
         {% endif %}
@@ -153,7 +157,8 @@
                    spellcheck="false"
                    autofocus
                    required />
-            <ul class="autocomplete__list" hidden></ul>
+            <ul class="autocomplete__list" hidden>
+            </ul>
         </div>
         <button type="submit" class="btn">Raden</button>
     </form>

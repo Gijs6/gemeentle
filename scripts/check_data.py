@@ -6,7 +6,15 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import data.gemeente_info as gemeente_info
 
-FIELDS = ["vlag", "wapen", "kaart", "inwoners", "oppervlakte", "provincie", "burgemeester"]
+FIELDS = [
+    "vlag",
+    "wapen",
+    "kaart",
+    "inwoners",
+    "oppervlakte",
+    "provincie",
+    "burgemeester",
+]
 
 names = sorted(gemeente_info.names())
 missing = {field: [] for field in FIELDS}

@@ -6,9 +6,7 @@ function filterGemeenten(query) {
     if (!query) return [];
     const q = query.toLowerCase();
     const starts = gemeenten.filter((g) => g.toLowerCase().startsWith(q));
-    const contains = gemeenten.filter(
-        (g) => !g.toLowerCase().startsWith(q) && g.toLowerCase().includes(q),
-    );
+    const contains = gemeenten.filter((g) => !g.toLowerCase().startsWith(q) && g.toLowerCase().includes(q));
     return [...starts, ...contains].slice(0, 8);
 }
 
@@ -145,7 +143,7 @@ function syncResult() {
         date,
         gemeente,
         result,
-        guesses: parseInt(meta.dataset.guesses, 10),
+        guesses: parseInt(meta.dataset.guesses, 10)
     };
     history.unshift(entry);
     if (history.length > 60) history.pop();
@@ -214,13 +212,10 @@ function renderHistory() {
         const label = d.toLocaleDateString("nl-NL", {
             weekday: "long",
             day: "numeric",
-            month: "long",
+            month: "long"
         });
         const cls = entry.result === "won" ? "history-item--won" : "history-item--lost";
-        const resultLabel =
-            entry.result === "won"
-                ? `${entry.guesses} ${entry.guesses === 1 ? "poging" : "pogingen"}`
-                : "Verloren";
+        const resultLabel = entry.result === "won" ? `${entry.guesses} ${entry.guesses === 1 ? "poging" : "pogingen"}` : "Verloren";
         return `
             <li class="history-item ${cls}">
                 <span class="history-item__date">${label}</span>

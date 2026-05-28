@@ -9,10 +9,7 @@
                 <h1 class="game-header__title">Gemeentle</h1>
             </div>
             <nav class="game-header__nav">
-                <button type="button"
-                        class="icon-btn"
-                        title="Hulp"
-                        data-dialog="help-dialog">
+                <button type="button" class="icon-btn" title="Hulp" data-dialog="help-dialog">
                     <i class="fa-solid fa-circle-question"></i>
                 </button>
                 <button type="button"
@@ -73,7 +70,9 @@
                 </li>
             </ul>
             <p class="help-footer">Elke dag om middernacht is er een nieuwe gemeente.</p>
-            <p class="help-footer">Gemaakt door <a href="https://gijs6.nl" target="_blank" rel="noopener">gijs6</a>.</p>
+            <p class="help-footer">
+                Gemaakt door <a href="https://gijs6.nl" target="_blank" rel="noopener">gijs6</a>.
+            </p>
         </div>
     </dialog>
 
@@ -100,6 +99,6 @@
     {# djlint:off #}
     <script>
         window.GEMEENTEN = {{ all_gemeenten | tojson }};
-    </script>
+</script>
     {# djlint: on#}
 {% endblock %}
