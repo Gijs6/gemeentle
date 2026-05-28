@@ -153,3 +153,10 @@
     </form>
     <p class="guess-counter">Poging {{ guesses | length + 1 }} van {{ max_hints }}</p>
 {% endif %}
+
+{% if result != "playing" %}
+    <div class="countdown-wrapper">
+        <p class="countdown-label">Volgende gemeente over</p>
+        <p class="countdown" id="countdown">--:--:--</p>
+    </div>
+{% endif %}

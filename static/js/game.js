@@ -222,6 +222,25 @@ function renderHistory() {
     el.innerHTML = `<ul class="history-list">${rows.join("")}</ul>`;
 }
 
+function startCountdown() {
+    const el = document.getElementById("countdown");
+    if (!el) return;
+
+    function update() {
+        const now = new Date();
+        const midnight = new Date(now);
+        midnight.setHours(24, 0, 0, 0);
+        const diff = midnight - now;
+        const h = String(Math.floor(diff / 3600000)).padStart(2, "0");
+        const m = String(Math.floor((diff % 3600000) / 60000)).padStart(2, "0");
+        const s = String(Math.floor((diff % 60000) / 1000)).padStart(2, "0");
+        el.textContent = `${h}:${m}:${s}`;
+    }
+
+    update();
+    setInterval(update, 1000);
+}
+
 function initShareButton() {
     const btn = document.querySelector(".js-share");
     if (!btn) return;
@@ -267,6 +286,7 @@ function initHtmx() {
     document.addEventListener("htmx:afterSwap", () => {
         syncResult();
         initShareButton();
+        startCountdown();
 
         const form = document.querySelector(".guess-form");
         if (form) initAutocomplete(form);
@@ -287,6 +307,7 @@ function init() {
 
     syncResult();
     initShareButton();
+    startCountdown();
     initDialogs();
     initHtmx();
 }

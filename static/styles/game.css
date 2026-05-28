@@ -378,6 +378,25 @@
         }
     }
 
+    .countdown-wrapper {
+        text-align: center;
+        padding: var(--spacing-md) 0;
+
+        .countdown-label {
+            margin: 0 0 var(--spacing-2xs);
+            font-size: var(--font-size-sm);
+            color: var(--color-muted);
+        }
+
+        .countdown {
+            margin: 0;
+            font-family: var(--font-family-mono);
+            font-size: var(--font-size-2xl);
+            font-weight: var(--font-weight-bold);
+            color: var(--color-fg);
+        }
+    }
+
     .game-footer {
         margin-top: auto;
         padding: var(--spacing-lg);
