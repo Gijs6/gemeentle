@@ -427,6 +427,29 @@
         text-align: center;
     }
 
+    @media (max-width: 480px) {
+        .game-header {
+            grid-template-columns: 1fr auto;
+            padding: var(--spacing-sm) var(--spacing-md);
+
+            .game-header__brand {
+                grid-column: 1;
+                text-align: left;
+            }
+
+            .game-header__title {
+                font-size: var(--font-size-xl);
+            }
+
+            .game-header__nav {
+                grid-column: 2;
+            }
+        }
+
+        #board {
+            padding: var(--spacing-md) var(--spacing-sm) 0;
+        }
+    }
 }
 
 @keyframes btn-spin {
