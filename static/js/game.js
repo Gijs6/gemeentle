@@ -253,10 +253,7 @@ function initShareButton() {
         const day = btn.dataset.day;
         const guesses = btn.dataset.guesses;
         const max = 5;
-        const squares =
-            guesses === "X"
-                ? "🟥".repeat(max)
-                : "🟥".repeat(parseInt(guesses, 10) - 1) + "🟩" + "⬛".repeat(max - parseInt(guesses, 10));
+        const squares = guesses === "X" ? "🟥".repeat(max) : "🟥".repeat(parseInt(guesses, 10) - 1) + "🟩" + "⬛".repeat(max - parseInt(guesses, 10));
         const text = `Gemeentle #${day}\n${squares}\ngemeentle.gijs6.nl`;
         navigator.clipboard.writeText(text).then(() => {
             const original = btn.textContent;
