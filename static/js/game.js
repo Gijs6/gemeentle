@@ -252,7 +252,8 @@ function initShareButton() {
     btn.addEventListener("click", () => {
         const day = btn.dataset.day;
         const guesses = btn.dataset.guesses;
-        const text = `Gemeentle #${day} — ${guesses}/5\ngijs6.nl/gemeentle`;
+        const emoji = guesses === "X" ? "😔" : "🎉";
+        const text = `🗺️ Gemeentle #${day} — ${guesses}/5 ${emoji}\ngijs6.nl/gemeentle`;
         navigator.clipboard.writeText(text).then(() => {
             const original = btn.textContent;
             btn.textContent = "Gekopieerd!";
