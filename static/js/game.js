@@ -298,6 +298,11 @@ function initHtmx() {
     document.addEventListener("htmx:beforeRequest", () => {
         const list = document.querySelector(".autocomplete__list");
         if (list) list.hidden = true;
+
+        const btn = document.querySelector(".guess-form .btn");
+        const input = document.querySelector(".autocomplete__input");
+        if (btn) btn.classList.add("btn--loading");
+        if (input) input.disabled = true;
     });
 }
 

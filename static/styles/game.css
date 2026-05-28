@@ -406,6 +406,32 @@
     }
 }
 
+@keyframes btn-spin {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.btn--loading {
+    position: relative;
+    color: transparent;
+    pointer-events: none;
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 2px solid var(--color-beige-0);
+        border-top-color: transparent;
+        border-radius: 50%;
+        animation: btn-spin 0.6s linear infinite;
+    }
+}
+
 dialog {
     .stats-grid {
         display: grid;
