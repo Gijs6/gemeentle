@@ -70,7 +70,6 @@
                     width: auto;
                     height: auto;
                     background: none;
-                    border-bottom: 2px solid var(--color-beige-4);
                     font-size: var(--font-size-2xl);
                     font-family: var(--font-family-mono);
                     font-weight: var(--font-weight-bold);
