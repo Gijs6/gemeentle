@@ -425,7 +425,10 @@
         padding: var(--spacing-lg);
         font-size: var(--font-size-sm);
         color: var(--color-muted);
-        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 34rem;
     }
 
     @media (max-width: 480px) {
