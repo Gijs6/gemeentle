@@ -49,7 +49,7 @@ def get_state():
         "hints_revealed": hints_revealed,
         "max_hints": len(HINTS),
         "hints": _build_hints(info, hints_revealed),
-        "has_data": bool(info),
+        "has_data": bool(info.get("vlag") or info.get("wapen")),
         "day_number": (date.today() - EPOCH).days + 1,
         "error": None,
     }
