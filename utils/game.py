@@ -25,12 +25,14 @@ def _get_shuffled_gemeenten():
 
 def _get_revealed_indices(gemeente, hints_revealed, max_hints):
     letter_count = sum(1 for c in gemeente if c not in (" ", "-", "'"))
-    if letter_count == 0:
+    if letter_count <= 1:
         return set()
-    positions = list(range(letter_count))
+    positions = list(range(1, letter_count))
     random.Random(gemeente).shuffle(positions)
     wrong_guesses = hints_revealed - 1
-    count = round(letter_count * wrong_guesses / (max_hints * 1.5))
+    if wrong_guesses < 2:
+        return set()
+    count = round(len(positions) * (wrong_guesses - 1) / (max_hints * 2))
     return set(positions[:count])
 
 
