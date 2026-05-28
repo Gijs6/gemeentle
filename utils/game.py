@@ -23,6 +23,17 @@ def _get_shuffled_gemeenten():
     return _shuffled_gemeenten
 
 
+def _get_revealed_indices(gemeente, hints_revealed, max_hints):
+    letter_count = sum(1 for c in gemeente if c not in (" ", "-", "'"))
+    if letter_count == 0:
+        return set()
+    positions = list(range(letter_count))
+    random.Random(gemeente).shuffle(positions)
+    wrong_guesses = hints_revealed - 1
+    count = round(letter_count * wrong_guesses / (max_hints * 1.5))
+    return set(positions[:count])
+
+
 def get_daily_gemeente():
     gemeenten = _get_shuffled_gemeenten()
     day = (date.today() - EPOCH).days
@@ -51,6 +62,7 @@ def get_state():
         "hints": _build_hints(info, hints_revealed),
         "has_data": bool(info.get("vlag") or info.get("wapen")),
         "day_number": (date.today() - EPOCH).days + 1,
+        "revealed_indices": _get_revealed_indices(gemeente, hints_revealed, len(HINTS)),
         "error": None,
     }
 

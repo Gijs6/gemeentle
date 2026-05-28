@@ -65,6 +65,20 @@
                 background: var(--color-beige-4);
                 border-radius: 1px;
                 margin-bottom: var(--spacing-2xs);
+
+                &.name-display__slot--revealed {
+                    width: auto;
+                    height: auto;
+                    background: none;
+                    border-bottom: 2px solid var(--color-beige-4);
+                    font-size: var(--font-size-2xl);
+                    font-family: var(--font-family-mono);
+                    font-weight: var(--font-weight-bold);
+                    color: var(--color-muted);
+                    line-height: 1;
+                    margin-bottom: 0;
+                    padding: 0 0.05rem var(--spacing-2xs);
+                }
             }
 
             .name-display__hyphen,
@@ -412,6 +426,7 @@
         color: var(--color-muted);
         text-align: center;
     }
+
 }
 
 @keyframes btn-spin {

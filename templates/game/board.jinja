@@ -9,6 +9,7 @@
     {% if result != "playing" %}
         <span class="name-display__revealed">{{ gemeente }}</span>
     {% else %}
+        {% set ns = namespace(char_idx=0) %}
         {% set words = gemeente.split(' ') %}
         {% for word in words %}
             {% if not loop.first %}
@@ -21,7 +22,12 @@
                     {% elif c == "'" %}
                         <span class="name-display__apos">'</span>
                     {% else %}
-                        <span class="name-display__slot"></span>
+                        {% if ns.char_idx in revealed_indices %}
+                            <span class="name-display__slot name-display__slot--revealed">{{ c }}</span>
+                        {% else %}
+                            <span class="name-display__slot"></span>
+                        {% endif %}
+                        {% set ns.char_idx = ns.char_idx + 1 %}
                     {% endif %}
                 {% endfor %}
             </span>
