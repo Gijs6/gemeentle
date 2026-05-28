@@ -1,3 +1,6 @@
+const STATS_KEY = "gemeentle_stats";
+const HISTORY_KEY = "gemeentle_history";
+
 function filterGemeenten(query) {
     const gemeenten = window.GEMEENTEN || [];
     if (!query) return [];
@@ -99,21 +102,18 @@ function initAutocomplete(form) {
 }
 
 function getStats() {
+    const defaults = { played: 0, won: 0, currentStreak: 0, bestStreak: 0 };
     try {
-        const raw = localStorage.getItem("gemeentle_stats");
-        return { ...defaultStats(), ...(raw ? JSON.parse(raw) : {}) };
+        const raw = localStorage.getItem(STATS_KEY);
+        return { ...defaults, ...(raw ? JSON.parse(raw) : {}) };
     } catch {
-        return defaultStats();
+        return defaults;
     }
-}
-
-function defaultStats() {
-    return { played: 0, won: 0, currentStreak: 0, bestStreak: 0 };
 }
 
 function getHistory() {
     try {
-        const raw = localStorage.getItem("gemeentle_history");
+        const raw = localStorage.getItem(HISTORY_KEY);
         return raw ? JSON.parse(raw) : [];
     } catch {
         return [];
@@ -139,18 +139,18 @@ function syncResult() {
     };
     history.unshift(entry);
     if (history.length > 60) history.pop();
-    localStorage.setItem("gemeentle_history", JSON.stringify(history));
+    localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
 
     const stats = getStats();
     stats.played++;
 
     if (result === "won") {
         stats.won++;
-        const yesterday = new Date(date + "T00:00:00");
-        yesterday.setDate(yesterday.getDate() - 1);
-        const yStr = yesterday.toISOString().slice(0, 10);
-        const prev = history[1];
-        if (prev && prev.date === yStr && prev.result === "won") {
+        const [y, mo, d] = date.split("-").map(Number);
+        const prev = new Date(y, mo - 1, d - 1);
+        const yStr = `${prev.getFullYear()}-${String(prev.getMonth() + 1).padStart(2, "0")}-${String(prev.getDate()).padStart(2, "0")}`;
+        const prevEntry = history[1];
+        if (prevEntry && prevEntry.date === yStr && prevEntry.result === "won") {
             stats.currentStreak++;
         } else {
             stats.currentStreak = 1;
@@ -160,7 +160,7 @@ function syncResult() {
         stats.currentStreak = 0;
     }
 
-    localStorage.setItem("gemeentle_stats", JSON.stringify(stats));
+    localStorage.setItem(STATS_KEY, JSON.stringify(stats));
 }
 
 function renderStats() {
