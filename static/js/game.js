@@ -40,24 +40,31 @@ function initAutocomplete(form) {
     function openList(results) {
         list.innerHTML = "";
         activeIdx = -1;
-        results.forEach((name) => {
+        if (results.length === 0) {
             const li = document.createElement("li");
-            li.className = "autocomplete__option";
-            li.textContent = name;
-            li.dataset.value = name;
-            li.addEventListener("mousedown", (e) => {
-                e.preventDefault();
-                input.value = name;
-                closeList();
-            });
+            li.className = "autocomplete__empty";
+            li.textContent = "Geen gemeente gevonden";
             list.appendChild(li);
-        });
+        } else {
+            results.forEach((name) => {
+                const li = document.createElement("li");
+                li.className = "autocomplete__option";
+                li.textContent = name;
+                li.dataset.value = name;
+                li.addEventListener("mousedown", (e) => {
+                    e.preventDefault();
+                    input.value = name;
+                    closeList();
+                });
+                list.appendChild(li);
+            });
+        }
         list.hidden = false;
     }
 
     input.addEventListener("input", () => {
         const results = filterGemeenten(input.value);
-        if (results.length) openList(results);
+        if (input.value) openList(results);
         else closeList();
     });
 

@@ -291,6 +291,14 @@
                             color: var(--color-accent-dark);
                         }
                     }
+
+                    .autocomplete__empty {
+                        padding: var(--spacing-xs) var(--spacing-md);
+                        font-size: var(--font-size-sm);
+                        color: var(--color-muted);
+                        cursor: default;
+                        font-style: italic;
+                    }
                 }
             }
         }
