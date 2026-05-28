@@ -89,6 +89,10 @@ def submit_guess(guess):
         state["error"] = "invalid"
         return state
 
+    if any(g.lower() == guess.lower() for g in session["guesses"]):
+        state["error"] = "duplicate"
+        return state
+
     guesses = session["guesses"] + [guess]
     session["guesses"] = guesses
 

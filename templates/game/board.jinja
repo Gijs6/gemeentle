@@ -119,7 +119,9 @@
         <p class="game-result__gemeente">{{ gemeente }}</p>
     </section>
 {% else %}
-    {% if error %}
+    {% if error == "duplicate" %}
+        <p class="guess-error">Je hebt deze gemeente al geraden.</p>
+    {% elif error %}
         <p class="guess-error">Geen geldige gemeente. Kies een naam uit de lijst.</p>
     {% endif %}
     <form class="guess-form"
