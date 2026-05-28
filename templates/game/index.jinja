@@ -1,0 +1,105 @@
+{% extends "skeleton.jinja" %}
+
+{% block title %}Gemeentle{% endblock %}
+
+{% block body_content %}
+    <div class="game-layout">
+        <header class="game-header">
+            <div class="game-header__brand">
+                <h1 class="game-header__title">Gemeentle</h1>
+            </div>
+            <nav class="game-header__nav">
+                <button type="button"
+                        class="icon-btn"
+                        title="Hulp"
+                        data-dialog="help-dialog">
+                    <i class="fa-solid fa-circle-question"></i>
+                </button>
+                <button type="button"
+                        class="icon-btn"
+                        title="Statistieken"
+                        data-dialog="stats-dialog">
+                    <i class="fa-solid fa-chart-column"></i>
+                </button>
+                <button type="button"
+                        class="icon-btn"
+                        title="Recente resultaten"
+                        data-dialog="history-dialog">
+                    <i class="fa-solid fa-calendar-days"></i>
+                </button>
+            </nav>
+        </header>
+
+        <main id="board">
+            {% include "game/board.jinja" %}
+
+        </main>
+
+        <footer class="game-footer">
+            Gemaakt door <a href="https://gijs6.nl" target="_blank" rel="noopener">gijs6</a>
+        </footer>
+    </div>
+
+    <dialog id="help-dialog">
+        <div class="dialog-header">
+            <h2>Hoe speel je Gemeentle?</h2>
+            <button type="button" class="dialog-close" title="Sluiten">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="dialog-body">
+            <p>Raad de Nederlandse gemeente van de dag. Je hebt maximaal 5 pogingen.</p>
+            <p>Na elke foute gok krijg je een extra hint:</p>
+            <ul class="help-hints">
+                <li class="help-hint">
+                    <span class="help-hint__num">1</span>
+                    Vlag en gemeentewapen
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num">2</span>
+                    Burgemeester
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num">3</span>
+                    Aantal inwoners en oppervlakte
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num">4</span>
+                    Provincie
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num">5</span>
+                    Kaart van de gemeente
+                </li>
+            </ul>
+            <p class="help-footer">Elke dag om middernacht is er een nieuwe gemeente.</p>
+            <p class="help-footer">Gemaakt door <a href="https://gijs6.nl" target="_blank" rel="noopener">gijs6</a>.</p>
+        </div>
+    </dialog>
+
+    <dialog id="stats-dialog">
+        <div class="dialog-header">
+            <h2>Statistieken</h2>
+            <button type="button" class="dialog-close" title="Sluiten">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="dialog-body" id="stats-content"></div>
+    </dialog>
+
+    <dialog id="history-dialog">
+        <div class="dialog-header">
+            <h2>Recente resultaten</h2>
+            <button type="button" class="dialog-close" title="Sluiten">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="dialog-body" id="history-content"></div>
+    </dialog>
+
+    {# djlint:off #}
+    <script>
+        window.GEMEENTEN = {{ all_gemeenten | tojson }};
+    </script>
+    {# djlint: on#}
+{% endblock %}

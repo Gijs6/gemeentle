@@ -1,0 +1,145 @@
+<div class="game-meta"
+     hidden
+     data-result="{{ result }}"
+     data-date="{{ date }}"
+     data-gemeente="{{ gemeente }}"
+     data-guesses="{{ guesses | length }}"></div>
+
+<div class="name-display">
+    {% if result != "playing" %}
+        <span class="name-display__revealed">{{ gemeente }}</span>
+    {% else %}
+        {% set words = gemeente.split(' ') %}
+        {% for word in words %}
+            {% if not loop.first %}
+                <span class="name-display__gap"></span>
+            {% endif %}
+            <span class="name-display__word">
+                {% for c in word %}
+                    {% if c == '-' %}
+                        <span class="name-display__hyphen">-</span>
+                    {% elif c == "'" %}
+                        <span class="name-display__apos">'</span>
+                    {% else %}
+                        <span class="name-display__slot"></span>
+                    {% endif %}
+                {% endfor %}
+            </span>
+        {% endfor %}
+    {% endif %}
+</div>
+
+<ul class="hint-list">
+    {% for hint in hints %}
+        {% if hint.type == "vlag_wapen" %}
+            <li class="hint hint--vlag-wapen">
+                {% if hint.vlag %}
+                    <img src="{{ hint.vlag }}"
+                         alt="Vlag van de gemeente"
+                         class="hint__img hint__img--vlag"
+                         loading="lazy" />
+                {% endif %}
+                {% if hint.wapen %}
+                    <img src="{{ hint.wapen }}"
+                         alt="Wapen van de gemeente"
+                         class="hint__img hint__img--wapen"
+                         loading="lazy" />
+                {% endif %}
+            </li>
+        {% elif hint.type == "kaart" %}
+            <li class="hint hint--kaart">
+                {% if hint.kaart %}
+                    <img src="{{ hint.kaart }}"
+                         alt="Kaart van de gemeente"
+                         class="hint__img hint__img--kaart"
+                         loading="lazy" />
+                {% endif %}
+            </li>
+        {% elif hint.type == "inwoners_oppervlakte" %}
+            <li class="hint hint--meta-pair">
+                <dl>
+                    <div class="hint__cell">
+                        <dt class="hint__label">Inwoners</dt>
+                        <dd class="hint__value">{{ "{:,}".format(hint.inwoners).replace(",", ".") if hint.inwoners else "-" }}</dd>
+                    </div>
+                    <div class="hint__cell">
+                        <dt class="hint__label">Oppervlakte</dt>
+                        <dd class="hint__value">
+                            {% if hint.oppervlakte %}
+                                {{ hint.oppervlakte | int if hint.oppervlakte == hint.oppervlakte | int else hint.oppervlakte }}
+                                <span class="hint__unit">km2</span>
+                            {% else %}
+                                -
+                            {% endif %}
+                        </dd>
+                    </div>
+                </dl>
+            </li>
+        {% elif hint.type == "provincie" %}
+            <li class="hint hint--meta">
+                <dl>
+                    <dt class="hint__label">Provincie</dt>
+                    <dd class="hint__value">{{ hint.provincie or "-" }}</dd>
+                </dl>
+            </li>
+        {% elif hint.type == "burgemeester" %}
+            <li class="hint hint--meta">
+                <dl>
+                    <dt class="hint__label">Burgemeester</dt>
+                    <dd class="hint__value">{{ hint.burgemeester or "-" }}</dd>
+                </dl>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
+
+{% set wrong_guesses = guesses[:-1] if result == "won" else guesses %}
+{% if wrong_guesses %}
+    <ol class="guess-list">
+        {% for guess in wrong_guesses %}
+            <li class="guess-row">
+                <i class="fa-solid fa-xmark guess-row__icon"></i>
+                {{ guess }}
+            </li>
+        {% endfor %}
+    </ol>
+{% endif %}
+
+{% if result == "won" %}
+    <section class="game-result game-result--won">
+        <i class="fa-solid fa-circle-check game-result__icon"></i>
+        <p class="game-result__title">Gewonnen!</p>
+        <p class="game-result__gemeente">{{ gemeente }}</p>
+        <p class="game-result__sub">In {{ guesses | length }} {{ "poging" if guesses | length == 1 else "pogingen" }}</p>
+    </section>
+{% elif result == "lost" %}
+    <section class="game-result game-result--lost">
+        <i class="fa-solid fa-circle-xmark game-result__icon"></i>
+        <p class="game-result__title">Verloren</p>
+        <p class="game-result__gemeente">{{ gemeente }}</p>
+    </section>
+{% else %}
+    {% if error %}
+        <p class="guess-error">Geen geldige gemeente. Kies een naam uit de lijst.</p>
+    {% endif %}
+    <form class="guess-form"
+          hx-post="{{ url_for('game.guess') }}"
+          hx-target="#board"
+          hx-swap="innerHTML">
+        <div class="autocomplete">
+            <input type="text"
+                   name="guess"
+                   class="autocomplete__input"
+                   placeholder="Typ een gemeente..."
+                   autocomplete="off"
+                   autocorrect="off"
+                   autocapitalize="off"
+                   spellcheck="false"
+                   autofocus
+                   required />
+            <ul class="autocomplete__list" hidden></ul>
+        </div>
+        <button type="submit" class="btn">Raden</button>
+    </form>
+    <p class="guess-counter">Poging {{ guesses | length + 1 }} van {{ max_hints }}</p>
+{% endif %}

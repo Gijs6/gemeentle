@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>{%- block title -%}{%- endblock %} - Gemeentle</title>
+
+        {% if config.DEBUG %}
+            <link rel="stylesheet"
+                  href="{{ url_for('static', filename='styles/skeleton.css') }}" />
+            <link rel="stylesheet"
+                  href="{{ url_for('static', filename='styles/colors.css') }}" />
+            <link rel="stylesheet"
+                  href="{{ url_for('static', filename='styles/theming.css') }}" />
+            <link rel="stylesheet"
+                  href="{{ url_for('static', filename='styles/base.css') }}" />
+            <link rel="stylesheet"
+                  href="{{ url_for('static', filename='styles/game.css') }}" />
+        {% else %}
+            <link rel="stylesheet"
+                  href="{{ url_for('static', filename='styles/main.min.css') }}" />
+        {% endif %}
+
+        <script src="https://kit.fontawesome.com/4a94c21782.js"
+                crossorigin="anonymous"></script>
+        <script src="{{ url_for('static', filename='vendor/htmx.min.js') }}" defer></script>
+
+        <script src="{{ url_for('static', filename='js/game.js') }}" defer></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+              rel="stylesheet" />
+
+        {% block extra_headers %}{% endblock %}
+    </head>
+
+    <body hx-boost="true">
+        {% block body_content %}{% endblock %}
+    </body>
+</html>
