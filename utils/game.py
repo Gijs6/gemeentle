@@ -42,13 +42,14 @@ def get_daily_gemeente():
 
 def get_state():
     today = str(date.today())
-    if session.get("date") != today:
+    gemeente = get_daily_gemeente()
+
+    if session.get("date") != today or session.get("gemeente") != gemeente:
         session["date"] = today
+        session["gemeente"] = gemeente
         session["guesses"] = []
         session["result"] = "playing"
         session["hints_revealed"] = 1
-
-    gemeente = get_daily_gemeente()
     info = gemeente_info.get(gemeente)
     hints_revealed = session["hints_revealed"]
 

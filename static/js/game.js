@@ -133,14 +133,17 @@ function syncResult() {
 
     const result = meta.dataset.result;
     const date = meta.dataset.date;
+    const gemeente = meta.dataset.gemeente;
     if (result === "playing") return;
 
+    const gameId = `${date}:${gemeente}`;
     const history = getHistory();
-    if (history.some((h) => h.date === date)) return;
+    if (history.some((h) => h.gameId === gameId || (!h.gameId && h.date === date && h.gemeente === gemeente))) return;
 
     const entry = {
+        gameId,
         date,
-        gemeente: meta.dataset.gemeente,
+        gemeente,
         result,
         guesses: parseInt(meta.dataset.guesses, 10),
     };
