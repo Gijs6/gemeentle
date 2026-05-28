@@ -1,0 +1,279 @@
+function filterGemeenten(query) {
+    const gemeenten = window.GEMEENTEN || [];
+    if (!query) return [];
+    const q = query.toLowerCase();
+    const starts = gemeenten.filter((g) => g.toLowerCase().startsWith(q));
+    const contains = gemeenten.filter(
+        (g) => !g.toLowerCase().startsWith(q) && g.toLowerCase().includes(q),
+    );
+    return [...starts, ...contains].slice(0, 8);
+}
+
+function initAutocomplete(form) {
+    const input = form.querySelector(".autocomplete__input");
+    const list = form.querySelector(".autocomplete__list");
+    if (!input || !list) return;
+
+    let activeIdx = -1;
+
+    function getItems() {
+        return list.querySelectorAll(".autocomplete__option");
+    }
+
+    function setActive(idx) {
+        const items = getItems();
+        const clamped = Math.max(-1, Math.min(idx, items.length - 1));
+        items.forEach((el, i) => {
+            el.classList.toggle("autocomplete__option--active", i === clamped);
+        });
+        activeIdx = clamped;
+    }
+
+    function closeList() {
+        list.hidden = true;
+        activeIdx = -1;
+    }
+
+    function openList(results) {
+        list.innerHTML = "";
+        activeIdx = -1;
+        results.forEach((name) => {
+            const li = document.createElement("li");
+            li.className = "autocomplete__option";
+            li.textContent = name;
+            li.dataset.value = name;
+            li.addEventListener("mousedown", (e) => {
+                e.preventDefault();
+                input.value = name;
+                closeList();
+            });
+            list.appendChild(li);
+        });
+        list.hidden = false;
+    }
+
+    input.addEventListener("input", () => {
+        const results = filterGemeenten(input.value);
+        if (results.length) openList(results);
+        else closeList();
+    });
+
+    input.addEventListener("keydown", (e) => {
+        const items = getItems();
+        if (e.key === "ArrowDown") {
+            e.preventDefault();
+            if (list.hidden && input.value) {
+                const results = filterGemeenten(input.value);
+                if (results.length) openList(results);
+            }
+            setActive(activeIdx + 1);
+        } else if (e.key === "ArrowUp") {
+            e.preventDefault();
+            setActive(activeIdx - 1);
+        } else if (e.key === "Enter") {
+            if (!list.hidden && activeIdx >= 0 && items[activeIdx]) {
+                e.preventDefault();
+                input.value = items[activeIdx].dataset.value;
+                closeList();
+                form.requestSubmit();
+            } else {
+                closeList();
+            }
+        } else if (e.key === "Escape") {
+            closeList();
+        } else if (e.key === "Tab") {
+            closeList();
+        }
+    });
+
+    input.addEventListener("blur", () => {
+        setTimeout(closeList, 150);
+    });
+
+    input.addEventListener("focus", () => {
+        if (input.value) {
+            const results = filterGemeenten(input.value);
+            if (results.length) openList(results);
+        }
+    });
+}
+
+function getStats() {
+    try {
+        const raw = localStorage.getItem("gemeentle_stats");
+        return { ...defaultStats(), ...(raw ? JSON.parse(raw) : {}) };
+    } catch {
+        return defaultStats();
+    }
+}
+
+function defaultStats() {
+    return { played: 0, won: 0, currentStreak: 0, bestStreak: 0 };
+}
+
+function getHistory() {
+    try {
+        const raw = localStorage.getItem("gemeentle_history");
+        return raw ? JSON.parse(raw) : [];
+    } catch {
+        return [];
+    }
+}
+
+function syncResult() {
+    const meta = document.querySelector(".game-meta");
+    if (!meta) return;
+
+    const result = meta.dataset.result;
+    const date = meta.dataset.date;
+    if (result === "playing") return;
+
+    const history = getHistory();
+    if (history.some((h) => h.date === date)) return;
+
+    const entry = {
+        date,
+        gemeente: meta.dataset.gemeente,
+        result,
+        guesses: parseInt(meta.dataset.guesses, 10),
+    };
+    history.unshift(entry);
+    if (history.length > 60) history.pop();
+    localStorage.setItem("gemeentle_history", JSON.stringify(history));
+
+    const stats = getStats();
+    stats.played++;
+
+    if (result === "won") {
+        stats.won++;
+        const yesterday = new Date(date + "T00:00:00");
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yStr = yesterday.toISOString().slice(0, 10);
+        const prev = history[1];
+        if (prev && prev.date === yStr && prev.result === "won") {
+            stats.currentStreak++;
+        } else {
+            stats.currentStreak = 1;
+        }
+        stats.bestStreak = Math.max(stats.bestStreak, stats.currentStreak);
+    } else {
+        stats.currentStreak = 0;
+    }
+
+    localStorage.setItem("gemeentle_stats", JSON.stringify(stats));
+}
+
+function renderStats() {
+    const el = document.getElementById("stats-content");
+    if (!el) return;
+    const s = getStats();
+    const pct = s.played > 0 ? Math.round((s.won / s.played) * 100) : 0;
+    el.innerHTML = `
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-value">${s.played}</span>
+                <span class="stat-label">Gespeeld</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">${pct}%</span>
+                <span class="stat-label">Gewonnen</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">${s.currentStreak}</span>
+                <span class="stat-label">Reeks</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-value">${s.bestStreak}</span>
+                <span class="stat-label">Record</span>
+            </div>
+        </div>`;
+}
+
+function renderHistory() {
+    const el = document.getElementById("history-content");
+    if (!el) return;
+    const history = getHistory();
+
+    if (!history.length) {
+        el.innerHTML = '<p class="history-empty">Nog geen resultaten opgeslagen.</p>';
+        return;
+    }
+
+    const rows = history.slice(0, 7).map((entry) => {
+        const d = new Date(entry.date + "T00:00:00");
+        const label = d.toLocaleDateString("nl-NL", {
+            weekday: "long",
+            day: "numeric",
+            month: "long",
+        });
+        const cls = entry.result === "won" ? "history-item--won" : "history-item--lost";
+        const resultLabel =
+            entry.result === "won"
+                ? `${entry.guesses} ${entry.guesses === 1 ? "poging" : "pogingen"}`
+                : "Verloren";
+        return `
+            <li class="history-item ${cls}">
+                <span class="history-item__date">${label}</span>
+                <span class="history-item__gemeente">${entry.gemeente}</span>
+                <span class="history-item__result">${resultLabel}</span>
+            </li>`;
+    });
+
+    el.innerHTML = `<ul class="history-list">${rows.join("")}</ul>`;
+}
+
+function openDialog(id) {
+    const dialog = document.getElementById(id);
+    if (!dialog) return;
+    if (id === "stats-dialog") renderStats();
+    if (id === "history-dialog") renderHistory();
+    dialog.showModal();
+}
+
+function initDialogs() {
+    document.querySelectorAll("[data-dialog]").forEach((btn) => {
+        btn.addEventListener("click", () => openDialog(btn.dataset.dialog));
+    });
+
+    document.querySelectorAll(".dialog-close").forEach((btn) => {
+        btn.addEventListener("click", () => btn.closest("dialog")?.close());
+    });
+
+    document.querySelectorAll("dialog").forEach((dialog) => {
+        dialog.addEventListener("click", (e) => {
+            if (e.target === dialog) dialog.close();
+        });
+    });
+}
+
+function initHtmx() {
+    document.addEventListener("htmx:afterSwap", () => {
+        syncResult();
+
+        const form = document.querySelector(".guess-form");
+        if (form) initAutocomplete(form);
+
+        const input = document.querySelector("[autofocus]");
+        if (input) requestAnimationFrame(() => input.focus());
+    });
+
+    document.addEventListener("htmx:beforeRequest", () => {
+        const list = document.querySelector(".autocomplete__list");
+        if (list) list.hidden = true;
+    });
+}
+
+function init() {
+    const form = document.querySelector(".guess-form");
+    if (form) initAutocomplete(form);
+
+    syncResult();
+    initDialogs();
+    initHtmx();
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+} else {
+    init();
+}
