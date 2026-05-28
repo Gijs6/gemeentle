@@ -1,0 +1,10 @@
+.env
+.secret_key
+.venv
+__pycache__
+node_modules
+.ruff_cache
+*.min.css
+*.min.js
+*.db
+instance

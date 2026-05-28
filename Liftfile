@@ -1,0 +1,4 @@
+name: gemeentle
+image: gijs6/gemeentle
+registry: ghcr.io
+host: dec
