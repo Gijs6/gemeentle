@@ -146,7 +146,6 @@ function syncResult() {
         guesses: parseInt(meta.dataset.guesses, 10)
     };
     history.unshift(entry);
-    if (history.length > 60) history.pop();
     localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
 
     const stats = getStats();
@@ -207,7 +206,7 @@ function renderHistory() {
         return;
     }
 
-    const rows = history.slice(0, 7).map((entry) => {
+    const rows = [...history].reverse().map((entry) => {
         const d = new Date(entry.date + "T00:00:00");
         const label = d.toLocaleDateString("nl-NL", {
             weekday: "long",
