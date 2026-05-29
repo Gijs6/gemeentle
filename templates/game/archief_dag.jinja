@@ -1,0 +1,188 @@
+{% extends "skeleton.jinja" %}
+
+{% block title %}Archief #{{ day_number }}{% endblock %}
+
+{% block body_content %}
+    <div class="game-layout">
+        <header class="game-header">
+            <div class="game-header__brand">
+                <h1 class="game-header__title">Gemeentle</h1>
+            </div>
+            <nav class="game-header__nav" aria-label="Spelopties">
+                <button type="button"
+                        class="btn btn--icon"
+                        aria-label="Hulp"
+                        aria-haspopup="dialog"
+                        aria-controls="help-dialog"
+                        data-dialog="help-dialog">
+                    <i class="fa-solid fa-circle-question fa-fw" aria-hidden="true"></i>
+                </button>
+                <button type="button"
+                        class="btn btn--icon"
+                        aria-label="Statistieken"
+                        aria-haspopup="dialog"
+                        aria-controls="stats-dialog"
+                        data-dialog="stats-dialog">
+                    <i class="fa-solid fa-chart-column fa-fw" aria-hidden="true"></i>
+                </button>
+                <button type="button"
+                        class="btn btn--icon"
+                        aria-label="Archief"
+                        aria-haspopup="dialog"
+                        aria-controls="archive-dialog"
+                        data-dialog="archive-dialog"
+                        hx-get="{{ url_for('game.archief') }}"
+                        hx-target="#archive-content"
+                        hx-swap="innerHTML">
+                    <i class="fa-solid fa-calendar-days fa-fw" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </header>
+
+        <nav class="archive-breadcrumb" aria-label="Dag navigatie">
+            <div class="archive-breadcrumb__inner">
+                <a href="{{ url_for('game.index') }}"
+                   class="archive-breadcrumb__home"
+                   rel="up">
+                    <i class="fa-solid fa-arrow-left fa-fw" aria-hidden="true"></i>
+                    Vandaag
+                </a>
+                <div class="archive-breadcrumb__info">
+                    <time class="archive-breadcrumb__date" datetime="{{ date }}">{{ date | strftime("%-d %B %Y") }}</time>
+                    <span class="archive-breadcrumb__day">
+                        <abbr title="Puzzelnummer">#</abbr><data value="{{ day_number }}">{{ day_number }}</data>
+                    </span>
+                </div>
+                <div class="archive-breadcrumb__nav">
+                    {% if archive_day > 0 %}
+                        <a href="{{ url_for('game.archief_dag', day=archive_day - 1) }}"
+                           class="btn btn--icon"
+                           rel="prev"
+                           aria-label="Vorige dag">
+                            <i class="fa-solid fa-chevron-left fa-fw" aria-hidden="true"></i>
+                        </a>
+                    {% endif %}
+                    {% if archive_day < today_day - 1 %}
+                        <a href="{{ url_for('game.archief_dag', day=archive_day + 1) }}"
+                           class="btn btn--icon"
+                           rel="next"
+                           aria-label="Volgende dag">
+                            <i class="fa-solid fa-chevron-right fa-fw" aria-hidden="true"></i>
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </nav>
+
+        <main id="board">
+            {% include "game/board.jinja" %}
+
+        </main>
+
+        <footer class="game-footer">
+            <a href="https://gijs6.nl"
+               target="_blank"
+               rel="noopener noreferrer external">gijs6</a>
+            <div class="game-footer__links">
+                <a href="https://github.com/Gijs6/gemeentle"
+                   target="_blank"
+                   rel="noopener noreferrer external">GitHub</a>
+                <a href="https://gitlab.com/ggijs/gemeentle"
+                   target="_blank"
+                   rel="noopener noreferrer external">GitLab</a>
+                <a href="https://codeberg.org/Gijs6/gemeentle"
+                   target="_blank"
+                   rel="noopener noreferrer external">Codeberg</a>
+            </div>
+            <address class="game-footer__contact">
+                <a href="mailto:gijs@gijs6.nl" rel="author">gijs@gijs6.nl</a>
+            </address>
+        </footer>
+    </div>
+
+    <dialog id="help-dialog"
+            aria-labelledby="help-dialog-title"
+            aria-modal="true">
+        <header class="dialog-header">
+            <h2 id="help-dialog-title">Hoe speel je Gemeentle?</h2>
+            <button type="button"
+                    class="dialog-close"
+                    title="Sluiten"
+                    aria-label="Sluiten">
+                <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
+            </button>
+        </header>
+        <div class="dialog-body">
+            <p>Raad de Nederlandse gemeente van de dag. Je hebt maximaal 6 pogingen.</p>
+            <p>Na elke foute gok krijg je een extra hint:</p>
+            <ol class="help-hints">
+                <li class="help-hint">
+                    <span class="help-hint__num" aria-hidden="true">1</span>
+                    Vlag en gemeentewapen
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num" aria-hidden="true">2</span>
+                    Burgemeester
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num" aria-hidden="true">3</span>
+                    Aantal inwoners en oppervlakte
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num" aria-hidden="true">4</span>
+                    Provincie
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num" aria-hidden="true">5</span>
+                    Buurgemeenten
+                </li>
+                <li class="help-hint">
+                    <span class="help-hint__num" aria-hidden="true">6</span>
+                    Kaart van de gemeente
+                </li>
+            </ol>
+            <p class="help-footer">Elke dag om middernacht is er een nieuwe gemeente.</p>
+            <p class="help-footer">
+                Gemaakt door <a href="https://gijs6.nl"
+    target="_blank"
+    rel="noopener noreferrer external">gijs6</a>.
+            </p>
+        </div>
+    </dialog>
+
+    <dialog id="stats-dialog"
+            aria-labelledby="stats-dialog-title"
+            aria-modal="true">
+        <header class="dialog-header">
+            <h2 id="stats-dialog-title">Statistieken</h2>
+            <button type="button"
+                    class="dialog-close"
+                    title="Sluiten"
+                    aria-label="Sluiten">
+                <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
+            </button>
+        </header>
+        <div class="dialog-body" id="stats-content"></div>
+    </dialog>
+
+    <dialog id="archive-dialog"
+            aria-labelledby="archive-dialog-title"
+            aria-modal="true">
+        <header class="dialog-header">
+            <h2 id="archive-dialog-title">Archief</h2>
+            <button type="button"
+                    class="dialog-close"
+                    title="Sluiten"
+                    aria-label="Sluiten">
+                <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
+            </button>
+        </header>
+        <div class="dialog-body" id="archive-content"></div>
+    </dialog>
+
+    {# djlint:off #}
+    <script>
+        window.GEMEENTEN = {{ all_gemeenten | tojson }};
+</script>
+    {# djlint: on#}
+{% endblock %}

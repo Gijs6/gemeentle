@@ -1,0 +1,57 @@
+{% if not months %}
+    <p class="archive-empty">Nog geen archiefpuzzels beschikbaar.</p>
+{% else %}
+    {% for m in months %}
+        <section class="calendar-month">
+            <h3 class="calendar-month__header">{{ m.month_date | strftime("%B %Y") }}</h3>
+            <ol class="calendar-month__grid" role="list">
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Maandag">ma</abbr>
+                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Dinsdag">di</abbr>
+                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Woensdag">wo</abbr>
+                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Donderdag">do</abbr>
+                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Vrijdag">vr</abbr>
+                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Zaterdag">za</abbr>
+                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">
+                    <abbr title="Zondag">zo</abbr>
+                </li>
+                {% for _ in range(m.weekday_offset) %}<li class="calendar-cell calendar-cell--empty" aria-hidden="true"></li>{% endfor %}
+                {% for d in m.days %}
+                    {% if d.result == "won" %}
+                        {% set cls = "calendar-cell--won" %}
+                        {% set label = d.date | strftime("%-d %B %Y") + ", gewonnen in " + d.guesses | string + (" poging" if d.guesses == 1 else " pogingen") %}
+                    {% elif d.result == "lost" %}
+                        {% set cls = "calendar-cell--lost" %}
+                        {% set label = d.date | strftime("%-d %B %Y") + ", verloren" %}
+                    {% else %}
+                        {% set cls = "calendar-cell--unplayed" %}
+                        {% set label = d.date | strftime("%-d %B %Y") + ", niet gespeeld" %}
+                    {% endif %}
+                    <li>
+                        <a href="{{ url_for('game.archief_dag', day=d.day) }}"
+                           class="calendar-cell {{ cls }}"
+                           aria-label="{{ label }}">
+                            <span class="calendar-cell__day" aria-hidden="true">{{ d.date.day }}</span>
+                            {% if d.result == "won" %}
+                                <span class="calendar-cell__result" aria-hidden="true">{{ d.guesses }}</span>
+                            {% elif d.result == "lost" %}
+                                <span class="calendar-cell__result" aria-hidden="true">✗</span>
+                            {% endif %}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ol>
+        </section>
+    {% endfor %}
+{% endif %}
