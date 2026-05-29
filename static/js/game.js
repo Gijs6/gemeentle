@@ -206,7 +206,7 @@ function renderHistory() {
         return;
     }
 
-    const rows = [...history].reverse().map((entry) => {
+    const rows = history.map((entry) => {
         const d = new Date(entry.date + "T00:00:00");
         const label = d.toLocaleDateString("nl-NL", {
             weekday: "long",
