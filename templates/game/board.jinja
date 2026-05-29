@@ -2,7 +2,7 @@
      hidden
      data-result="{{ result }}"
      data-date="{{ date }}"
-     data-gemeente="{{ gemeente }}"
+     {% if result != "playing" %}data-gemeente="{{ gemeente }}"{% endif %}
      data-guesses="{{ guesses | length }}"></div>
 
 <div class="name-display">
