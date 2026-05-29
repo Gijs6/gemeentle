@@ -8,7 +8,14 @@ import data.gemeente_info as gemeente_info
 
 EPOCH = date(2026, 5, 28)
 
-HINTS = ["vlag_wapen", "kaart", "inwoners_oppervlakte", "provincie", "buren", "burgemeester"]
+HINTS = [
+    "vlag_wapen",
+    "kaart",
+    "inwoners_oppervlakte",
+    "provincie",
+    "buren",
+    "burgemeester",
+]
 
 _shuffled_gemeenten = None
 
