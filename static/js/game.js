@@ -253,7 +253,7 @@ function initShareButton() {
         const guesses = btn.dataset.guesses;
         const max = 5;
         const squares = guesses === "X" ? "🟥".repeat(max) : "🟥".repeat(parseInt(guesses, 10) - 1) + "🟩" + "⬛".repeat(max - parseInt(guesses, 10));
-        const text = `Gemeentle #${day}\n${squares}\ngemeentle.gijs6.nl`;
+        const text = `Gemeentle #${day}\n${squares}\nhttps://gemeentle.gijs6.nl`;
         navigator.clipboard.writeText(text).then(() => {
             const original = btn.textContent;
             btn.textContent = "Gekopieerd!";
