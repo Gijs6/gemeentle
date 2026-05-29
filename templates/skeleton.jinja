@@ -3,13 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description"
+              content="Raad elke dag een Nederlandse gemeente aan de hand van hints." />
+        <meta name="robots" content="index, follow" />
+        <meta name="theme-color" content="#f5efe6" />
 
         <meta property="og:title" content="Gemeentle" />
         <meta property="og:description"
               content="Raad elke dag een Nederlandse gemeente." />
         <meta property="og:type" content="website" />
+        <meta property="og:locale" content="nl_NL" />
 
-        <title>{%- block title -%}{%- endblock %} - Gemeentle</title>
+        <title>
+            {% block title %}{% endblock %}
+        - Gemeentle</title>
+
+        <meta name="htmx-config"
+              content='{"responseHandling":[{"code":"204","swap":false},{"code":"[23]..","swap":true},{"code":"4..","swap":true},{"code":"5..","swap":false,"error":true}]}' />
 
         {% if config.DEBUG %}
             <link rel="stylesheet"
@@ -30,7 +40,6 @@
         <script src="https://kit.fontawesome.com/4a94c21782.js"
                 crossorigin="anonymous"></script>
         <script src="{{ url_for('static', filename='vendor/htmx.min.js') }}" defer></script>
-
         <script src="{{ url_for('static', filename='js/game.js') }}" defer></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />

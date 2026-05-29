@@ -38,43 +38,39 @@ p {
         background 0.15s,
         border-color 0.15s;
     white-space: nowrap;
+    text-decoration: none;
 
     &:hover {
         background: var(--color-accent-dark);
+        color: var(--color-beige-0);
     }
 
     &:focus-visible {
         outline: 2px solid var(--color-accent);
         outline-offset: 2px;
     }
-}
 
-.icon-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.25rem;
-    height: 2.25rem;
-    padding: 0;
-    background: none;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-    color: var(--color-fg);
-    cursor: pointer;
-    transition:
-        background 0.15s,
-        border-color 0.15s,
-        color 0.15s;
-    font-size: var(--font-size-base);
+    &.btn--danger {
+        background: var(--color-red-8);
 
-    &:hover {
-        background: var(--color-beige-2);
-        border-color: var(--color-beige-4);
+        &:hover {
+            background: var(--color-red-9);
+        }
     }
 
-    &:focus-visible {
-        outline: 2px solid var(--color-accent);
-        outline-offset: 2px;
+    &.btn--icon {
+        width: 2.25rem;
+        height: 2.25rem;
+        padding: 0;
+        background: none;
+        border-color: var(--color-border);
+        color: var(--color-fg);
+
+        &:hover {
+            background: var(--color-beige-2);
+            border-color: var(--color-beige-4);
+            color: var(--color-fg);
+        }
     }
 }
 

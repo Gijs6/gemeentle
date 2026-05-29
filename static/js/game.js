@@ -4,9 +4,12 @@ const HISTORY_KEY = "gemeentle_history";
 function filterGemeenten(query) {
     const gemeenten = window.GEMEENTEN || [];
     if (!query) return [];
+    const meta = document.querySelector(".game-meta");
+    const guessed = new Set(JSON.parse(meta?.dataset.guessesList || "[]").map((g) => g.toLowerCase()));
     const q = query.toLowerCase();
-    const starts = gemeenten.filter((g) => g.toLowerCase().startsWith(q));
-    const contains = gemeenten.filter((g) => !g.toLowerCase().startsWith(q) && g.toLowerCase().includes(q));
+    const available = gemeenten.filter((g) => !guessed.has(g.toLowerCase()));
+    const starts = available.filter((g) => g.toLowerCase().startsWith(q));
+    const contains = available.filter((g) => !g.toLowerCase().startsWith(q) && g.toLowerCase().includes(q));
     return [...starts, ...contains].slice(0, 8);
 }
 
@@ -17,36 +20,57 @@ function initAutocomplete(form) {
 
     let activeIdx = -1;
 
+    function optionId(idx) {
+        return `autocomplete-option-${idx}`;
+    }
+
     function getItems() {
-        return list.querySelectorAll(".autocomplete__option");
+        return list.querySelectorAll("[role='option']");
     }
 
     function setActive(idx) {
         const items = getItems();
         const clamped = Math.max(-1, Math.min(idx, items.length - 1));
         items.forEach((el, i) => {
-            el.classList.toggle("autocomplete__option--active", i === clamped);
+            const active = i === clamped;
+            el.classList.toggle("autocomplete__option--active", active);
+            el.setAttribute("aria-selected", String(active));
         });
         activeIdx = clamped;
+        if (clamped >= 0 && items[clamped]) {
+            input.setAttribute("aria-activedescendant", optionId(clamped));
+        } else {
+            input.removeAttribute("aria-activedescendant");
+        }
     }
 
     function closeList() {
         list.hidden = true;
+        list.innerHTML = "";
         activeIdx = -1;
+        input.setAttribute("aria-expanded", "false");
+        input.removeAttribute("aria-activedescendant");
     }
 
     function openList(results) {
         list.innerHTML = "";
         activeIdx = -1;
+        input.setAttribute("aria-expanded", "true");
+
         if (results.length === 0) {
             const li = document.createElement("li");
             li.className = "autocomplete__empty";
+            li.setAttribute("role", "option");
+            li.setAttribute("aria-disabled", "true");
             li.textContent = "Geen gemeente gevonden";
             list.appendChild(li);
         } else {
-            results.forEach((name) => {
+            results.forEach((name, idx) => {
                 const li = document.createElement("li");
+                li.id = optionId(idx);
                 li.className = "autocomplete__option";
+                li.setAttribute("role", "option");
+                li.setAttribute("aria-selected", "false");
                 li.textContent = name;
                 li.dataset.value = name;
                 li.addEventListener("mousedown", (e) => {
@@ -61,8 +85,7 @@ function initAutocomplete(form) {
     }
 
     input.addEventListener("input", () => {
-        const results = filterGemeenten(input.value);
-        if (input.value) openList(results);
+        if (input.value) openList(filterGemeenten(input.value));
         else closeList();
     });
 
@@ -133,18 +156,13 @@ function syncResult() {
     const date = meta.dataset.date;
     const gemeente = meta.dataset.gemeente;
     if (result === "playing") return;
+    if (meta.dataset.isArchive) return;
 
     const gameId = `${date}:${gemeente}`;
     const history = getHistory();
     if (history.some((h) => h.gameId === gameId || (!h.gameId && h.date === date && h.gemeente === gemeente))) return;
 
-    const entry = {
-        gameId,
-        date,
-        gemeente,
-        result,
-        guesses: parseInt(meta.dataset.guesses, 10)
-    };
+    const entry = { gameId, date, gemeente, result, guesses: parseInt(meta.dataset.guesses, 10) };
     history.unshift(entry);
     localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
 
@@ -176,54 +194,24 @@ function renderStats() {
     const s = getStats();
     const pct = s.played > 0 ? Math.round((s.won / s.played) * 100) : 0;
     el.innerHTML = `
-        <div class="stats-grid">
+        <dl class="stats-grid">
             <div class="stat-item">
-                <span class="stat-value">${s.played}</span>
-                <span class="stat-label">Gespeeld</span>
+                <dd class="stat-value"><output>${s.played}</output></dd>
+                <dt class="stat-label">Gespeeld</dt>
             </div>
             <div class="stat-item">
-                <span class="stat-value">${pct}%</span>
-                <span class="stat-label">Gewonnen</span>
+                <dd class="stat-value"><output>${pct}%</output></dd>
+                <dt class="stat-label">Gewonnen</dt>
             </div>
             <div class="stat-item">
-                <span class="stat-value">${s.currentStreak}</span>
-                <span class="stat-label">Reeks</span>
+                <dd class="stat-value"><output>${s.currentStreak}</output></dd>
+                <dt class="stat-label">Reeks</dt>
             </div>
             <div class="stat-item">
-                <span class="stat-value">${s.bestStreak}</span>
-                <span class="stat-label">Record</span>
+                <dd class="stat-value"><output>${s.bestStreak}</output></dd>
+                <dt class="stat-label">Record</dt>
             </div>
-        </div>`;
-}
-
-function renderHistory() {
-    const el = document.getElementById("history-content");
-    if (!el) return;
-    const history = getHistory();
-
-    if (!history.length) {
-        el.innerHTML = '<p class="history-empty">Nog geen resultaten opgeslagen.</p>';
-        return;
-    }
-
-    const rows = history.map((entry) => {
-        const d = new Date(entry.date + "T00:00:00");
-        const label = d.toLocaleDateString("nl-NL", {
-            weekday: "long",
-            day: "numeric",
-            month: "long"
-        });
-        const cls = entry.result === "won" ? "history-item--won" : "history-item--lost";
-        const resultLabel = entry.result === "won" ? `${entry.guesses} ${entry.guesses === 1 ? "poging" : "pogingen"}` : "Verloren";
-        return `
-            <li class="history-item ${cls}">
-                <span class="history-item__date">${label}</span>
-                <span class="history-item__gemeente">${entry.gemeente}</span>
-                <span class="history-item__result">${resultLabel}</span>
-            </li>`;
-    });
-
-    el.innerHTML = `<ul class="history-list">${rows.join("")}</ul>`;
+        </dl>`;
 }
 
 function startCountdown() {
@@ -268,7 +256,6 @@ function openDialog(id) {
     const dialog = document.getElementById(id);
     if (!dialog) return;
     if (id === "stats-dialog") renderStats();
-    if (id === "history-dialog") renderHistory();
     dialog.showModal();
 }
 
@@ -288,9 +275,20 @@ function initDialogs() {
     });
 }
 
+function animateNewElements() {
+    if (document.querySelector(".guess-error")) return;
+
+    const hints = document.querySelectorAll(".hint-list .hint");
+    if (hints.length) hints[hints.length - 1].classList.add("hint--new");
+
+    const guessRows = document.querySelectorAll(".guess-list .guess-row");
+    if (guessRows.length) guessRows[guessRows.length - 1].classList.add("guess-row--new");
+}
+
 function initHtmx() {
     document.addEventListener("htmx:afterSwap", () => {
         syncResult();
+        animateNewElements();
         initShareButton();
         startCountdown();
 
@@ -313,10 +311,8 @@ function initHtmx() {
 }
 
 function init() {
-    const autoForms = new Set(
-        [...document.querySelectorAll(".autocomplete")].map((el) => el.closest("form")).filter(Boolean)
-    );
-    autoForms.forEach(initAutocomplete);
+    const form = document.querySelector(".guess-form");
+    if (form) initAutocomplete(form);
 
     syncResult();
     initShareButton();

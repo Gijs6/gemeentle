@@ -1,6 +1,6 @@
 {% extends "skeleton.jinja" %}
 
-{% block title %}Gemeentle{% endblock %}
+{% block title %}Vandaag{% endblock %}
 
 {% block body_content %}
     <div class="game-layout">
@@ -8,28 +8,42 @@
             <div class="game-header__brand">
                 <h1 class="game-header__title">Gemeentle</h1>
             </div>
-            <nav class="game-header__nav">
-                <button type="button" class="icon-btn" title="Hulp" data-dialog="help-dialog">
-                    <i class="fa-solid fa-circle-question"></i>
+            <nav class="game-header__nav" aria-label="Spelopties">
+                <button type="button"
+                        class="btn btn--icon"
+                        aria-label="Hulp"
+                        aria-haspopup="dialog"
+                        aria-controls="help-dialog"
+                        data-dialog="help-dialog">
+                    <i class="fa-solid fa-circle-question fa-fw" aria-hidden="true"></i>
                 </button>
                 <button type="button"
-                        class="icon-btn"
-                        title="Statistieken"
+                        class="btn btn--icon"
+                        aria-label="Statistieken"
+                        aria-haspopup="dialog"
+                        aria-controls="stats-dialog"
                         data-dialog="stats-dialog">
-                    <i class="fa-solid fa-chart-column"></i>
+                    <i class="fa-solid fa-chart-column fa-fw" aria-hidden="true"></i>
                 </button>
                 <button type="button"
-                        class="icon-btn"
-                        title="Recente resultaten"
-                        data-dialog="history-dialog">
-                    <i class="fa-solid fa-calendar-days"></i>
+                        class="btn btn--icon"
+                        aria-label="Archief"
+                        aria-haspopup="dialog"
+                        aria-controls="archive-dialog"
+                        data-dialog="archive-dialog"
+                        hx-get="{{ url_for('game.archief') }}"
+                        hx-target="#archive-content"
+                        hx-swap="innerHTML">
+                    <i class="fa-solid fa-calendar-days fa-fw" aria-hidden="true"></i>
                 </button>
                 {% if config.DEBUG %}
                     <button type="button"
-                            class="icon-btn"
-                            title="Dev tools"
+                            class="btn btn--icon"
+                            aria-label="Dev tools"
+                            aria-haspopup="dialog"
+                            aria-controls="dev-dialog"
                             data-dialog="dev-dialog">
-                        <i class="fa-solid fa-bug"></i>
+                        <i class="fa-solid fa-bug fa-fw" aria-hidden="true"></i>
                     </button>
                 {% endif %}
             </nav>
@@ -41,99 +55,136 @@
         </main>
 
         <footer class="game-footer">
-            <a href="https://gijs6.nl" target="_blank" rel="noopener">gijs6</a>
+            <a href="https://gijs6.nl"
+               target="_blank"
+               rel="noopener noreferrer external">gijs6</a>
             <div class="game-footer__links">
                 <a href="https://github.com/Gijs6/gemeentle"
                    target="_blank"
-                   rel="noopener">GitHub</a>
+                   rel="noopener noreferrer external">GitHub</a>
                 <a href="https://gitlab.com/ggijs/gemeentle"
                    target="_blank"
-                   rel="noopener">GitLab</a>
+                   rel="noopener noreferrer external">GitLab</a>
                 <a href="https://codeberg.org/Gijs6/gemeentle"
                    target="_blank"
-                   rel="noopener">Codeberg</a>
+                   rel="noopener noreferrer external">Codeberg</a>
             </div>
-            <a href="mailto:gijs@gijs6.nl">gijs@gijs6.nl</a>
+            <address class="game-footer__contact">
+                <a href="mailto:gijs@gijs6.nl" rel="author">gijs@gijs6.nl</a>
+            </address>
         </footer>
     </div>
 
-    <dialog id="help-dialog">
-        <div class="dialog-header">
-            <h2>Hoe speel je Gemeentle?</h2>
-            <button type="button" class="dialog-close" title="Sluiten">
-                <i class="fa-solid fa-xmark"></i>
+    <dialog id="help-dialog"
+            aria-labelledby="help-dialog-title"
+            aria-modal="true">
+        <header class="dialog-header">
+            <h2 id="help-dialog-title">Hoe speel je Gemeentle?</h2>
+            <button type="button"
+                    class="dialog-close"
+                    title="Sluiten"
+                    aria-label="Sluiten">
+                <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
             </button>
-        </div>
+        </header>
         <div class="dialog-body">
             <p>Raad de Nederlandse gemeente van de dag. Je hebt maximaal 6 pogingen.</p>
             <p>Na elke foute gok krijg je een extra hint:</p>
-            <ul class="help-hints">
+            <ol class="help-hints">
                 <li class="help-hint">
-                    <span class="help-hint__num">1</span>
+                    <span class="help-hint__num" aria-hidden="true">1</span>
                     Vlag en gemeentewapen
                 </li>
                 <li class="help-hint">
-                    <span class="help-hint__num">2</span>
+                    <span class="help-hint__num" aria-hidden="true">2</span>
                     Burgemeester
                 </li>
                 <li class="help-hint">
-                    <span class="help-hint__num">3</span>
+                    <span class="help-hint__num" aria-hidden="true">3</span>
                     Aantal inwoners en oppervlakte
                 </li>
                 <li class="help-hint">
-                    <span class="help-hint__num">4</span>
+                    <span class="help-hint__num" aria-hidden="true">4</span>
                     Provincie
                 </li>
                 <li class="help-hint">
-                    <span class="help-hint__num">5</span>
+                    <span class="help-hint__num" aria-hidden="true">5</span>
                     Buurgemeenten
                 </li>
                 <li class="help-hint">
-                    <span class="help-hint__num">6</span>
+                    <span class="help-hint__num" aria-hidden="true">6</span>
                     Kaart van de gemeente
                 </li>
-            </ul>
+            </ol>
             <p class="help-footer">Elke dag om middernacht is er een nieuwe gemeente.</p>
             <p class="help-footer">
-                Gemaakt door <a href="https://gijs6.nl" target="_blank" rel="noopener">gijs6</a>.
+                Gemaakt door <a href="https://gijs6.nl"
+    target="_blank"
+    rel="noopener noreferrer external">gijs6</a>.
             </p>
         </div>
     </dialog>
 
-    <dialog id="stats-dialog">
-        <div class="dialog-header">
-            <h2>Statistieken</h2>
-            <button type="button" class="dialog-close" title="Sluiten">
-                <i class="fa-solid fa-xmark"></i>
+    <dialog id="stats-dialog"
+            aria-labelledby="stats-dialog-title"
+            aria-modal="true">
+        <header class="dialog-header">
+            <h2 id="stats-dialog-title">Statistieken</h2>
+            <button type="button"
+                    class="dialog-close"
+                    title="Sluiten"
+                    aria-label="Sluiten">
+                <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
             </button>
-        </div>
+        </header>
         <div class="dialog-body" id="stats-content"></div>
     </dialog>
 
-    <dialog id="history-dialog">
-        <div class="dialog-header">
-            <h2>Recente resultaten</h2>
-            <button type="button" class="dialog-close" title="Sluiten">
-                <i class="fa-solid fa-xmark"></i>
+    <dialog id="archive-dialog"
+            aria-labelledby="archive-dialog-title"
+            aria-modal="true">
+        <header class="dialog-header">
+            <h2 id="archive-dialog-title">Archief</h2>
+            <button type="button"
+                    class="dialog-close"
+                    title="Sluiten"
+                    aria-label="Sluiten">
+                <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
             </button>
-        </div>
-        <div class="dialog-body" id="history-content"></div>
+        </header>
+        <div class="dialog-body" id="archive-content"></div>
     </dialog>
 
     {% if config.DEBUG %}
-        <dialog id="dev-dialog">
-            <div class="dialog-header">
-                <h2>Dev tools</h2>
-                <button type="button" class="dialog-close" title="Sluiten">
-                    <i class="fa-solid fa-xmark"></i>
+        <dialog id="dev-dialog" aria-labelledby="dev-dialog-title" aria-modal="true">
+            <header class="dialog-header">
+                <h2 id="dev-dialog-title">Dev tools</h2>
+                <button type="button"
+                        class="dialog-close"
+                        title="Sluiten"
+                        aria-label="Sluiten">
+                    <i class="fa-solid fa-xmark fa-fw" aria-hidden="true"></i>
                 </button>
-            </div>
+            </header>
             <div class="dialog-body">
-                <form method="post" action="{{ url_for('game.dev_game') }}" class="dev-section">
+                <form method="post"
+                      action="{{ url_for('game.dev_game') }}"
+                      class="dev-section">
                     <input type="hidden" name="action" value="reset">
                     <button type="submit" class="btn dev-section__full-btn">Vernieuw huidig spel</button>
                 </form>
-                <form method="post" action="{{ url_for('game.dev_game') }}" class="dev-section">
+                <form method="post"
+                      action="{{ url_for('game.dev_game') }}"
+                      class="dev-section"
+                      id="dev-full-reset-form">
+                    <input type="hidden" name="action" value="reset">
+                    <button type="button"
+                            class="btn btn--danger dev-section__full-btn"
+                            onclick="devFullReset()">Alles resetten</button>
+                </form>
+                <form method="post"
+                      action="{{ url_for('game.dev_game') }}"
+                      class="dev-section">
                     <label class="dev-section__label" for="dev-day">Simuleer dag</label>
                     <div class="dev-section__row">
                         <input type="number"
@@ -146,7 +197,9 @@
                         <button type="submit" class="btn">Ga</button>
                     </div>
                 </form>
-                <form method="post" action="{{ url_for('game.dev_game') }}" class="dev-section">
+                <form method="post"
+                      action="{{ url_for('game.dev_game') }}"
+                      class="dev-section">
                     <input type="hidden" name="action" value="gemeente">
                     <label class="dev-section__label" for="dev-gemeente">Simuleer gemeente</label>
                     <div class="dev-section__row">
@@ -161,7 +214,8 @@
                                    autocapitalize="off"
                                    spellcheck="false"
                                    required>
-                            <ul class="autocomplete__list" hidden></ul>
+                            <ul class="autocomplete__list" hidden>
+                            </ul>
                         </div>
                         <button type="submit" class="btn">Ga</button>
                     </div>

@@ -3,3 +3,7 @@ body {
     color: var(--color-fg);
     background: var(--color-bg);
 }
+
+figure {
+    margin: 0;
+}

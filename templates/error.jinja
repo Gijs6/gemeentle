@@ -3,10 +3,10 @@
 {% block title %}{{ code }} {{ title }}{% endblock %}
 
 {% block body_content %}
-    <div class="error-page">
-        <span class="error-page__code">{{ code }}</span>
+    <main class="error-page">
+        <p class="error-page__code" aria-hidden="true">{{ code }}</p>
         <h1 class="error-page__title">{{ title }}</h1>
         <p class="error-page__desc">{{ description }}</p>
         <a href="{{ url_for('game.index') }}" class="btn">Terug naar home</a>
-    </div>
+    </main>
 {% endblock %}
