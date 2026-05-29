@@ -90,6 +90,19 @@
                     </dd>
                 </dl>
             </li>
+        {% elif hint.type == "buren" %}
+            <li class="hint hint--buren">
+                <dl>
+                    <dt class="hint__label">Buurgemeenten</dt>
+                    <dd class="hint__value hint__value--buren">
+                        {% if hint.buren %}
+                            {{ hint.buren | join(", ") }}
+                        {% else %}
+                            Geen
+                        {% endif %}
+                    </dd>
+                </dl>
+            </li>
         {% elif hint.type == "burgemeester" %}
             <li class="hint hint--meta">
                 <dl>

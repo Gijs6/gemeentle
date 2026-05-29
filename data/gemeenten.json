@@ -9,7 +9,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Groningen%20City.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Groningen%20stad%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0014_(2019).svg",
-    "buren": []
+    "buren": [
+      "Eemsdelta",
+      "Het Hogeland",
+      "Midden-Groningen",
+      "Noordenveld",
+      "Tynaarlo",
+      "Westerkwartier"
+    ]
   },
   "Almere": {
     "code": "gm0034",
@@ -21,7 +28,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Almere%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Almere%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0034_(2009).svg",
-    "buren": []
+    "buren": [
+      "Blaricum",
+      "Gooise Meren",
+      "Lelystad",
+      "Zeewolde"
+    ]
   },
   "Stadskanaal": {
     "code": "gm0037",
@@ -33,7 +45,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Stadskanaal.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ontstwedde%20Stadskanaal%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0037_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Borger-Odoorn",
+      "Pekela",
+      "Veendam",
+      "Westerwolde"
+    ]
   },
   "Veendam": {
     "code": "gm0047",
@@ -45,7 +63,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Veendam%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Veendam.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0047_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Midden-Groningen",
+      "Pekela",
+      "Stadskanaal"
+    ]
   },
   "Zeewolde": {
     "code": "gm0050",
@@ -57,7 +80,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zeewolde.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zeewolde%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0050_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almere",
+      "Dronten",
+      "Harderwijk",
+      "Lelystad",
+      "Nijkerk"
+    ]
   },
   "Achtkarspelen": {
     "code": "gm0059",
@@ -69,7 +98,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Achtkarspelen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Achtkarspelen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0059_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dantumadiel",
+      "Noardeast-Fryslân",
+      "Smallingerland",
+      "Tytsjerksteradiel",
+      "Westerkwartier"
+    ]
   },
   "Ameland": {
     "code": "gm0060",
@@ -93,7 +128,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Harlingen%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Harlingen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0072_(2009).svg",
-    "buren": []
+    "buren": [
+      "Súdwest-Fryslân",
+      "Waadhoeke"
+    ]
   },
   "Heerenveen": {
     "code": "gm0074",
@@ -105,7 +143,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Heerenveen%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20van%20Heerenveen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0074_(2019).svg",
-    "buren": []
+    "buren": [
+      "De Fryske Marren",
+      "Leeuwarden",
+      "Ooststellingwerf",
+      "Opsterland",
+      "Smallingerland",
+      "Weststellingwerf"
+    ]
   },
   "Leeuwarden": {
     "code": "gm0080",
@@ -117,7 +162,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Leeuwarden%20vlag%202014.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Leeuwarden%20wapen%202014.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0080_(2019).svg",
-    "buren": []
+    "buren": [
+      "De Fryske Marren",
+      "Heerenveen",
+      "Noardeast-Fryslân",
+      "Smallingerland",
+      "Súdwest-Fryslân",
+      "Tytsjerksteradiel",
+      "Waadhoeke"
+    ]
   },
   "Ooststellingwerf": {
     "code": "gm0085",
@@ -129,7 +182,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Ooststellingwerf%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Ooststellingwerf.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0085_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heerenveen",
+      "Midden-Drenthe",
+      "Noordenveld",
+      "Opsterland",
+      "Westerveld",
+      "Weststellingwerf"
+    ]
   },
   "Opsterland": {
     "code": "gm0086",
@@ -141,7 +201,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Opsterland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Opsterland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0086_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heerenveen",
+      "Noordenveld",
+      "Ooststellingwerf",
+      "Smallingerland",
+      "Westerkwartier"
+    ]
   },
   "Schiermonnikoog": {
     "code": "gm0088",
@@ -165,7 +231,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Smallingerland%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Smallingerland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0090_(2009).svg",
-    "buren": []
+    "buren": [
+      "Achtkarspelen",
+      "Heerenveen",
+      "Leeuwarden",
+      "Opsterland",
+      "Tytsjerksteradiel",
+      "Westerkwartier"
+    ]
   },
   "Terschelling": {
     "code": "gm0093",
@@ -177,7 +250,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Terschelling.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Terschelling%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0093_(2009).svg",
-    "buren": []
+    "buren": [
+      "Vlieland"
+    ]
   },
   "Vlieland": {
     "code": "gm0096",
@@ -189,7 +264,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vlieland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlieland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0096_(2009).svg",
-    "buren": []
+    "buren": [
+      "Terschelling"
+    ]
   },
   "Weststellingwerf": {
     "code": "gm0098",
@@ -201,7 +278,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Weststellingwerf%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Weststellingwerf%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0098_(2009).svg",
-    "buren": []
+    "buren": [
+      "De Fryske Marren",
+      "Heerenveen",
+      "Ooststellingwerf",
+      "Steenwijkerland",
+      "Westerveld"
+    ]
   },
   "Assen": {
     "code": "gm0106",
@@ -213,7 +296,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Assen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Assen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0106_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Midden-Drenthe",
+      "Noordenveld",
+      "Tynaarlo"
+    ]
   },
   "Coevorden": {
     "code": "gm0109",
@@ -225,7 +313,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Coevorden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Coevorden.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0109_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Borger-Odoorn",
+      "Emmen",
+      "Hardenberg",
+      "Hoogeveen",
+      "Midden-Drenthe"
+    ]
   },
   "Emmen": {
     "code": "gm0114",
@@ -237,7 +332,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Emmen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Emmen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0114_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borger-Odoorn",
+      "Coevorden",
+      "Westerwolde"
+    ]
   },
   "Hoogeveen": {
     "code": "gm0118",
@@ -249,7 +348,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hoogeveen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hoogeveen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0118_(2009).svg",
-    "buren": []
+    "buren": [
+      "Coevorden",
+      "De Wolden",
+      "Hardenberg",
+      "Midden-Drenthe",
+      "Westerveld"
+    ]
   },
   "Meppel": {
     "code": "gm0119",
@@ -261,7 +366,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Meppel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Meppel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0119_(2009).svg",
-    "buren": []
+    "buren": [
+      "De Wolden",
+      "Staphorst",
+      "Steenwijkerland",
+      "Westerveld"
+    ]
   },
   "Almelo": {
     "code": "gm0141",
@@ -273,7 +383,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Almelo%20flag%20outline.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Almelo%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0141_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borne",
+      "Hof van Twente",
+      "Tubbergen",
+      "Twenterand",
+      "Wierden"
+    ]
   },
   "Borne": {
     "code": "gm0147",
@@ -285,7 +401,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Borne%20%28Overijssel%29.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Borne%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0147_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almelo",
+      "Dinkelland",
+      "Hengelo",
+      "Hof van Twente",
+      "Tubbergen"
+    ]
   },
   "Dalfsen": {
     "code": "gm0148",
@@ -297,7 +419,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dalfsen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Dalfsen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0148_(2009).svg",
-    "buren": []
+    "buren": [
+      "Hardenberg",
+      "Ommen",
+      "Raalte",
+      "Staphorst",
+      "Zwolle"
+    ]
   },
   "Deventer": {
     "code": "gm0150",
@@ -309,7 +437,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Deventer%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Deventer%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0150_(2009).svg",
-    "buren": []
+    "buren": [
+      "Lochem",
+      "Olst-Wijhe",
+      "Raalte",
+      "Rijssen-Holten",
+      "Voorst"
+    ]
   },
   "Enschede": {
     "code": "gm0153",
@@ -321,7 +455,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20stad%20Enschede.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Enschede%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0153_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dinkelland",
+      "Haaksbergen",
+      "Hengelo",
+      "Losser",
+      "Oldenzaal"
+    ]
   },
   "Haaksbergen": {
     "code": "gm0158",
@@ -333,7 +473,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Haaksbergen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Haaksbergen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0158_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berkelland",
+      "Enschede",
+      "Hengelo",
+      "Hof van Twente"
+    ]
   },
   "Hardenberg": {
     "code": "gm0160",
@@ -345,7 +490,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hardenberg.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hardenberg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0160_(2009).svg",
-    "buren": []
+    "buren": [
+      "Coevorden",
+      "Dalfsen",
+      "De Wolden",
+      "Hoogeveen",
+      "Ommen",
+      "Staphorst",
+      "Twenterand"
+    ]
   },
   "Hellendoorn": {
     "code": "gm0163",
@@ -357,7 +510,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellendoorn%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hellendoorn%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0163_(2009).svg",
-    "buren": []
+    "buren": [
+      "Ommen",
+      "Raalte",
+      "Rijssen-Holten",
+      "Twenterand",
+      "Wierden"
+    ]
   },
   "Hengelo": {
     "code": "gm0164",
@@ -369,7 +528,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hengelo%2C%20Overijssel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hengelo%2C%20Overijssel%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0164_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borne",
+      "Dinkelland",
+      "Enschede",
+      "Haaksbergen",
+      "Hof van Twente"
+    ]
   },
   "Kampen": {
     "code": "gm0166",
@@ -381,7 +546,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kampen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0166_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dronten",
+      "Hattem",
+      "Noordoostpolder",
+      "Oldebroek",
+      "Zwartewaterland",
+      "Zwolle"
+    ]
   },
   "Losser": {
     "code": "gm0168",
@@ -393,7 +565,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Losser.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Losser%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0168_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dinkelland",
+      "Enschede",
+      "Oldenzaal"
+    ]
   },
   "Noordoostpolder": {
     "code": "gm0171",
@@ -405,7 +581,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Noordoostpolder%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Noordoostpolder.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0171_(2009).svg",
-    "buren": []
+    "buren": [
+      "De Fryske Marren",
+      "Dronten",
+      "Kampen",
+      "Steenwijkerland",
+      "Urk"
+    ]
   },
   "Oldenzaal": {
     "code": "gm0173",
@@ -417,7 +599,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oldenzaal.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oldenzaal%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0173_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dinkelland",
+      "Enschede",
+      "Losser"
+    ]
   },
   "Ommen": {
     "code": "gm0175",
@@ -429,7 +615,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ommen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ommen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0175_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dalfsen",
+      "Hardenberg",
+      "Hellendoorn",
+      "Raalte",
+      "Twenterand"
+    ]
   },
   "Raalte": {
     "code": "gm0177",
@@ -441,7 +633,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Raalte%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Raalte.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0177_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dalfsen",
+      "Deventer",
+      "Hellendoorn",
+      "Olst-Wijhe",
+      "Ommen",
+      "Rijssen-Holten",
+      "Zwolle"
+    ]
   },
   "Staphorst": {
     "code": "gm0180",
@@ -453,7 +653,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Staphorst%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Staphorst%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0180_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dalfsen",
+      "De Wolden",
+      "Hardenberg",
+      "Meppel",
+      "Steenwijkerland",
+      "Zwartewaterland",
+      "Zwolle"
+    ]
   },
   "Tubbergen": {
     "code": "gm0183",
@@ -465,7 +673,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Tubbergen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Tubbergen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0183_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almelo",
+      "Borne",
+      "Dinkelland",
+      "Twenterand"
+    ]
   },
   "Urk": {
     "code": "gm0184",
@@ -477,7 +690,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Urker%20vlag%20met%20schelvis%2025-12-2016.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Urk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0184_(2009).svg",
-    "buren": []
+    "buren": [
+      "Noordoostpolder"
+    ]
   },
   "Wierden": {
     "code": "gm0189",
@@ -489,7 +704,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Wierden%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wierden%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0189_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almelo",
+      "Hellendoorn",
+      "Hof van Twente",
+      "Rijssen-Holten",
+      "Twenterand"
+    ]
   },
   "Zwolle": {
     "code": "gm0193",
@@ -501,7 +722,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zwolle.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zwolle.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0193_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dalfsen",
+      "Hattem",
+      "Heerde",
+      "Kampen",
+      "Olst-Wijhe",
+      "Raalte",
+      "Staphorst",
+      "Zwartewaterland"
+    ]
   },
   "Aalten": {
     "code": "gm0197",
@@ -513,7 +743,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aalten.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coats%20of%20arms%20of%20Aalten%20%28new%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0197_(2009).svg",
-    "buren": []
+    "buren": [
+      "Oost Gelre",
+      "Oude IJsselstreek",
+      "Winterswijk"
+    ]
   },
   "Apeldoorn": {
     "code": "gm0200",
@@ -525,7 +759,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Apeldoorn%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Apeldoorn.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0200_(2009).svg",
-    "buren": []
+    "buren": [
+      "Arnhem",
+      "Barneveld",
+      "Brummen",
+      "Ede",
+      "Epe",
+      "Ermelo",
+      "Nunspeet",
+      "Rozendaal",
+      "Voorst"
+    ]
   },
   "Arnhem": {
     "code": "gm0202",
@@ -537,7 +781,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/VlagArnhem.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Arnhem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0202_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Ede",
+      "Lingewaard",
+      "Overbetuwe",
+      "Renkum",
+      "Rheden",
+      "Rozendaal",
+      "Westervoort"
+    ]
   },
   "Barneveld": {
     "code": "gm0203",
@@ -549,7 +802,18 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Barneveld%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Barneveld.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0203_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Apeldoorn",
+      "Ede",
+      "Ermelo",
+      "Leusden",
+      "Nijkerk",
+      "Putten",
+      "Renswoude",
+      "Scherpenzeel",
+      "Woudenberg"
+    ]
   },
   "Beuningen": {
     "code": "gm0209",
@@ -561,7 +825,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gemeente%20Beuningen%20%28symbol%20variant%29.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Beuningen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0209_(2009).svg",
-    "buren": []
+    "buren": [
+      "Druten",
+      "Neder-Betuwe",
+      "Nijmegen",
+      "Overbetuwe",
+      "Wijchen"
+    ]
   },
   "Brummen": {
     "code": "gm0213",
@@ -573,7 +843,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Brummen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Brummen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0213_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Bronckhorst",
+      "Rheden",
+      "Rozendaal",
+      "Voorst",
+      "Zutphen"
+    ]
   },
   "Buren": {
     "code": "gm0214",
@@ -585,7 +862,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Buren.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Buren2.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0214_(2009).svg",
-    "buren": []
+    "buren": [
+      "Culemborg",
+      "Neder-Betuwe",
+      "Rhenen",
+      "Tiel",
+      "Utrechtse Heuvelrug",
+      "West Betuwe",
+      "Wijk bij Duurstede"
+    ]
   },
   "Culemborg": {
     "code": "gm0216",
@@ -597,7 +882,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Culemborg%20flag%20correct.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Culemborg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0216_(2009).svg",
-    "buren": []
+    "buren": [
+      "Buren",
+      "Houten",
+      "Vijfheerenlanden",
+      "West Betuwe",
+      "Wijk bij Duurstede"
+    ]
   },
   "Doesburg": {
     "code": "gm0221",
@@ -609,7 +900,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Doesburg.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Doesburg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0221_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bronckhorst",
+      "Rheden",
+      "Zevenaar"
+    ]
   },
   "Doetinchem": {
     "code": "gm0222",
@@ -621,7 +916,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Doetinchem.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Doetinchem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0222_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bronckhorst",
+      "Montferland",
+      "Oude IJsselstreek",
+      "Zevenaar"
+    ]
   },
   "Druten": {
     "code": "gm0225",
@@ -633,7 +933,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Druten%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Druten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0225_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beuningen",
+      "Neder-Betuwe",
+      "West Maas en Waal",
+      "Wijchen"
+    ]
   },
   "Duiven": {
     "code": "gm0226",
@@ -645,7 +950,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Duiven.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Duiven.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0226_(2009).svg",
-    "buren": []
+    "buren": [
+      "Lingewaard",
+      "Westervoort",
+      "Zevenaar"
+    ]
   },
   "Ede": {
     "code": "gm0228",
@@ -657,7 +966,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ede.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Ede.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0228_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Arnhem",
+      "Barneveld",
+      "Renkum",
+      "Renswoude",
+      "Rhenen",
+      "Veenendaal",
+      "Wageningen"
+    ]
   },
   "Elburg": {
     "code": "gm0230",
@@ -669,7 +987,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Elburg%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Elburg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0230_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dronten",
+      "Epe",
+      "Nunspeet",
+      "Oldebroek"
+    ]
   },
   "Epe": {
     "code": "gm0232",
@@ -681,7 +1004,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Epe.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Epe.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0232_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Elburg",
+      "Heerde",
+      "Nunspeet",
+      "Oldebroek",
+      "Olst-Wijhe",
+      "Voorst"
+    ]
   },
   "Ermelo": {
     "code": "gm0233",
@@ -693,7 +1024,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Ermelo%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Ermelo.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0233_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Barneveld",
+      "Harderwijk",
+      "Nunspeet",
+      "Putten"
+    ]
   },
   "Harderwijk": {
     "code": "gm0243",
@@ -705,7 +1042,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Harderwijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Harderwijk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0243_(2009).svg",
-    "buren": []
+    "buren": [
+      "Ermelo",
+      "Nunspeet",
+      "Zeewolde"
+    ]
   },
   "Hattem": {
     "code": "gm0244",
@@ -717,7 +1058,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hattem%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hattem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0244_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heerde",
+      "Kampen",
+      "Oldebroek",
+      "Zwolle"
+    ]
   },
   "Heerde": {
     "code": "gm0246",
@@ -729,7 +1075,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Heerde.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Heerde.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0246_(2009).svg",
-    "buren": []
+    "buren": [
+      "Epe",
+      "Hattem",
+      "Oldebroek",
+      "Olst-Wijhe",
+      "Zwolle"
+    ]
   },
   "Heumen": {
     "code": "gm0252",
@@ -741,7 +1093,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Heumen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Heumen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0252_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berg en Dal",
+      "Land van Cuijk",
+      "Mook en Middelaar",
+      "Nijmegen",
+      "Wijchen"
+    ]
   },
   "Lochem": {
     "code": "gm0262",
@@ -753,7 +1111,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lochem.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Lochem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0262_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berkelland",
+      "Bronckhorst",
+      "Deventer",
+      "Hof van Twente",
+      "Rijssen-Holten",
+      "Voorst",
+      "Zutphen"
+    ]
   },
   "Maasdriel": {
     "code": "gm0263",
@@ -765,7 +1131,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maasdriel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Maasdriel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0263_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heusden",
+      "Oss",
+      "West Betuwe",
+      "West Maas en Waal",
+      "Zaltbommel",
+      "s-Hertogenbosch"
+    ]
   },
   "Nijkerk": {
     "code": "gm0267",
@@ -777,7 +1150,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Nijkerk%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Nijkerk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0267_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Barneveld",
+      "Bunschoten",
+      "Putten",
+      "Zeewolde"
+    ]
   },
   "Nijmegen": {
     "code": "gm0268",
@@ -789,7 +1168,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nijmegen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Nijmegen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0268_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berg en Dal",
+      "Beuningen",
+      "Heumen",
+      "Lingewaard",
+      "Overbetuwe",
+      "Wijchen"
+    ]
   },
   "Oldebroek": {
     "code": "gm0269",
@@ -801,7 +1187,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oldebroek%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Oldebroek.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0269_(2009).svg",
-    "buren": []
+    "buren": [
+      "Elburg",
+      "Epe",
+      "Hattem",
+      "Heerde",
+      "Kampen"
+    ]
   },
   "Putten": {
     "code": "gm0273",
@@ -813,7 +1205,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Putten%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Putten%20gelderland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0273_(2009).svg",
-    "buren": []
+    "buren": [
+      "Barneveld",
+      "Ermelo",
+      "Nijkerk"
+    ]
   },
   "Renkum": {
     "code": "gm0274",
@@ -825,7 +1221,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Renkum.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Renkum%20wapen%20HRvA.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0274_(2009).svg",
-    "buren": []
+    "buren": [
+      "Arnhem",
+      "Ede",
+      "Overbetuwe",
+      "Wageningen"
+    ]
   },
   "Rheden": {
     "code": "gm0275",
@@ -837,7 +1238,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rheden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Rheden.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0275_(2009).svg",
-    "buren": []
+    "buren": [
+      "Arnhem",
+      "Bronckhorst",
+      "Brummen",
+      "Doesburg",
+      "Rozendaal",
+      "Westervoort",
+      "Zevenaar"
+    ]
   },
   "Rozendaal": {
     "code": "gm0277",
@@ -849,7 +1258,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Rozendaal%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Rozendaal.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0277_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Arnhem",
+      "Brummen",
+      "Rheden"
+    ]
   },
   "Scherpenzeel": {
     "code": "gm0279",
@@ -861,7 +1275,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Scherpenzeel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Scherpenzeel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0279_(2009).svg",
-    "buren": []
+    "buren": [
+      "Barneveld",
+      "Renswoude",
+      "Woudenberg"
+    ]
   },
   "Tiel": {
     "code": "gm0281",
@@ -873,7 +1291,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tiel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Tiel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0281_(2009).svg",
-    "buren": []
+    "buren": [
+      "Buren",
+      "Neder-Betuwe",
+      "West Betuwe",
+      "West Maas en Waal"
+    ]
   },
   "Voorst": {
     "code": "gm0285",
@@ -885,7 +1308,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Voorst.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Voorst.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0285_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Brummen",
+      "Deventer",
+      "Epe",
+      "Lochem",
+      "Olst-Wijhe",
+      "Zutphen"
+    ]
   },
   "Wageningen": {
     "code": "gm0289",
@@ -897,7 +1328,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Wageningen%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Wageningen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0289_(2009).svg",
-    "buren": []
+    "buren": [
+      "Ede",
+      "Neder-Betuwe",
+      "Overbetuwe",
+      "Renkum",
+      "Rhenen"
+    ]
   },
   "Westervoort": {
     "code": "gm0293",
@@ -909,7 +1346,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Westervoort.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Westervoort.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0293_(2009).svg",
-    "buren": []
+    "buren": [
+      "Arnhem",
+      "Duiven",
+      "Lingewaard",
+      "Rheden",
+      "Zevenaar"
+    ]
   },
   "Winterswijk": {
     "code": "gm0294",
@@ -921,7 +1364,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Winterswijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Winterswijk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0294_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aalten",
+      "Oost Gelre"
+    ]
   },
   "Wijchen": {
     "code": "gm0296",
@@ -933,7 +1379,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wijchen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Wijchen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0296_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beuningen",
+      "Druten",
+      "Heumen",
+      "Land van Cuijk",
+      "Nijmegen",
+      "Oss",
+      "West Maas en Waal"
+    ]
   },
   "Zaltbommel": {
     "code": "gm0297",
@@ -945,7 +1399,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaltbommel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zaltbommel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0297_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Gorinchem",
+      "Heusden",
+      "Maasdriel",
+      "West Betuwe"
+    ]
   },
   "Zevenaar": {
     "code": "gm0299",
@@ -957,7 +1417,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zevenaar.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zevenaar%20wapen%202018.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0299_(2019).svg",
-    "buren": []
+    "buren": [
+      "Berg en Dal",
+      "Bronckhorst",
+      "Doesburg",
+      "Doetinchem",
+      "Duiven",
+      "Lingewaard",
+      "Montferland",
+      "Rheden",
+      "Westervoort"
+    ]
   },
   "Zutphen": {
     "code": "gm0301",
@@ -969,7 +1439,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zutphen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zutphen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0301_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bronckhorst",
+      "Brummen",
+      "Lochem",
+      "Voorst"
+    ]
   },
   "Nunspeet": {
     "code": "gm0302",
@@ -981,7 +1456,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Nunspeet%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Nunspeet.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0302_(2009).svg",
-    "buren": []
+    "buren": [
+      "Apeldoorn",
+      "Elburg",
+      "Epe",
+      "Ermelo",
+      "Harderwijk"
+    ]
   },
   "Dronten": {
     "code": "gm0303",
@@ -993,7 +1474,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dronten.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dronten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0303_(2009).svg",
-    "buren": []
+    "buren": [
+      "Elburg",
+      "Kampen",
+      "Lelystad",
+      "Noordoostpolder",
+      "Zeewolde"
+    ]
   },
   "Amersfoort": {
     "code": "gm0307",
@@ -1005,7 +1492,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Amersfoort%20flag%20outline.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Amersfoort%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0307_(2009).svg",
-    "buren": []
+    "buren": [
+      "Baarn",
+      "Barneveld",
+      "Bunschoten",
+      "Leusden",
+      "Nijkerk",
+      "Soest",
+      "Zeist"
+    ]
   },
   "Baarn": {
     "code": "gm0308",
@@ -1017,7 +1512,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Baarn%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Baarn.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0308_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Bunschoten",
+      "De Bilt",
+      "Eemnes",
+      "Hilversum",
+      "Laren",
+      "Soest",
+      "Zeist"
+    ]
   },
   "De Bilt": {
     "code": "gm0310",
@@ -1029,7 +1533,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20de%20Bilt.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20Bilt%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0310_(2009).svg",
-    "buren": []
+    "buren": [
+      "Baarn",
+      "Hilversum",
+      "Stichtse Vecht",
+      "Utrecht",
+      "Wijdemeren",
+      "Zeist"
+    ]
   },
   "Bunnik": {
     "code": "gm0312",
@@ -1041,7 +1552,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bunnik.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunnik%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0312_(2009).svg",
-    "buren": []
+    "buren": [
+      "Houten",
+      "Utrecht",
+      "Utrechtse Heuvelrug",
+      "Wijk bij Duurstede",
+      "Zeist"
+    ]
   },
   "Bunschoten": {
     "code": "gm0313",
@@ -1053,7 +1570,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunschoten%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunschoten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0313_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Baarn",
+      "Eemnes",
+      "Nijkerk"
+    ]
   },
   "Eemnes": {
     "code": "gm0317",
@@ -1065,7 +1587,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Eemnes%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eemnes%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0317_(2009).svg",
-    "buren": []
+    "buren": [
+      "Baarn",
+      "Blaricum",
+      "Bunschoten",
+      "Laren"
+    ]
   },
   "Houten": {
     "code": "gm0321",
@@ -1077,7 +1604,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Houten.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Houten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0321_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bunnik",
+      "Culemborg",
+      "Nieuwegein",
+      "Utrecht",
+      "Vijfheerenlanden",
+      "Wijk bij Duurstede"
+    ]
   },
   "Leusden": {
     "code": "gm0327",
@@ -1089,7 +1623,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Leusden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20van%20Leusden%20001.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0327_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Barneveld",
+      "Woudenberg",
+      "Zeist"
+    ]
   },
   "Lopik": {
     "code": "gm0331",
@@ -1101,7 +1640,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Lopik%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lopik%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0331_(2009).svg",
-    "buren": []
+    "buren": [
+      "IJsselstein",
+      "Krimpenerwaard",
+      "Molenlanden",
+      "Montfoort",
+      "Oudewater",
+      "Vijfheerenlanden"
+    ]
   },
   "Montfoort": {
     "code": "gm0335",
@@ -1113,7 +1659,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Montfoort%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Montfoort%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0335_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bodegraven-Reeuwijk",
+      "IJsselstein",
+      "Lopik",
+      "Oudewater",
+      "Utrecht",
+      "Woerden"
+    ]
   },
   "Renswoude": {
     "code": "gm0339",
@@ -1125,7 +1678,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Renswoude.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Renswoude%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0339_(2009).svg",
-    "buren": []
+    "buren": [
+      "Barneveld",
+      "Ede",
+      "Scherpenzeel",
+      "Utrechtse Heuvelrug",
+      "Veenendaal",
+      "Woudenberg"
+    ]
   },
   "Rhenen": {
     "code": "gm0340",
@@ -1137,7 +1697,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rhenen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhenen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0340_(2009).svg",
-    "buren": []
+    "buren": [
+      "Buren",
+      "Ede",
+      "Neder-Betuwe",
+      "Utrechtse Heuvelrug",
+      "Veenendaal",
+      "Wageningen"
+    ]
   },
   "Soest": {
     "code": "gm0342",
@@ -1149,7 +1716,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Soest%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20van%20Soest%20%28Nederland%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0342_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Baarn",
+      "Zeist"
+    ]
   },
   "Utrecht": {
     "code": "gm0344",
@@ -1161,7 +1732,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Utrecht%20city.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Utrecht%20gemeente%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0344_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bunnik",
+      "De Bilt",
+      "Houten",
+      "IJsselstein",
+      "Montfoort",
+      "Nieuwegein",
+      "Stichtse Vecht",
+      "Woerden",
+      "Zeist"
+    ]
   },
   "Veenendaal": {
     "code": "gm0345",
@@ -1173,7 +1754,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Veenendaal%20Netherlands%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Veenendaal-wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0345_(2009).svg",
-    "buren": []
+    "buren": [
+      "Ede",
+      "Renswoude",
+      "Rhenen",
+      "Utrechtse Heuvelrug"
+    ]
   },
   "Woudenberg": {
     "code": "gm0351",
@@ -1185,7 +1771,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Woudenberg.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Woudenberg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0351_(2009).svg",
-    "buren": []
+    "buren": [
+      "Barneveld",
+      "Leusden",
+      "Renswoude",
+      "Scherpenzeel",
+      "Utrechtse Heuvelrug",
+      "Zeist"
+    ]
   },
   "Wijk bij Duurstede": {
     "code": "gm0352",
@@ -1197,7 +1790,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Wijk%20bij%20Duurstede%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wijk%20bij%20Duurstede%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0352_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bunnik",
+      "Buren",
+      "Culemborg",
+      "Houten",
+      "Utrechtse Heuvelrug"
+    ]
   },
   "IJsselstein": {
     "code": "gm0353",
@@ -1209,7 +1808,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20IJsselstein.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/IJsselstein%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0353_(2009).svg",
-    "buren": []
+    "buren": [
+      "Lopik",
+      "Montfoort",
+      "Nieuwegein",
+      "Utrecht",
+      "Vijfheerenlanden"
+    ]
   },
   "Zeist": {
     "code": "gm0355",
@@ -1221,7 +1826,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zeist.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zeist.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0355_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amersfoort",
+      "Baarn",
+      "Bunnik",
+      "De Bilt",
+      "Leusden",
+      "Soest",
+      "Utrecht",
+      "Utrechtse Heuvelrug",
+      "Woudenberg"
+    ]
   },
   "Nieuwegein": {
     "code": "gm0356",
@@ -1233,7 +1848,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nieuwegein.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Nieuwegein.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0356_(2009).svg",
-    "buren": []
+    "buren": [
+      "Houten",
+      "IJsselstein",
+      "Utrecht",
+      "Vijfheerenlanden"
+    ]
   },
   "Aalsmeer": {
     "code": "gm0358",
@@ -1245,7 +1865,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Aalsmeer%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Aalsmeer%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0358_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amstelveen",
+      "Haarlemmermeer",
+      "Kaag en Braassem",
+      "Uithoorn"
+    ]
   },
   "Alkmaar": {
     "code": "gm0361",
@@ -1257,7 +1882,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Alkmaar%20Flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Alkmaar%20wapen%20HRvA.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0361_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bergen (NH)",
+      "Castricum",
+      "Dijk en Waard",
+      "Heiloo",
+      "Koggenland",
+      "Purmerend",
+      "Uitgeest",
+      "Wormerland",
+      "Zaanstad"
+    ]
   },
   "Amstelveen": {
     "code": "gm0362",
@@ -1269,7 +1904,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Amstelveen%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Amstelveen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0362_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aalsmeer",
+      "Amsterdam",
+      "De Ronde Venen",
+      "Haarlemmermeer",
+      "Ouder-Amstel",
+      "Uithoorn"
+    ]
   },
   "Amsterdam": {
     "code": "gm0363",
@@ -1281,7 +1923,21 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Amsterdam.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20van%20Amsterdam.svg",
     "kaart": "https://commons.wikimedia.org/wiki/File:Amsterdam_Map_-_Municipality_code_0363_(2022).svg",
-    "buren": []
+    "buren": [
+      "Amstelveen",
+      "De Ronde Venen",
+      "Diemen",
+      "Gooise Meren",
+      "Haarlemmermeer",
+      "Hilversum",
+      "Landsmeer",
+      "Oostzaan",
+      "Ouder-Amstel",
+      "Stichtse Vecht",
+      "Waterland",
+      "Wijdemeren",
+      "Zaanstad"
+    ]
   },
   "Bergen (NH)": {
     "code": "gm0373",
@@ -1293,7 +1949,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/File:Bergen_(Noord-Holland)_vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Bergen_(North_Holland).svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0373_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Castricum",
+      "Dijk en Waard",
+      "Heiloo",
+      "Schagen"
+    ]
   },
   "Beverwijk": {
     "code": "gm0375",
@@ -1305,7 +1967,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beverwijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Beverwijk%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0375_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heemskerk",
+      "Velsen",
+      "Zaanstad"
+    ]
   },
   "Blaricum": {
     "code": "gm0376",
@@ -1317,7 +1983,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Blaricum%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Blaricum%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0376_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almere",
+      "Eemnes",
+      "Hilversum",
+      "Huizen",
+      "Laren"
+    ]
   },
   "Bloemendaal": {
     "code": "gm0377",
@@ -1329,7 +2001,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloemendaal%20vlag%202019.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Bloemendaal.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0377_(2009).svg",
-    "buren": []
+    "buren": [
+      "Haarlem",
+      "Haarlemmermeer",
+      "Heemstede",
+      "Hillegom",
+      "Noordwijk",
+      "Velsen",
+      "Zandvoort"
+    ]
   },
   "Castricum": {
     "code": "gm0383",
@@ -1341,7 +2021,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Castricum%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Castricum%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0383_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Bergen (NH)",
+      "Heemskerk",
+      "Heiloo",
+      "Uitgeest"
+    ]
   },
   "Diemen": {
     "code": "gm0384",
@@ -1353,7 +2039,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Diemen%20%28municipality%29.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Diemen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0384_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "Gooise Meren",
+      "Ouder-Amstel"
+    ]
   },
   "Edam-Volendam": {
     "code": "gm0385",
@@ -1365,7 +2055,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeente%20edam-volendam%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Edam-Volendam.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0385_(2019).svg",
-    "buren": []
+    "buren": [
+      "Koggenland",
+      "Purmerend",
+      "Waterland"
+    ]
   },
   "Enkhuizen": {
     "code": "gm0388",
@@ -1377,7 +2071,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Enkhuizen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Enkhuizen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0388_(2009).svg",
-    "buren": []
+    "buren": [
+      "Lelystad",
+      "Medemblik",
+      "Stede Broec"
+    ]
   },
   "Haarlem": {
     "code": "gm0392",
@@ -1389,7 +2087,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20Haarlem.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20Haarlem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0392_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bloemendaal",
+      "Haarlemmermeer",
+      "Heemstede",
+      "Velsen"
+    ]
   },
   "Haarlemmermeer": {
     "code": "gm0394",
@@ -1401,7 +2104,20 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Haarlemmermeer%20vlag%202019.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Haarlemmermeer.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0394_(2019).svg",
-    "buren": []
+    "buren": [
+      "Aalsmeer",
+      "Amstelveen",
+      "Amsterdam",
+      "Bloemendaal",
+      "Haarlem",
+      "Heemstede",
+      "Hillegom",
+      "Kaag en Braassem",
+      "Lisse",
+      "Teylingen",
+      "Velsen",
+      "Zaanstad"
+    ]
   },
   "Heemskerk": {
     "code": "gm0396",
@@ -1413,7 +2129,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Heemskerk%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Heemskerk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0396_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beverwijk",
+      "Castricum",
+      "Uitgeest",
+      "Zaanstad"
+    ]
   },
   "Heemstede": {
     "code": "gm0397",
@@ -1425,7 +2146,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Heemstede.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Heemstede.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0397_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bloemendaal",
+      "Haarlem",
+      "Haarlemmermeer"
+    ]
   },
   "Heiloo": {
     "code": "gm0399",
@@ -1437,7 +2162,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Heiloo%20vlag%202021.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Heiloo.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0399_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Bergen (NH)",
+      "Castricum"
+    ]
   },
   "Den Helder": {
     "code": "gm0400",
@@ -1449,7 +2178,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Den%20Helder.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Den%20Helder.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0400_(2009).svg",
-    "buren": []
+    "buren": [
+      "Hollands Kroon",
+      "Schagen"
+    ]
   },
   "Hilversum": {
     "code": "gm0402",
@@ -1461,7 +2193,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hilversum%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hilversum.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0402_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "Baarn",
+      "Blaricum",
+      "De Bilt",
+      "Gooise Meren",
+      "Huizen",
+      "Laren",
+      "Wijdemeren"
+    ]
   },
   "Hoorn": {
     "code": "gm0405",
@@ -1473,7 +2214,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hoorn.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoorn%20wapen%20HRvA.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0405_(2009).svg",
-    "buren": []
+    "buren": [
+      "Drechterland",
+      "Koggenland",
+      "Medemblik"
+    ]
   },
   "Huizen": {
     "code": "gm0406",
@@ -1485,7 +2230,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Huizen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Huizen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0406_(2009).svg",
-    "buren": []
+    "buren": [
+      "Blaricum",
+      "Gooise Meren",
+      "Hilversum",
+      "Laren"
+    ]
   },
   "Landsmeer": {
     "code": "gm0415",
@@ -1497,7 +2247,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Landsmeer%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Landsmeer.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0415_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "Oostzaan",
+      "Purmerend",
+      "Waterland",
+      "Wormerland"
+    ]
   },
   "Laren": {
     "code": "gm0417",
@@ -1509,7 +2265,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Laren%2C%20North%20Holland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Laren%20%28North%20Holland%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0417_(2009).svg",
-    "buren": []
+    "buren": [
+      "Baarn",
+      "Blaricum",
+      "Eemnes",
+      "Hilversum",
+      "Huizen"
+    ]
   },
   "Medemblik": {
     "code": "gm0420",
@@ -1521,7 +2283,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Medemblik.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Medemblik.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0420_(2019).svg",
-    "buren": []
+    "buren": [
+      "Drechterland",
+      "Enkhuizen",
+      "Hollands Kroon",
+      "Hoorn",
+      "Koggenland",
+      "Opmeer",
+      "Stede Broec"
+    ]
   },
   "Oostzaan": {
     "code": "gm0431",
@@ -1533,7 +2303,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oostzaan%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oostzaan%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0431_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "Landsmeer",
+      "Wormerland",
+      "Zaanstad"
+    ]
   },
   "Opmeer": {
     "code": "gm0432",
@@ -1545,7 +2320,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Opmeer%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Opmeer%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0432_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dijk en Waard",
+      "Hollands Kroon",
+      "Koggenland",
+      "Medemblik"
+    ]
   },
   "Ouder-Amstel": {
     "code": "gm0437",
@@ -1557,7 +2337,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Ouder-Amstel%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Ouder-Amstel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0437_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amstelveen",
+      "Amsterdam",
+      "De Ronde Venen",
+      "Diemen"
+    ]
   },
   "Purmerend": {
     "code": "gm0439",
@@ -1569,7 +2354,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Purmerend.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Purmerend%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0439_(2022).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Edam-Volendam",
+      "Koggenland",
+      "Landsmeer",
+      "Waterland",
+      "Wormerland"
+    ]
   },
   "Schagen": {
     "code": "gm0441",
@@ -1581,7 +2373,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Schagen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Schagen%20wapen%202015.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0441_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bergen (NH)",
+      "Den Helder",
+      "Dijk en Waard",
+      "Hollands Kroon"
+    ]
   },
   "Texel": {
     "code": "gm0448",
@@ -1605,7 +2402,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Uitgeest%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Uitgeest.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0450_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Castricum",
+      "Heemskerk",
+      "Zaanstad"
+    ]
   },
   "Uithoorn": {
     "code": "gm0451",
@@ -1617,7 +2419,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Uithoorn%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Uithoorn.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0451_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aalsmeer",
+      "Amstelveen",
+      "De Ronde Venen",
+      "Kaag en Braassem",
+      "Nieuwkoop"
+    ]
   },
   "Velsen": {
     "code": "gm0453",
@@ -1629,7 +2437,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Velsen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Velsen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0453_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beverwijk",
+      "Bloemendaal",
+      "Haarlem",
+      "Haarlemmermeer",
+      "Zaanstad"
+    ]
   },
   "Zandvoort": {
     "code": "gm0473",
@@ -1641,7 +2455,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zandvoort.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zandvoort%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0473_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bloemendaal",
+      "Noordwijk"
+    ]
   },
   "Zaanstad": {
     "code": "gm0479",
@@ -1653,7 +2470,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zaanstad.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zaanstad.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0479_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Amsterdam",
+      "Beverwijk",
+      "Haarlemmermeer",
+      "Heemskerk",
+      "Oostzaan",
+      "Uitgeest",
+      "Velsen",
+      "Wormerland"
+    ]
   },
   "Alblasserdam": {
     "code": "gm0482",
@@ -1665,7 +2492,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Alblasserdam%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Alblasserdam.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0482_(2009).svg",
-    "buren": []
+    "buren": [
+      "Hendrik-Ido-Ambacht",
+      "Molenlanden",
+      "Papendrecht",
+      "Ridderkerk"
+    ]
   },
   "Alphen aan den Rijn": {
     "code": "gm0484",
@@ -1677,7 +2509,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20Alphen%20aan%20den%20Rijn.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Alphen%20aan%20den%20Rijn%20wapen%202014.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0484_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bodegraven-Reeuwijk",
+      "Kaag en Braassem",
+      "Lansingerland",
+      "Leiderdorp",
+      "Nieuwkoop",
+      "Waddinxveen",
+      "Zoetermeer",
+      "Zoeterwoude",
+      "Zuidplas"
+    ]
   },
   "Barendrecht": {
     "code": "gm0489",
@@ -1689,7 +2531,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Barendrecht%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Barendrecht.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0489_(2009).svg",
-    "buren": []
+    "buren": [
+      "Albrandswaard",
+      "Hoeksche Waard",
+      "Ridderkerk",
+      "Rotterdam",
+      "Zwijndrecht"
+    ]
   },
   "Drechterland": {
     "code": "gm0498",
@@ -1701,7 +2549,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Drechterland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Drechterland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0498_(2009).svg",
-    "buren": []
+    "buren": [
+      "Hoorn",
+      "Medemblik",
+      "Stede Broec"
+    ]
   },
   "Capelle aan den IJssel": {
     "code": "gm0502",
@@ -1713,7 +2565,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Capelle%20aan%20den%20IJssel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Capelle%20aan%20den%20IJssel%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0502_(2009).svg",
-    "buren": []
+    "buren": [
+      "Krimpen aan den IJssel",
+      "Krimpenerwaard",
+      "Rotterdam",
+      "Zuidplas"
+    ]
   },
   "Delft": {
     "code": "gm0503",
@@ -1725,7 +2582,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Delft.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Delft.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0503_(2009).svg",
-    "buren": []
+    "buren": [
+      "Den Haag",
+      "Midden-Delfland",
+      "Pijnacker-Nootdorp",
+      "Rijswijk",
+      "Rotterdam"
+    ]
   },
   "Dordrecht": {
     "code": "gm0505",
@@ -1737,7 +2600,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dordrecht.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Dordrecht%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0505_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Drimmelen",
+      "Hardinxveld-Giessendam",
+      "Hoeksche Waard",
+      "Moerdijk",
+      "Papendrecht",
+      "Sliedrecht",
+      "Zwijndrecht"
+    ]
   },
   "Gorinchem": {
     "code": "gm0512",
@@ -1749,7 +2621,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gorinchem.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Gorinchem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0512_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Hardinxveld-Giessendam",
+      "Molenlanden",
+      "West Betuwe",
+      "Zaltbommel"
+    ]
   },
   "Gouda": {
     "code": "gm0513",
@@ -1761,7 +2639,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gouda.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gouda%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0513_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bodegraven-Reeuwijk",
+      "Krimpenerwaard",
+      "Waddinxveen",
+      "Zuidplas"
+    ]
   },
   "Den Haag": {
     "code": "gm0518",
@@ -1773,7 +2656,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20The%20Hague.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Den%20Haag%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0518_(2009).svg",
-    "buren": []
+    "buren": [
+      "Delft",
+      "Leidschendam-Voorburg",
+      "Pijnacker-Nootdorp",
+      "Rijswijk",
+      "Wassenaar",
+      "Westland",
+      "Zoetermeer"
+    ]
   },
   "Hardinxveld-Giessendam": {
     "code": "gm0523",
@@ -1785,7 +2676,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardinxveldgiessendam%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hardinxveld%20Giessendam%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0523_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Dordrecht",
+      "Gorinchem",
+      "Molenlanden",
+      "Sliedrecht"
+    ]
   },
   "Hendrik-Ido-Ambacht": {
     "code": "gm0531",
@@ -1797,7 +2694,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hendrik-Ido-Ambacht.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hendrik-Ido-Ambacht%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0531_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alblasserdam",
+      "Papendrecht",
+      "Ridderkerk",
+      "Zwijndrecht"
+    ]
   },
   "Stede Broec": {
     "code": "gm0532",
@@ -1809,7 +2711,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Stede-Broec%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Stede-Broec%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0532_(2009).svg",
-    "buren": []
+    "buren": [
+      "Drechterland",
+      "Enkhuizen",
+      "Medemblik"
+    ]
   },
   "Hillegom": {
     "code": "gm0534",
@@ -1821,7 +2727,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hillegom.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hillegom.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0534_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bloemendaal",
+      "Haarlemmermeer",
+      "Lisse",
+      "Noordwijk"
+    ]
   },
   "Katwijk": {
     "code": "gm0537",
@@ -1833,7 +2744,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Katwijk%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Katwijk%20%28municipality%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0537_(2009).svg",
-    "buren": []
+    "buren": [
+      "Leiden",
+      "Noordwijk",
+      "Oegstgeest",
+      "Teylingen",
+      "Wassenaar"
+    ]
   },
   "Krimpen aan den IJssel": {
     "code": "gm0542",
@@ -1845,7 +2762,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Krimpen%20aan%20den%20IJssel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20Krimpen%20aan%20den%20IJssel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0542_(2009).svg",
-    "buren": []
+    "buren": [
+      "Capelle aan den IJssel",
+      "Krimpenerwaard",
+      "Ridderkerk",
+      "Rotterdam"
+    ]
   },
   "Leiden": {
     "code": "gm0546",
@@ -1857,7 +2779,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Leiden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Leiden%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0546_(2009).svg",
-    "buren": []
+    "buren": [
+      "Katwijk",
+      "Leiderdorp",
+      "Leidschendam-Voorburg",
+      "Oegstgeest",
+      "Teylingen",
+      "Voorschoten",
+      "Wassenaar",
+      "Zoeterwoude"
+    ]
   },
   "Leiderdorp": {
     "code": "gm0547",
@@ -1869,7 +2800,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Leiderdorp%20vlag%202.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Leiderdorp%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0547_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Kaag en Braassem",
+      "Leiden",
+      "Teylingen",
+      "Zoeterwoude"
+    ]
   },
   "Lisse": {
     "code": "gm0553",
@@ -1881,7 +2818,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lisse.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Lisse.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0553_(2009).svg",
-    "buren": []
+    "buren": [
+      "Haarlemmermeer",
+      "Hillegom",
+      "Noordwijk",
+      "Teylingen"
+    ]
   },
   "Maassluis": {
     "code": "gm0556",
@@ -1893,7 +2835,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Maassluis%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Maassluis%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0556_(2009).svg",
-    "buren": []
+    "buren": [
+      "Midden-Delfland",
+      "Rotterdam",
+      "Vlaardingen",
+      "Westland"
+    ]
   },
   "Nieuwkoop": {
     "code": "gm0569",
@@ -1905,7 +2852,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nieuwkoop.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nieuwkoop%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0569_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Bodegraven-Reeuwijk",
+      "De Ronde Venen",
+      "Kaag en Braassem",
+      "Uithoorn",
+      "Woerden"
+    ]
   },
   "Noordwijk": {
     "code": "gm0575",
@@ -1917,7 +2871,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Noordwijk%20vlag%202020.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Noordwijk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0575_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bloemendaal",
+      "Hillegom",
+      "Katwijk",
+      "Lisse",
+      "Teylingen",
+      "Zandvoort"
+    ]
   },
   "Oegstgeest": {
     "code": "gm0579",
@@ -1929,7 +2890,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oegstgeest%20Netherlands%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Oegstgeest.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0579_(2009).svg",
-    "buren": []
+    "buren": [
+      "Katwijk",
+      "Leiden",
+      "Teylingen"
+    ]
   },
   "Oudewater": {
     "code": "gm0589",
@@ -1941,7 +2906,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oudewater.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oudewater%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0589_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bodegraven-Reeuwijk",
+      "Krimpenerwaard",
+      "Lopik",
+      "Montfoort"
+    ]
   },
   "Papendrecht": {
     "code": "gm0590",
@@ -1953,7 +2923,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Papendrecht.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Papendrecht.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0590_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alblasserdam",
+      "Dordrecht",
+      "Hendrik-Ido-Ambacht",
+      "Molenlanden",
+      "Sliedrecht",
+      "Zwijndrecht"
+    ]
   },
   "Ridderkerk": {
     "code": "gm0597",
@@ -1965,7 +2942,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Ridderkerk%20Netherlands.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ridderkerk%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0597_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alblasserdam",
+      "Barendrecht",
+      "Hendrik-Ido-Ambacht",
+      "Krimpen aan den IJssel",
+      "Krimpenerwaard",
+      "Molenlanden",
+      "Rotterdam",
+      "Zwijndrecht"
+    ]
   },
   "Rotterdam": {
     "code": "gm0599",
@@ -1977,7 +2963,25 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rotterdam.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rotterdam%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0599_(2009).svg",
-    "buren": []
+    "buren": [
+      "Albrandswaard",
+      "Barendrecht",
+      "Capelle aan den IJssel",
+      "Delft",
+      "Krimpen aan den IJssel",
+      "Krimpenerwaard",
+      "Lansingerland",
+      "Maassluis",
+      "Midden-Delfland",
+      "Nissewaard",
+      "Pijnacker-Nootdorp",
+      "Ridderkerk",
+      "Schiedam",
+      "Vlaardingen",
+      "Voorne aan Zee",
+      "Westland",
+      "Zuidplas"
+    ]
   },
   "Rijswijk": {
     "code": "gm0603",
@@ -1989,7 +2993,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rijswijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Rijswijk%20%28South%20Holland%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0603_(2009).svg",
-    "buren": []
+    "buren": [
+      "Delft",
+      "Den Haag",
+      "Midden-Delfland",
+      "Westland"
+    ]
   },
   "Schiedam": {
     "code": "gm0606",
@@ -2001,7 +3010,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Schiedam.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Schiedam%202.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0606_(2009).svg",
-    "buren": []
+    "buren": [
+      "Midden-Delfland",
+      "Rotterdam",
+      "Vlaardingen"
+    ]
   },
   "Sliedrecht": {
     "code": "gm0610",
@@ -2013,7 +3026,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Sliedrecht%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Sliedrecht.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0610_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dordrecht",
+      "Hardinxveld-Giessendam",
+      "Molenlanden",
+      "Papendrecht"
+    ]
   },
   "Albrandswaard": {
     "code": "gm0613",
@@ -2025,7 +3043,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrandswaard%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Albrandswaard%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0613_(2009).svg",
-    "buren": []
+    "buren": [
+      "Barendrecht",
+      "Hoeksche Waard",
+      "Nissewaard",
+      "Rotterdam"
+    ]
   },
   "Vlaardingen": {
     "code": "gm0622",
@@ -2037,7 +3060,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vlaardingen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Vlaardingen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0622_(2009).svg",
-    "buren": []
+    "buren": [
+      "Maassluis",
+      "Midden-Delfland",
+      "Rotterdam",
+      "Schiedam"
+    ]
   },
   "Voorschoten": {
     "code": "gm0626",
@@ -2049,7 +3077,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Voorschoten.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Voorschoten.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0626_(2009).svg",
-    "buren": []
+    "buren": [
+      "Leiden",
+      "Leidschendam-Voorburg",
+      "Wassenaar"
+    ]
   },
   "Waddinxveen": {
     "code": "gm0627",
@@ -2061,7 +3093,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20waddinxveen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Waddinxveen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0627_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Bodegraven-Reeuwijk",
+      "Gouda",
+      "Zuidplas"
+    ]
   },
   "Wassenaar": {
     "code": "gm0629",
@@ -2073,7 +3110,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Wassenaar%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Wassenaar.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0629_(2009).svg",
-    "buren": []
+    "buren": [
+      "Den Haag",
+      "Katwijk",
+      "Leiden",
+      "Leidschendam-Voorburg",
+      "Voorschoten"
+    ]
   },
   "Woerden": {
     "code": "gm0632",
@@ -2085,7 +3128,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Woerden%20vlag%202017.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Woerden%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0632_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bodegraven-Reeuwijk",
+      "De Ronde Venen",
+      "Montfoort",
+      "Nieuwkoop",
+      "Stichtse Vecht",
+      "Utrecht"
+    ]
   },
   "Zoetermeer": {
     "code": "gm0637",
@@ -2097,7 +3147,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Zoetermeer%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zoetermeer%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0637_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Den Haag",
+      "Lansingerland",
+      "Leidschendam-Voorburg",
+      "Pijnacker-Nootdorp",
+      "Zoeterwoude"
+    ]
   },
   "Zoeterwoude": {
     "code": "gm0638",
@@ -2109,7 +3166,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zoeterwoude.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zoeterwoude%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0638_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Leiden",
+      "Leiderdorp",
+      "Leidschendam-Voorburg",
+      "Zoetermeer"
+    ]
   },
   "Zwijndrecht": {
     "code": "gm0642",
@@ -2121,7 +3184,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Zwijndrecht%20%28Nederland%29%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zwijndrecht%20%28Netherlands%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0642_(2009).svg",
-    "buren": []
+    "buren": [
+      "Barendrecht",
+      "Dordrecht",
+      "Hendrik-Ido-Ambacht",
+      "Hoeksche Waard",
+      "Papendrecht",
+      "Ridderkerk"
+    ]
   },
   "Borsele": {
     "code": "gm0654",
@@ -2133,7 +3203,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Borsele.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Borsele.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0654_(2009).svg",
-    "buren": []
+    "buren": [
+      "Goes",
+      "Kapelle",
+      "Middelburg",
+      "Vlissingen"
+    ]
   },
   "Goes": {
     "code": "gm0664",
@@ -2145,7 +3220,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Goes.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Goes.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0664_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borsele",
+      "Kapelle",
+      "Middelburg",
+      "Noord-Beveland"
+    ]
   },
   "West Maas en Waal": {
     "code": "gm0668",
@@ -2157,7 +3237,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/West%20Maas%20en%20Waal-vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20West%20Maas%20en%20Waal.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0668_(2009).svg",
-    "buren": []
+    "buren": [
+      "Druten",
+      "Maasdriel",
+      "Neder-Betuwe",
+      "Oss",
+      "Tiel",
+      "West Betuwe",
+      "Wijchen"
+    ]
   },
   "Hulst": {
     "code": "gm0677",
@@ -2169,7 +3257,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hulst%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hulst.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0677_(2009).svg",
-    "buren": []
+    "buren": [
+      "Terneuzen"
+    ]
   },
   "Kapelle": {
     "code": "gm0678",
@@ -2181,7 +3271,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kapelle.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Kapelle%20%28Netherlands%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0678_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borsele",
+      "Goes",
+      "Reimerswaal"
+    ]
   },
   "Middelburg": {
     "code": "gm0687",
@@ -2193,7 +3287,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Middelburg%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Middelburg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0687_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borsele",
+      "Goes",
+      "Veere",
+      "Vlissingen"
+    ]
   },
   "Reimerswaal": {
     "code": "gm0703",
@@ -2205,7 +3304,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Reimerswaal.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Reimerswaal.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0703_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergen op Zoom",
+      "Kapelle",
+      "Tholen",
+      "Woensdrecht"
+    ]
   },
   "Terneuzen": {
     "code": "gm0715",
@@ -2217,7 +3321,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Terneuzen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Terneuzen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0715_(2009).svg",
-    "buren": []
+    "buren": [
+      "Hulst",
+      "Sluis"
+    ]
   },
   "Tholen": {
     "code": "gm0716",
@@ -2229,7 +3336,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tholen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Tholen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0716_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergen op Zoom",
+      "Reimerswaal",
+      "Schouwen-Duiveland",
+      "Steenbergen"
+    ]
   },
   "Veere": {
     "code": "gm0717",
@@ -2241,7 +3353,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Veere%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Veere.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0717_(2009).svg",
-    "buren": []
+    "buren": [
+      "Middelburg",
+      "Noord-Beveland",
+      "Schouwen-Duiveland",
+      "Vlissingen"
+    ]
   },
   "Vlissingen": {
     "code": "gm0718",
@@ -2253,7 +3370,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlissingen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlissingen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0718_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borsele",
+      "Middelburg",
+      "Veere"
+    ]
   },
   "De Ronde Venen": {
     "code": "gm0736",
@@ -2265,7 +3386,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Ronde%20Venen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Ronde%20Venen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0736_(2019).svg",
-    "buren": []
+    "buren": [
+      "Amstelveen",
+      "Amsterdam",
+      "Nieuwkoop",
+      "Ouder-Amstel",
+      "Stichtse Vecht",
+      "Uithoorn",
+      "Woerden"
+    ]
   },
   "Tytsjerksteradiel": {
     "code": "gm0737",
@@ -2277,7 +3406,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/File:Tytsjerksteradiel_flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Tietjerksteradeel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0737_(2009).svg",
-    "buren": []
+    "buren": [
+      "Achtkarspelen",
+      "Dantumadiel",
+      "Leeuwarden",
+      "Noardeast-Fryslân",
+      "Smallingerland"
+    ]
   },
   "Asten": {
     "code": "gm0743",
@@ -2289,7 +3424,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Asten.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Asten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0743_(2009).svg",
-    "buren": []
+    "buren": [
+      "Deurne",
+      "Helmond",
+      "Nederweert",
+      "Peel en Maas",
+      "Someren"
+    ]
   },
   "Baarle-Nassau": {
     "code": "gm0744",
@@ -2301,7 +3442,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Baarle-Nassau%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Baarle-Nassau%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0744_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen-Chaam"
+    ]
   },
   "Bergen op Zoom": {
     "code": "gm0748",
@@ -2313,7 +3456,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergen%20op%20Zoom%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bergen%20op%20Zoom%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0748_(2009).svg",
-    "buren": []
+    "buren": [
+      "Reimerswaal",
+      "Roosendaal",
+      "Steenbergen",
+      "Tholen",
+      "Woensdrecht"
+    ]
   },
   "Best": {
     "code": "gm0753",
@@ -2325,7 +3474,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Best%20North%20Brabant.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Best%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0753_(2009).svg",
-    "buren": []
+    "buren": [
+      "Boxtel",
+      "Eindhoven",
+      "Meierijstad",
+      "Oirschot",
+      "Son en Breugel"
+    ]
   },
   "Boekel": {
     "code": "gm0755",
@@ -2337,7 +3492,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Boekel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Boekel%20%28NB%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0755_(2009).svg",
-    "buren": []
+    "buren": [
+      "Gemert-Bakel",
+      "Land van Cuijk",
+      "Maashorst",
+      "Meierijstad"
+    ]
   },
   "Boxtel": {
     "code": "gm0757",
@@ -2349,7 +3509,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Boxtel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Boxtel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0757_(2021).svg",
-    "buren": []
+    "buren": [
+      "Best",
+      "Meierijstad",
+      "Oirschot",
+      "Oisterwijk",
+      "Sint-Michielsgestel",
+      "Vught"
+    ]
   },
   "Breda": {
     "code": "gm0758",
@@ -2361,7 +3528,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Breda.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Breda%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0758_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen-Chaam",
+      "Drimmelen",
+      "Etten-Leur",
+      "Gilze en Rijen",
+      "Moerdijk",
+      "Oosterhout",
+      "Zundert"
+    ]
   },
   "Deurne": {
     "code": "gm0762",
@@ -2373,7 +3548,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Deurne%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Deurne%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0762_(2009).svg",
-    "buren": []
+    "buren": [
+      "Asten",
+      "Gemert-Bakel",
+      "Helmond",
+      "Horst aan de Maas",
+      "Peel en Maas",
+      "Venray"
+    ]
   },
   "Pekela": {
     "code": "gm0765",
@@ -2385,7 +3567,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Pekela%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Pekela%20wapen%202.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0765_(2009).svg",
-    "buren": []
+    "buren": [
+      "Midden-Groningen",
+      "Oldambt",
+      "Stadskanaal",
+      "Veendam",
+      "Westerwolde"
+    ]
   },
   "Dongen": {
     "code": "gm0766",
@@ -2397,7 +3585,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Dongen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Dongen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0766_(2009).svg",
-    "buren": []
+    "buren": [
+      "Geertruidenberg",
+      "Gilze en Rijen",
+      "Loon op Zand",
+      "Oosterhout",
+      "Tilburg",
+      "Waalwijk"
+    ]
   },
   "Eersel": {
     "code": "gm0770",
@@ -2409,7 +3604,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Eersel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Eersel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0770_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergeijk",
+      "Bladel",
+      "Eindhoven",
+      "Oirschot",
+      "Veldhoven"
+    ]
   },
   "Eindhoven": {
     "code": "gm0772",
@@ -2421,7 +3622,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eindhoven.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eindhoven%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0772_(2009).svg",
-    "buren": []
+    "buren": [
+      "Best",
+      "Eersel",
+      "Geldrop-Mierlo",
+      "Heeze-Leende",
+      "Nuenen, Gerwen en Nederwetten",
+      "Oirschot",
+      "Son en Breugel",
+      "Veldhoven",
+      "Waalre"
+    ]
   },
   "Etten-Leur": {
     "code": "gm0777",
@@ -2433,7 +3644,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Etten-Leur%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Etten-Leur.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0777_(2009).svg",
-    "buren": []
+    "buren": [
+      "Breda",
+      "Halderberge",
+      "Moerdijk",
+      "Rucphen",
+      "Zundert"
+    ]
   },
   "Geertruidenberg": {
     "code": "gm0779",
@@ -2445,7 +3662,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Geertruidenberg%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Geertruidenberg%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0779_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Dongen",
+      "Drimmelen",
+      "Oosterhout",
+      "Waalwijk"
+    ]
   },
   "Gilze en Rijen": {
     "code": "gm0784",
@@ -2457,7 +3680,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Gilze%20en%20Rijen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Gilze%20en%20Rijen-alt.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0784_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen-Chaam",
+      "Breda",
+      "Dongen",
+      "Goirle",
+      "Oosterhout",
+      "Tilburg"
+    ]
   },
   "Goirle": {
     "code": "gm0785",
@@ -2469,7 +3699,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Goirle%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Goirle%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0785_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen-Chaam",
+      "Gilze en Rijen",
+      "Hilvarenbeek",
+      "Tilburg"
+    ]
   },
   "Helmond": {
     "code": "gm0794",
@@ -2481,7 +3716,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Helmond%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Helmond%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0794_(2009).svg",
-    "buren": []
+    "buren": [
+      "Asten",
+      "Deurne",
+      "Geldrop-Mierlo",
+      "Gemert-Bakel",
+      "Laarbeek",
+      "Nuenen, Gerwen en Nederwetten",
+      "Someren"
+    ]
   },
   "s-Hertogenbosch": {
     "code": "gm0796",
@@ -2493,7 +3736,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/File:Flag_of_%27s-Hertogenbosch.svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:S-Hertogenbosch_wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0796_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bernheze",
+      "Heusden",
+      "Maasdriel",
+      "Oss",
+      "Sint-Michielsgestel",
+      "Vught"
+    ]
   },
   "Heusden": {
     "code": "gm0797",
@@ -2505,7 +3755,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Heusden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Heusden.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0797_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Loon op Zand",
+      "Maasdriel",
+      "Tilburg",
+      "Vught",
+      "Waalwijk",
+      "Zaltbommel",
+      "s-Hertogenbosch"
+    ]
   },
   "Hilvarenbeek": {
     "code": "gm0798",
@@ -2517,7 +3776,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hilvarenbeek%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Hilvarenbeek.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0798_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bladel",
+      "Goirle",
+      "Oirschot",
+      "Oisterwijk",
+      "Reusel-De Mierden",
+      "Tilburg"
+    ]
   },
   "Loon op Zand": {
     "code": "gm0809",
@@ -2529,7 +3795,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Loon%20op%20Zand.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Loon%20op%20Zand-wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0809_(2009).svg",
-    "buren": []
+    "buren": [
+      "Dongen",
+      "Heusden",
+      "Tilburg",
+      "Waalwijk"
+    ]
   },
   "Nuenen, Gerwen en Nederwetten": {
     "code": "gm0820",
@@ -2541,7 +3812,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Nuenen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nuenen%20Gerwen%20en%20Nederwetten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0820_(2009).svg",
-    "buren": []
+    "buren": [
+      "Eindhoven",
+      "Geldrop-Mierlo",
+      "Helmond",
+      "Laarbeek",
+      "Meierijstad",
+      "Son en Breugel"
+    ]
   },
   "Oirschot": {
     "code": "gm0823",
@@ -2553,7 +3831,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oirschot%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oirschot%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0823_(2009).svg",
-    "buren": []
+    "buren": [
+      "Best",
+      "Bladel",
+      "Boxtel",
+      "Eersel",
+      "Eindhoven",
+      "Hilvarenbeek",
+      "Oisterwijk"
+    ]
   },
   "Oisterwijk": {
     "code": "gm0824",
@@ -2565,7 +3851,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oisterwijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oisterwijk%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0824_(2021).svg",
-    "buren": []
+    "buren": [
+      "Boxtel",
+      "Hilvarenbeek",
+      "Oirschot",
+      "Tilburg",
+      "Vught"
+    ]
   },
   "Oosterhout": {
     "code": "gm0826",
@@ -2577,7 +3869,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oosterhout.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oosterhout%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0826_(2009).svg",
-    "buren": []
+    "buren": [
+      "Breda",
+      "Dongen",
+      "Drimmelen",
+      "Geertruidenberg",
+      "Gilze en Rijen"
+    ]
   },
   "Oss": {
     "code": "gm0828",
@@ -2589,7 +3887,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Oss.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Oss.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0828_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bernheze",
+      "Land van Cuijk",
+      "Maasdriel",
+      "Maashorst",
+      "West Maas en Waal",
+      "Wijchen",
+      "s-Hertogenbosch"
+    ]
   },
   "Rucphen": {
     "code": "gm0840",
@@ -2601,7 +3907,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Rucphen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rucphen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0840_(2009).svg",
-    "buren": []
+    "buren": [
+      "Etten-Leur",
+      "Halderberge",
+      "Roosendaal",
+      "Zundert"
+    ]
   },
   "Sint-Michielsgestel": {
     "code": "gm0845",
@@ -2613,7 +3924,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sint-Michielsgestel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Sint-Michielsgestel%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0845_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bernheze",
+      "Boxtel",
+      "Meierijstad",
+      "Vught",
+      "s-Hertogenbosch"
+    ]
   },
   "Someren": {
     "code": "gm0847",
@@ -2625,7 +3942,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Someren%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Someren%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0847_(2009).svg",
-    "buren": []
+    "buren": [
+      "Asten",
+      "Cranendonck",
+      "Geldrop-Mierlo",
+      "Heeze-Leende",
+      "Helmond",
+      "Nederweert"
+    ]
   },
   "Son en Breugel": {
     "code": "gm0848",
@@ -2637,7 +3961,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Son%20en%20Breugel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Son%20en%20Breugel%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0848_(2009).svg",
-    "buren": []
+    "buren": [
+      "Best",
+      "Eindhoven",
+      "Meierijstad",
+      "Nuenen, Gerwen en Nederwetten"
+    ]
   },
   "Steenbergen": {
     "code": "gm0851",
@@ -2649,7 +3978,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Steenbergen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Steenbergen%20gemeentewapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0851_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergen op Zoom",
+      "Halderberge",
+      "Moerdijk",
+      "Roosendaal",
+      "Tholen"
+    ]
   },
   "Waterland": {
     "code": "gm0852",
@@ -2661,7 +3996,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Waterland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Waterland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0852_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "Edam-Volendam",
+      "Landsmeer",
+      "Purmerend"
+    ]
   },
   "Tilburg": {
     "code": "gm0855",
@@ -2673,7 +4013,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tilburg.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Tilburg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0855_(2021).svg",
-    "buren": []
+    "buren": [
+      "Dongen",
+      "Gilze en Rijen",
+      "Goirle",
+      "Heusden",
+      "Hilvarenbeek",
+      "Loon op Zand",
+      "Oisterwijk",
+      "Vught"
+    ]
   },
   "Valkenswaard": {
     "code": "gm0858",
@@ -2685,7 +4034,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Valkenswaard.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Valkenswaard%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0858_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergeijk",
+      "Heeze-Leende",
+      "Waalre"
+    ]
   },
   "Veldhoven": {
     "code": "gm0861",
@@ -2697,7 +4050,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Veldhoven%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Veldhoven%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0861_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergeijk",
+      "Eersel",
+      "Eindhoven",
+      "Waalre"
+    ]
   },
   "Vught": {
     "code": "gm0865",
@@ -2709,7 +4067,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vught%20gemeentevlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vught%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0865_(2021).svg",
-    "buren": []
+    "buren": [
+      "Boxtel",
+      "Heusden",
+      "Oisterwijk",
+      "Sint-Michielsgestel",
+      "Tilburg",
+      "s-Hertogenbosch"
+    ]
   },
   "Waalre": {
     "code": "gm0866",
@@ -2721,7 +4086,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Waalre%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Waalre%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0866_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergeijk",
+      "Eindhoven",
+      "Heeze-Leende",
+      "Valkenswaard",
+      "Veldhoven"
+    ]
   },
   "Waalwijk": {
     "code": "gm0867",
@@ -2733,7 +4104,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Waalwijk%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Waalwijk%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0867_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Dongen",
+      "Geertruidenberg",
+      "Heusden",
+      "Loon op Zand"
+    ]
   },
   "Woensdrecht": {
     "code": "gm0873",
@@ -2745,7 +4122,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Woensdrecht.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Woensdrecht%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0873_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergen op Zoom",
+      "Reimerswaal",
+      "Roosendaal"
+    ]
   },
   "Zundert": {
     "code": "gm0879",
@@ -2757,7 +4138,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Zundert%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Zundert%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0879_(2009).svg",
-    "buren": []
+    "buren": [
+      "Breda",
+      "Etten-Leur",
+      "Rucphen"
+    ]
   },
   "Wormerland": {
     "code": "gm0880",
@@ -2769,7 +4154,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Wormerland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Wormerland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0880_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Landsmeer",
+      "Oostzaan",
+      "Purmerend",
+      "Zaanstad"
+    ]
   },
   "Landgraaf": {
     "code": "gm0882",
@@ -2781,7 +4172,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Landgraaf.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Landgraaf%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0882_(2009).svg",
-    "buren": []
+    "buren": [
+      "Brunssum",
+      "Heerlen",
+      "Kerkrade"
+    ]
   },
   "Beek": {
     "code": "gm0888",
@@ -2793,7 +4188,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Beek%20%28Limburg%29.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Beek%2C%20Limburg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0888_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beekdaelen",
+      "Meerssen",
+      "Sittard-Geleen",
+      "Stein"
+    ]
   },
   "Beesel": {
     "code": "gm0889",
@@ -2805,7 +4205,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Beesel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Beesel%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0889_(2009).svg",
-    "buren": []
+    "buren": [
+      "Leudal",
+      "Peel en Maas",
+      "Roermond",
+      "Venlo"
+    ]
   },
   "Bergen (L)": {
     "code": "gm0893",
@@ -2817,7 +4222,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/File:Vlag_van_Bergen_(Limburg).svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:Bergen_wapen_2016.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0893_(2009).svg",
-    "buren": []
+    "buren": [
+      "Gennep",
+      "Horst aan de Maas",
+      "Land van Cuijk",
+      "Venlo",
+      "Venray"
+    ]
   },
   "Brunssum": {
     "code": "gm0899",
@@ -2829,7 +4240,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Brunssum%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Brunssum%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0899_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beekdaelen",
+      "Heerlen",
+      "Landgraaf"
+    ]
   },
   "Gennep": {
     "code": "gm0907",
@@ -2841,7 +4256,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gennep.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Gennep.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0907_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berg en Dal",
+      "Bergen (L)",
+      "Land van Cuijk",
+      "Mook en Middelaar"
+    ]
   },
   "Heerlen": {
     "code": "gm0917",
@@ -2853,7 +4273,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Heerlen%20vlag%20officieel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Heerlen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0917_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beekdaelen",
+      "Brunssum",
+      "Kerkrade",
+      "Landgraaf",
+      "Simpelveld",
+      "Voerendaal"
+    ]
   },
   "Kerkrade": {
     "code": "gm0928",
@@ -2865,7 +4292,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Kerkrade.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerkrade%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0928_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heerlen",
+      "Landgraaf"
+    ]
   },
   "Maastricht": {
     "code": "gm0935",
@@ -2877,7 +4307,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Maastricht.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Wapen%20van%20Maastricht.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0935_(2009).svg",
-    "buren": []
+    "buren": [
+      "Eijsden-Margraten",
+      "Meerssen",
+      "Valkenburg aan de Geul"
+    ]
   },
   "Meerssen": {
     "code": "gm0938",
@@ -2889,7 +4323,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Meerssen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Meerssen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0938_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beek",
+      "Beekdaelen",
+      "Maastricht",
+      "Stein",
+      "Valkenburg aan de Geul"
+    ]
   },
   "Mook en Middelaar": {
     "code": "gm0944",
@@ -2901,7 +4341,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Mook%20en%20Middelaar%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Mook%20en%20Middelaar%20wapen%201990.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0944_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berg en Dal",
+      "Gennep",
+      "Heumen",
+      "Land van Cuijk"
+    ]
   },
   "Nederweert": {
     "code": "gm0946",
@@ -2913,7 +4358,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Nederweert%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nederweert%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0946_(2009).svg",
-    "buren": []
+    "buren": [
+      "Asten",
+      "Cranendonck",
+      "Leudal",
+      "Peel en Maas",
+      "Someren",
+      "Weert"
+    ]
   },
   "Roermond": {
     "code": "gm0957",
@@ -2925,7 +4377,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Roermond%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Roermond.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0957_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beesel",
+      "Leudal",
+      "Maasgouw",
+      "Roerdalen"
+    ]
   },
   "Simpelveld": {
     "code": "gm0965",
@@ -2937,7 +4394,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Simpelveld%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Simpelveld%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0965_(2009).svg",
-    "buren": []
+    "buren": [
+      "Gulpen-Wittem",
+      "Heerlen",
+      "Voerendaal"
+    ]
   },
   "Stein": {
     "code": "gm0971",
@@ -2949,7 +4410,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Stein.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Stein%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0971_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beek",
+      "Meerssen",
+      "Sittard-Geleen"
+    ]
   },
   "Vaals": {
     "code": "gm0981",
@@ -2961,7 +4426,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vaals%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vaals%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0981_(2009).svg",
-    "buren": []
+    "buren": [
+      "Gulpen-Wittem"
+    ]
   },
   "Venlo": {
     "code": "gm0983",
@@ -2973,7 +4440,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Venlo%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Venlo.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0983_(2019).svg",
-    "buren": []
+    "buren": [
+      "Beesel",
+      "Bergen (L)",
+      "Horst aan de Maas",
+      "Peel en Maas"
+    ]
   },
   "Venray": {
     "code": "gm0984",
@@ -2985,7 +4457,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Venray%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Venray%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0984_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bergen (L)",
+      "Deurne",
+      "Gemert-Bakel",
+      "Horst aan de Maas",
+      "Land van Cuijk"
+    ]
   },
   "Voerendaal": {
     "code": "gm0986",
@@ -2997,7 +4475,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Voerendaal%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Voerendaal%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0986_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beekdaelen",
+      "Gulpen-Wittem",
+      "Heerlen",
+      "Simpelveld",
+      "Valkenburg aan de Geul"
+    ]
   },
   "Weert": {
     "code": "gm0988",
@@ -3009,7 +4493,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Weert.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Weert.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0988_(2009).svg",
-    "buren": []
+    "buren": [
+      "Cranendonck",
+      "Leudal",
+      "Nederweert"
+    ]
   },
   "Valkenburg aan de Geul": {
     "code": "gm0994",
@@ -3021,7 +4509,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Valkenburg%20ad%20Geul%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Valkenburg%20aan%20de%20Geul%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0994_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beekdaelen",
+      "Eijsden-Margraten",
+      "Gulpen-Wittem",
+      "Maastricht",
+      "Meerssen",
+      "Voerendaal"
+    ]
   },
   "Lelystad": {
     "code": "gm0995",
@@ -3033,7 +4528,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lelystad.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Lelystad%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_0995_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almere",
+      "Dronten",
+      "Enkhuizen",
+      "Zeewolde"
+    ]
   },
   "Horst aan de Maas": {
     "code": "gm1507",
@@ -3045,7 +4545,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Horst%20aan%20de%20Maas%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Horst%20aan%20de%20Maas%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1507_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bergen (L)",
+      "Deurne",
+      "Peel en Maas",
+      "Venlo",
+      "Venray"
+    ]
   },
   "Oude IJsselstreek": {
     "code": "gm1509",
@@ -3057,7 +4563,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oude%20IJsselstreek%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coats%20of%20arms%20of%20Oude%20IJsselstreek.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1509_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aalten",
+      "Bronckhorst",
+      "Doetinchem",
+      "Montferland",
+      "Oost Gelre"
+    ]
   },
   "Teylingen": {
     "code": "gm1525",
@@ -3069,7 +4581,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Teylingen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Teylingen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1525_(2009).svg",
-    "buren": []
+    "buren": [
+      "Haarlemmermeer",
+      "Kaag en Braassem",
+      "Katwijk",
+      "Leiden",
+      "Leiderdorp",
+      "Lisse",
+      "Noordwijk",
+      "Oegstgeest"
+    ]
   },
   "Utrechtse Heuvelrug": {
     "code": "gm1581",
@@ -3081,7 +4602,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Utrechtse%20Heuvelrug%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Utrechtse%20Heuvelrug%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1581_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bunnik",
+      "Buren",
+      "Renswoude",
+      "Rhenen",
+      "Veenendaal",
+      "Wijk bij Duurstede",
+      "Woudenberg",
+      "Zeist"
+    ]
   },
   "Oost Gelre": {
     "code": "gm1586",
@@ -3093,7 +4623,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oost%20Gelre%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Oost%20Gelre.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1586_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aalten",
+      "Berkelland",
+      "Bronckhorst",
+      "Oude IJsselstreek",
+      "Winterswijk"
+    ]
   },
   "Koggenland": {
     "code": "gm1598",
@@ -3105,7 +4641,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Koggenland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Koggenland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1598_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Dijk en Waard",
+      "Edam-Volendam",
+      "Hoorn",
+      "Medemblik",
+      "Opmeer",
+      "Purmerend"
+    ]
   },
   "Lansingerland": {
     "code": "gm1621",
@@ -3117,7 +4661,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20Lansingerland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Lansingerland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1621_(2009).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Pijnacker-Nootdorp",
+      "Rotterdam",
+      "Zoetermeer",
+      "Zuidplas"
+    ]
   },
   "Leudal": {
     "code": "gm1640",
@@ -3129,7 +4679,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Leudal%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Leudal%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1640_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beesel",
+      "Maasgouw",
+      "Nederweert",
+      "Peel en Maas",
+      "Roermond",
+      "Weert"
+    ]
   },
   "Maasgouw": {
     "code": "gm1641",
@@ -3141,7 +4698,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Maasgouw%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Maasgouw.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1641_(2009).svg",
-    "buren": []
+    "buren": [
+      "Echt-Susteren",
+      "Leudal",
+      "Roerdalen",
+      "Roermond"
+    ]
   },
   "Gemert-Bakel": {
     "code": "gm1652",
@@ -3153,7 +4715,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemert-Bakel%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Gemert-Bakel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1652_(2009).svg",
-    "buren": []
+    "buren": [
+      "Boekel",
+      "Deurne",
+      "Helmond",
+      "Laarbeek",
+      "Land van Cuijk",
+      "Meierijstad",
+      "Venray"
+    ]
   },
   "Halderberge": {
     "code": "gm1655",
@@ -3165,7 +4735,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Halderberge%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Halderberge.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1655_(2009).svg",
-    "buren": []
+    "buren": [
+      "Etten-Leur",
+      "Moerdijk",
+      "Roosendaal",
+      "Rucphen",
+      "Steenbergen"
+    ]
   },
   "Heeze-Leende": {
     "code": "gm1658",
@@ -3177,7 +4753,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Heeze-Leende%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Heeze-Leende%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1658_(2009).svg",
-    "buren": []
+    "buren": [
+      "Cranendonck",
+      "Eindhoven",
+      "Geldrop-Mierlo",
+      "Someren",
+      "Valkenswaard",
+      "Waalre"
+    ]
   },
   "Laarbeek": {
     "code": "gm1659",
@@ -3189,7 +4772,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Laarbeek.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Laarbeek%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1659_(2009).svg",
-    "buren": []
+    "buren": [
+      "Gemert-Bakel",
+      "Helmond",
+      "Meierijstad",
+      "Nuenen, Gerwen en Nederwetten"
+    ]
   },
   "Reusel-De Mierden": {
     "code": "gm1667",
@@ -3201,7 +4789,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Reusel-De%20Mierden%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Reusel-De%20Mierden%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1667_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bladel",
+      "Hilvarenbeek"
+    ]
   },
   "Roerdalen": {
     "code": "gm1669",
@@ -3213,7 +4804,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Roerdalen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Roerdalen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1669_(2009).svg",
-    "buren": []
+    "buren": [
+      "Echt-Susteren",
+      "Maasgouw",
+      "Roermond"
+    ]
   },
   "Roosendaal": {
     "code": "gm1674",
@@ -3225,7 +4820,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Roosendaal%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Roosendaal%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1674_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergen op Zoom",
+      "Halderberge",
+      "Rucphen",
+      "Steenbergen",
+      "Woensdrecht"
+    ]
   },
   "Schouwen-Duiveland": {
     "code": "gm1676",
@@ -3237,7 +4838,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Schouwen-Duiveland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Schouwen-Duiveland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1676_(2009).svg",
-    "buren": []
+    "buren": [
+      "Goeree-Overflakkee",
+      "Noord-Beveland",
+      "Tholen",
+      "Veere"
+    ]
   },
   "Aa en Hunze": {
     "code": "gm1680",
@@ -3249,7 +4855,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Aa%20en%20Hunze.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Aa%20en%20Hunze-wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1680_(2009).svg",
-    "buren": []
+    "buren": [
+      "Assen",
+      "Borger-Odoorn",
+      "Coevorden",
+      "Midden-Drenthe",
+      "Midden-Groningen",
+      "Stadskanaal",
+      "Tynaarlo",
+      "Veendam"
+    ]
   },
   "Borger-Odoorn": {
     "code": "gm1681",
@@ -3261,7 +4876,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Borger-Odoorn%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Borger-Odoorn.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1681_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Coevorden",
+      "Emmen",
+      "Stadskanaal",
+      "Westerwolde"
+    ]
   },
   "De Wolden": {
     "code": "gm1690",
@@ -3273,7 +4894,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20De%20Wolden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20De%20Wolden.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1690_(2009).svg",
-    "buren": []
+    "buren": [
+      "Hardenberg",
+      "Hoogeveen",
+      "Meppel",
+      "Staphorst",
+      "Westerveld"
+    ]
   },
   "Noord-Beveland": {
     "code": "gm1695",
@@ -3285,7 +4912,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Noord-Beveland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Noord-Beveland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1695_(2009).svg",
-    "buren": []
+    "buren": [
+      "Goes",
+      "Schouwen-Duiveland",
+      "Veere"
+    ]
   },
   "Wijdemeren": {
     "code": "gm1696",
@@ -3297,7 +4928,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Wijdemeren%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Wijdemeren.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1696_(2009).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "De Bilt",
+      "Hilversum",
+      "Stichtse Vecht"
+    ]
   },
   "Noordenveld": {
     "code": "gm1699",
@@ -3309,7 +4945,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Noordenveld.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Noordenveld.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1699_(2009).svg",
-    "buren": []
+    "buren": [
+      "Assen",
+      "Groningen",
+      "Midden-Drenthe",
+      "Ooststellingwerf",
+      "Opsterland",
+      "Tynaarlo",
+      "Westerkwartier"
+    ]
   },
   "Twenterand": {
     "code": "gm1700",
@@ -3321,7 +4965,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Twenterand.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Twenterand%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1700_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almelo",
+      "Hardenberg",
+      "Hellendoorn",
+      "Ommen",
+      "Tubbergen",
+      "Wierden"
+    ]
   },
   "Westerveld": {
     "code": "gm1701",
@@ -3333,7 +4984,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Westerveld%20gemeentevlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Westerveld.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1701_(2009).svg",
-    "buren": []
+    "buren": [
+      "De Wolden",
+      "Hoogeveen",
+      "Meppel",
+      "Midden-Drenthe",
+      "Ooststellingwerf",
+      "Steenwijkerland",
+      "Weststellingwerf"
+    ]
   },
   "Lingewaard": {
     "code": "gm1705",
@@ -3345,7 +5004,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Lingewaard.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Lingewaard.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1705_(2009).svg",
-    "buren": []
+    "buren": [
+      "Arnhem",
+      "Berg en Dal",
+      "Duiven",
+      "Nijmegen",
+      "Overbetuwe",
+      "Westervoort",
+      "Zevenaar"
+    ]
   },
   "Cranendonck": {
     "code": "gm1706",
@@ -3357,7 +5024,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Cranendonck%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Cranendonck.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1706_(2009).svg",
-    "buren": []
+    "buren": [
+      "Heeze-Leende",
+      "Nederweert",
+      "Someren",
+      "Weert"
+    ]
   },
   "Steenwijkerland": {
     "code": "gm1708",
@@ -3369,7 +5041,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Steenwijkerland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Steenwijkerland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1708_(2009).svg",
-    "buren": []
+    "buren": [
+      "De Fryske Marren",
+      "Meppel",
+      "Noordoostpolder",
+      "Staphorst",
+      "Westerveld",
+      "Weststellingwerf",
+      "Zwartewaterland"
+    ]
   },
   "Moerdijk": {
     "code": "gm1709",
@@ -3381,7 +5061,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Moerdijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Moerdijk%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1709_(2009).svg",
-    "buren": []
+    "buren": [
+      "Breda",
+      "Dordrecht",
+      "Drimmelen",
+      "Etten-Leur",
+      "Goeree-Overflakkee",
+      "Halderberge",
+      "Hoeksche Waard",
+      "Steenbergen"
+    ]
   },
   "Echt-Susteren": {
     "code": "gm1711",
@@ -3393,7 +5082,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Echt-Susteren.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Echt%20Susteren.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1711_(2009).svg",
-    "buren": []
+    "buren": [
+      "Maasgouw",
+      "Roerdalen",
+      "Sittard-Geleen"
+    ]
   },
   "Sluis": {
     "code": "gm1714",
@@ -3405,7 +5098,9 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Sluis%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Sluis.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1714_(2009).svg",
-    "buren": []
+    "buren": [
+      "Terneuzen"
+    ]
   },
   "Drimmelen": {
     "code": "gm1719",
@@ -3417,7 +5112,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Drimmelen%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeentewapen%20Drimmelen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1719_(2009).svg",
-    "buren": []
+    "buren": [
+      "Altena",
+      "Breda",
+      "Dordrecht",
+      "Geertruidenberg",
+      "Moerdijk",
+      "Oosterhout"
+    ]
   },
   "Bernheze": {
     "code": "gm1721",
@@ -3429,7 +5131,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bernheze.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Bernheze.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1721_(2009).svg",
-    "buren": []
+    "buren": [
+      "Maashorst",
+      "Meierijstad",
+      "Oss",
+      "Sint-Michielsgestel",
+      "s-Hertogenbosch"
+    ]
   },
   "Alphen-Chaam": {
     "code": "gm1723",
@@ -3441,7 +5149,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Alphen-Chaam%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Alphen-Chaam%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1723_(2009).svg",
-    "buren": []
+    "buren": [
+      "Baarle-Nassau",
+      "Breda",
+      "Gilze en Rijen",
+      "Goirle"
+    ]
   },
   "Bergeijk": {
     "code": "gm1724",
@@ -3453,7 +5166,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bergeijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Bergeijk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1724_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bladel",
+      "Eersel",
+      "Valkenswaard",
+      "Veldhoven",
+      "Waalre"
+    ]
   },
   "Bladel": {
     "code": "gm1728",
@@ -3465,7 +5184,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Bladel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bladel%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1728_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bergeijk",
+      "Eersel",
+      "Hilvarenbeek",
+      "Oirschot",
+      "Reusel-De Mierden"
+    ]
   },
   "Gulpen-Wittem": {
     "code": "gm1729",
@@ -3477,7 +5202,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulpen-Wittem%20vlag%201999.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gulpen-Wittem%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1729_(2009).svg",
-    "buren": []
+    "buren": [
+      "Eijsden-Margraten",
+      "Simpelveld",
+      "Vaals",
+      "Valkenburg aan de Geul",
+      "Voerendaal"
+    ]
   },
   "Tynaarlo": {
     "code": "gm1730",
@@ -3489,7 +5220,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Tynaarlo.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Tynaarlo.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1730_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Assen",
+      "Groningen",
+      "Midden-Groningen",
+      "Noordenveld"
+    ]
   },
   "Midden-Drenthe": {
     "code": "gm1731",
@@ -3501,7 +5238,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Midden-Drenthe.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Midden-Drenthe.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1731_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Assen",
+      "Coevorden",
+      "Hoogeveen",
+      "Noordenveld",
+      "Ooststellingwerf",
+      "Westerveld"
+    ]
   },
   "Overbetuwe": {
     "code": "gm1734",
@@ -3513,7 +5258,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Overbetuwe.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Overbetuwe.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1734_(2009).svg",
-    "buren": []
+    "buren": [
+      "Arnhem",
+      "Beuningen",
+      "Lingewaard",
+      "Neder-Betuwe",
+      "Nijmegen",
+      "Renkum",
+      "Wageningen"
+    ]
   },
   "Hof van Twente": {
     "code": "gm1735",
@@ -3525,7 +5278,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hof%20van%20Twente%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hof%20van%20Twente%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1735_(2009).svg",
-    "buren": []
+    "buren": [
+      "Almelo",
+      "Berkelland",
+      "Borne",
+      "Haaksbergen",
+      "Hengelo",
+      "Lochem",
+      "Rijssen-Holten",
+      "Wierden"
+    ]
   },
   "Neder-Betuwe": {
     "code": "gm1740",
@@ -3537,7 +5299,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Neder-Betuwe%20vlag%202014.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Neder%20Betuwe.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1740_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beuningen",
+      "Buren",
+      "Druten",
+      "Overbetuwe",
+      "Rhenen",
+      "Tiel",
+      "Wageningen",
+      "West Maas en Waal"
+    ]
   },
   "Rijssen-Holten": {
     "code": "gm1742",
@@ -3549,7 +5320,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Rijssen-Holten%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Rijssen-Holten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1742_(2009).svg",
-    "buren": []
+    "buren": [
+      "Deventer",
+      "Hellendoorn",
+      "Hof van Twente",
+      "Lochem",
+      "Raalte",
+      "Wierden"
+    ]
   },
   "Geldrop-Mierlo": {
     "code": "gm1771",
@@ -3561,7 +5339,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Geldrop-Mierlo%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Geldrop-Mierlo%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1771_(2009).svg",
-    "buren": []
+    "buren": [
+      "Eindhoven",
+      "Heeze-Leende",
+      "Helmond",
+      "Nuenen, Gerwen en Nederwetten",
+      "Someren"
+    ]
   },
   "Olst-Wijhe": {
     "code": "gm1773",
@@ -3573,7 +5357,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Olst-Wijhe%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Olst-Wijhe%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1773_(2009).svg",
-    "buren": []
+    "buren": [
+      "Deventer",
+      "Epe",
+      "Heerde",
+      "Raalte",
+      "Voorst",
+      "Zwolle"
+    ]
   },
   "Dinkelland": {
     "code": "gm1774",
@@ -3585,7 +5376,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Denekamp.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Dinkelland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1774_(2009).svg",
-    "buren": []
+    "buren": [
+      "Borne",
+      "Enschede",
+      "Hengelo",
+      "Losser",
+      "Oldenzaal",
+      "Tubbergen"
+    ]
   },
   "Westland": {
     "code": "gm1783",
@@ -3597,7 +5395,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Westland%20municipality%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Westland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1783_(2009).svg",
-    "buren": []
+    "buren": [
+      "Den Haag",
+      "Maassluis",
+      "Midden-Delfland",
+      "Rijswijk",
+      "Rotterdam"
+    ]
   },
   "Midden-Delfland": {
     "code": "gm1842",
@@ -3609,7 +5413,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Midden%20Delfland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Midden-Delfland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1842_(2009).svg",
-    "buren": []
+    "buren": [
+      "Delft",
+      "Maassluis",
+      "Rijswijk",
+      "Rotterdam",
+      "Schiedam",
+      "Vlaardingen",
+      "Westland"
+    ]
   },
   "Berkelland": {
     "code": "gm1859",
@@ -3621,7 +5433,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berkelland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Berkelland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1859_(2009).svg",
-    "buren": []
+    "buren": [
+      "Bronckhorst",
+      "Haaksbergen",
+      "Hof van Twente",
+      "Lochem",
+      "Oost Gelre"
+    ]
   },
   "Bronckhorst": {
     "code": "gm1876",
@@ -3633,7 +5451,18 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Bronckhorst%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Bronckhorst%20%28gemeente%29.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1876_(2009).svg",
-    "buren": []
+    "buren": [
+      "Berkelland",
+      "Brummen",
+      "Doesburg",
+      "Doetinchem",
+      "Lochem",
+      "Oost Gelre",
+      "Oude IJsselstreek",
+      "Rheden",
+      "Zevenaar",
+      "Zutphen"
+    ]
   },
   "Sittard-Geleen": {
     "code": "gm1883",
@@ -3645,7 +5474,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Sittard-Geleen.svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:SittardGeleen2026.png",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1883_(2009).svg",
-    "buren": []
+    "buren": [
+      "Beek",
+      "Beekdaelen",
+      "Echt-Susteren",
+      "Stein"
+    ]
   },
   "Kaag en Braassem": {
     "code": "gm1884",
@@ -3657,7 +5491,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20van%20Kaag%20en%20Braassem.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Kaag%20en%20Braassem.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1884_(2009).svg",
-    "buren": []
+    "buren": [
+      "Aalsmeer",
+      "Alphen aan den Rijn",
+      "Haarlemmermeer",
+      "Leiderdorp",
+      "Nieuwkoop",
+      "Teylingen",
+      "Uithoorn"
+    ]
   },
   "Dantumadiel": {
     "code": "gm1891",
@@ -3669,7 +5511,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/File:Flag_of_Dantumadeel.svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:Coat_of_arms_of_Dantumadeel.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1891_(2009).svg",
-    "buren": []
+    "buren": [
+      "Achtkarspelen",
+      "Noardeast-Fryslân",
+      "Tytsjerksteradiel"
+    ]
   },
   "Zuidplas": {
     "code": "gm1892",
@@ -3681,7 +5527,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Zuidplas%20flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zuidplas.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1892_(2019).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Capelle aan den IJssel",
+      "Gouda",
+      "Krimpenerwaard",
+      "Lansingerland",
+      "Rotterdam",
+      "Waddinxveen"
+    ]
   },
   "Peel en Maas": {
     "code": "gm1894",
@@ -3693,7 +5547,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Peel%20en%20Maas%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Peel%20en%20Maas%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1894_(2019).svg",
-    "buren": []
+    "buren": [
+      "Asten",
+      "Beesel",
+      "Deurne",
+      "Horst aan de Maas",
+      "Leudal",
+      "Nederweert",
+      "Venlo"
+    ]
   },
   "Oldambt": {
     "code": "gm1895",
@@ -3705,7 +5567,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Oldambt%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Oldambt%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1895_(2019).svg",
-    "buren": []
+    "buren": [
+      "Eemsdelta",
+      "Midden-Groningen",
+      "Pekela",
+      "Westerwolde"
+    ]
   },
   "Zwartewaterland": {
     "code": "gm1896",
@@ -3717,7 +5584,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Zwartewaterland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Zwartewaterland.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1896_(2009).svg",
-    "buren": []
+    "buren": [
+      "Kampen",
+      "Staphorst",
+      "Steenwijkerland",
+      "Zwolle"
+    ]
   },
   "Súdwest-Fryslân": {
     "code": "gm1900",
@@ -3729,7 +5601,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BAdwest-Frysl%C3%A2n%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/S%C3%BBdwest-Frysl%C3%A2n%20wapen%20nieuw.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1900_(2019).svg",
-    "buren": []
+    "buren": [
+      "De Fryske Marren",
+      "Harlingen",
+      "Hollands Kroon",
+      "Leeuwarden",
+      "Waadhoeke"
+    ]
   },
   "Bodegraven-Reeuwijk": {
     "code": "gm1901",
@@ -3741,7 +5619,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Bodegraven-Reeuwijk%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Bodegraven-Reeuwijk%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1901_(2019).svg",
-    "buren": []
+    "buren": [
+      "Alphen aan den Rijn",
+      "Gouda",
+      "Krimpenerwaard",
+      "Montfoort",
+      "Nieuwkoop",
+      "Oudewater",
+      "Waddinxveen",
+      "Woerden"
+    ]
   },
   "Eijsden-Margraten": {
     "code": "gm1903",
@@ -3753,7 +5640,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Eijsden-Margraten%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eijsden-Margraten%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1903_(2019).svg",
-    "buren": []
+    "buren": [
+      "Gulpen-Wittem",
+      "Maastricht",
+      "Valkenburg aan de Geul"
+    ]
   },
   "Stichtse Vecht": {
     "code": "gm1904",
@@ -3765,7 +5656,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Stichtse%20Vecht%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Stichtse%20Vecht%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1904_(2019).svg",
-    "buren": []
+    "buren": [
+      "Amsterdam",
+      "De Bilt",
+      "De Ronde Venen",
+      "Utrecht",
+      "Wijdemeren",
+      "Woerden"
+    ]
   },
   "Hollands Kroon": {
     "code": "gm1911",
@@ -3777,7 +5675,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Hollands%20kroon%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hollands%20Kroon%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1911_(2019).svg",
-    "buren": []
+    "buren": [
+      "Den Helder",
+      "Dijk en Waard",
+      "Medemblik",
+      "Opmeer",
+      "Schagen",
+      "Súdwest-Fryslân"
+    ]
   },
   "Leidschendam-Voorburg": {
     "code": "gm1916",
@@ -3789,7 +5694,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Leidschendam-Voorburg%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Leidschendam-Voorburg.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1916_(2009).svg",
-    "buren": []
+    "buren": [
+      "Den Haag",
+      "Leiden",
+      "Voorschoten",
+      "Wassenaar",
+      "Zoetermeer",
+      "Zoeterwoude"
+    ]
   },
   "Goeree-Overflakkee": {
     "code": "gm1924",
@@ -3801,7 +5713,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Goeree-Overflakkee%20gemeentevlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Goeree-Overflakkee%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1924_(2019).svg",
-    "buren": []
+    "buren": [
+      "Hoeksche Waard",
+      "Moerdijk",
+      "Schouwen-Duiveland",
+      "Voorne aan Zee"
+    ]
   },
   "Pijnacker-Nootdorp": {
     "code": "gm1926",
@@ -3813,7 +5730,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Pijnacker-Nootdorp%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coat%20of%20arms%20of%20Pijnacker-Nootdorp.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1926_(2009).svg",
-    "buren": []
+    "buren": [
+      "Delft",
+      "Den Haag",
+      "Lansingerland",
+      "Rotterdam",
+      "Zoetermeer"
+    ]
   },
   "Nissewaard": {
     "code": "gm1930",
@@ -3825,7 +5748,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissewaard%20gemeentevlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissewaard%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1930_(2019).svg",
-    "buren": []
+    "buren": [
+      "Albrandswaard",
+      "Hoeksche Waard",
+      "Rotterdam",
+      "Voorne aan Zee"
+    ]
   },
   "Krimpenerwaard": {
     "code": "gm1931",
@@ -3837,7 +5765,18 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Krimpenerwaard.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Krimpenerwaard%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1931_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bodegraven-Reeuwijk",
+      "Capelle aan den IJssel",
+      "Gouda",
+      "Krimpen aan den IJssel",
+      "Lopik",
+      "Molenlanden",
+      "Oudewater",
+      "Ridderkerk",
+      "Rotterdam",
+      "Zuidplas"
+    ]
   },
   "De Fryske Marren": {
     "code": "gm1940",
@@ -3849,7 +5788,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/File:De_Friese_Meren_vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/File:De_Fryske_Marren_wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1940_(2019).svg",
-    "buren": []
+    "buren": [
+      "Heerenveen",
+      "Leeuwarden",
+      "Noordoostpolder",
+      "Steenwijkerland",
+      "Súdwest-Fryslân",
+      "Weststellingwerf"
+    ]
   },
   "Gooise Meren": {
     "code": "gm1942",
@@ -3861,7 +5807,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Gooise%20Meren.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Coats%20of%20arms%20of%20Gooise%20Meren.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1942_(2019).svg",
-    "buren": []
+    "buren": [
+      "Almere",
+      "Amsterdam",
+      "Diemen",
+      "Hilversum",
+      "Huizen"
+    ]
   },
   "Berg en Dal": {
     "code": "gm1945",
@@ -3873,7 +5825,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Berg%20en%20Dal.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Berg%20en%20Dal%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1945_(2019).svg",
-    "buren": []
+    "buren": [
+      "Gennep",
+      "Heumen",
+      "Lingewaard",
+      "Mook en Middelaar",
+      "Nijmegen",
+      "Zevenaar"
+    ]
   },
   "Meierijstad": {
     "code": "gm1948",
@@ -3885,7 +5844,18 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Meierijstad%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Meierijstad%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1948_(2019).svg",
-    "buren": []
+    "buren": [
+      "Bernheze",
+      "Best",
+      "Boekel",
+      "Boxtel",
+      "Gemert-Bakel",
+      "Laarbeek",
+      "Maashorst",
+      "Nuenen, Gerwen en Nederwetten",
+      "Sint-Michielsgestel",
+      "Son en Breugel"
+    ]
   },
   "Waadhoeke": {
     "code": "gm1949",
@@ -3897,7 +5867,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Waadhoeke%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Waadhoeke%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1949_(2019).svg",
-    "buren": []
+    "buren": [
+      "Harlingen",
+      "Leeuwarden",
+      "Noardeast-Fryslân",
+      "Súdwest-Fryslân"
+    ]
   },
   "Westerwolde": {
     "code": "gm1950",
@@ -3909,7 +5884,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Westerwolde%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Westerwolde%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1950_(2019).svg",
-    "buren": []
+    "buren": [
+      "Borger-Odoorn",
+      "Emmen",
+      "Oldambt",
+      "Pekela",
+      "Stadskanaal"
+    ]
   },
   "Midden-Groningen": {
     "code": "gm1952",
@@ -3921,7 +5902,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Midden-Groningen%20logo.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Midden-Groningen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1952_(2019).svg",
-    "buren": []
+    "buren": [
+      "Aa en Hunze",
+      "Eemsdelta",
+      "Groningen",
+      "Oldambt",
+      "Pekela",
+      "Tynaarlo",
+      "Veendam"
+    ]
   },
   "Beekdaelen": {
     "code": "gm1954",
@@ -3933,7 +5922,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Beekdaelen%20gemeentevlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Beekdaelen%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1954_(2019).svg",
-    "buren": []
+    "buren": [
+      "Beek",
+      "Brunssum",
+      "Heerlen",
+      "Meerssen",
+      "Sittard-Geleen",
+      "Valkenburg aan de Geul",
+      "Voerendaal"
+    ]
   },
   "Montferland": {
     "code": "gm1955",
@@ -3945,7 +5942,11 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20montferland.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Montferland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1955_(2009).svg",
-    "buren": []
+    "buren": [
+      "Doetinchem",
+      "Oude IJsselstreek",
+      "Zevenaar"
+    ]
   },
   "Altena": {
     "code": "gm1959",
@@ -3957,7 +5958,16 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Altena.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Altena%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1959_(2019).svg",
-    "buren": []
+    "buren": [
+      "Dordrecht",
+      "Drimmelen",
+      "Geertruidenberg",
+      "Gorinchem",
+      "Hardinxveld-Giessendam",
+      "Heusden",
+      "Waalwijk",
+      "Zaltbommel"
+    ]
   },
   "West Betuwe": {
     "code": "gm1960",
@@ -3969,7 +5979,17 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20West%20Betuwe.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/West%20Betuwe%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1960_(2019).svg",
-    "buren": []
+    "buren": [
+      "Buren",
+      "Culemborg",
+      "Gorinchem",
+      "Maasdriel",
+      "Molenlanden",
+      "Tiel",
+      "Vijfheerenlanden",
+      "West Maas en Waal",
+      "Zaltbommel"
+    ]
   },
   "Vijfheerenlanden": {
     "code": "gm1961",
@@ -3981,7 +6001,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Vijfheerenlanden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Vijfheerenlanden%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1961_(2019).svg",
-    "buren": []
+    "buren": [
+      "Culemborg",
+      "Houten",
+      "IJsselstein",
+      "Lopik",
+      "Molenlanden",
+      "Nieuwegein",
+      "West Betuwe"
+    ]
   },
   "Hoeksche Waard": {
     "code": "gm1963",
@@ -3993,7 +6021,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Hoeksche%20Waard.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Hoeksche%20Waard%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1963_(2019).svg",
-    "buren": []
+    "buren": [
+      "Albrandswaard",
+      "Barendrecht",
+      "Dordrecht",
+      "Goeree-Overflakkee",
+      "Moerdijk",
+      "Nissewaard",
+      "Zwijndrecht"
+    ]
   },
   "Het Hogeland": {
     "code": "gm1966",
@@ -4005,7 +6041,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Het%20Hogeland%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Het%20Hogeland%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1966_(2019).svg",
-    "buren": []
+    "buren": [
+      "Eemsdelta",
+      "Groningen",
+      "Noardeast-Fryslân",
+      "Westerkwartier"
+    ]
   },
   "Westerkwartier": {
     "code": "gm1969",
@@ -4017,7 +6058,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Westerkwartier%20vlag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Westerkwartier%20wapen%202018.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1969_(2019).svg",
-    "buren": []
+    "buren": [
+      "Achtkarspelen",
+      "Groningen",
+      "Het Hogeland",
+      "Noardeast-Fryslân",
+      "Noordenveld",
+      "Opsterland",
+      "Smallingerland"
+    ]
   },
   "Noardeast-Fryslân": {
     "code": "gm1970",
@@ -4029,7 +6078,15 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flagge%20fan%20Noardeast-Frysl%C3%A2n.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Noardeast-Fryslan%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1970_(2019).svg",
-    "buren": []
+    "buren": [
+      "Achtkarspelen",
+      "Dantumadiel",
+      "Het Hogeland",
+      "Leeuwarden",
+      "Tytsjerksteradiel",
+      "Waadhoeke",
+      "Westerkwartier"
+    ]
   },
   "Molenlanden": {
     "code": "gm1978",
@@ -4041,7 +6098,18 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Molenlanden.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Molenlanden%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1978_(2019).svg",
-    "buren": []
+    "buren": [
+      "Alblasserdam",
+      "Gorinchem",
+      "Hardinxveld-Giessendam",
+      "Krimpenerwaard",
+      "Lopik",
+      "Papendrecht",
+      "Ridderkerk",
+      "Sliedrecht",
+      "Vijfheerenlanden",
+      "West Betuwe"
+    ]
   },
   "Eemsdelta": {
     "code": "gm1979",
@@ -4053,7 +6121,12 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20of%20Eemsdelta.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Eemsdelta%20wapen.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1979_(2021).svg",
-    "buren": []
+    "buren": [
+      "Groningen",
+      "Het Hogeland",
+      "Midden-Groningen",
+      "Oldambt"
+    ]
   },
   "Dijk en Waard": {
     "code": "gm1980",
@@ -4065,7 +6138,14 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeente%20Dijk%20en%20Waard%20Flag.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeentewapen%20Dijk%20en%20Waard.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1980_(2022).svg",
-    "buren": []
+    "buren": [
+      "Alkmaar",
+      "Bergen (NH)",
+      "Hollands Kroon",
+      "Koggenland",
+      "Opmeer",
+      "Schagen"
+    ]
   },
   "Land van Cuijk": {
     "code": "gm1982",
@@ -4077,7 +6157,18 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20Land%20van%20Cuijk.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeentewapen%20van%20Land%20van%20Cuijk.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1982_(2022).svg",
-    "buren": []
+    "buren": [
+      "Bergen (L)",
+      "Boekel",
+      "Gemert-Bakel",
+      "Gennep",
+      "Heumen",
+      "Maashorst",
+      "Mook en Middelaar",
+      "Oss",
+      "Venray",
+      "Wijchen"
+    ]
   },
   "Maashorst": {
     "code": "gm1991",
@@ -4089,7 +6180,13 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Vlag%20van%20de%20Gemeente%20Maashorst.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeentewapen%20Maashorst.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1991_(2022).svg",
-    "buren": []
+    "buren": [
+      "Bernheze",
+      "Boekel",
+      "Land van Cuijk",
+      "Meierijstad",
+      "Oss"
+    ]
   },
   "Voorne aan Zee": {
     "code": "gm1992",
@@ -4101,6 +6198,10 @@
     "vlag": "https://commons.wikimedia.org/wiki/Special:FilePath/Flag%20Voorne%20aan%20Zee.svg",
     "wapen": "https://commons.wikimedia.org/wiki/Special:FilePath/Gemeentewapen%20voorne%20aan%20zee.svg",
     "kaart": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_-_NL_-_Municipality_code_1992_(2023).svg",
-    "buren": []
+    "buren": [
+      "Goeree-Overflakkee",
+      "Nissewaard",
+      "Rotterdam"
+    ]
   }
 }

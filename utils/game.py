@@ -8,7 +8,7 @@ import data.gemeente_info as gemeente_info
 
 EPOCH = date(2026, 5, 28)
 
-HINTS = ["vlag_wapen", "kaart", "inwoners_oppervlakte", "provincie", "burgemeester"]
+HINTS = ["vlag_wapen", "kaart", "inwoners_oppervlakte", "provincie", "buren", "burgemeester"]
 
 _shuffled_gemeenten = None
 
@@ -80,6 +80,7 @@ def _build_hints(info, revealed):
             "oppervlakte": info.get("oppervlakte"),
         },
         {"type": "provincie", "provincie": info.get("provincie")},
+        {"type": "buren", "buren": info.get("buren", [])},
         {"type": "kaart", "kaart": info.get("kaart")},
     ]
     return all_hints[:revealed]
