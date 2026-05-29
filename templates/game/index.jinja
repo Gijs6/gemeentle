@@ -24,6 +24,14 @@
                         data-dialog="history-dialog">
                     <i class="fa-solid fa-calendar-days"></i>
                 </button>
+                {% if config.DEBUG %}
+                    <button type="button"
+                            class="icon-btn"
+                            title="Dev tools"
+                            data-dialog="dev-dialog">
+                        <i class="fa-solid fa-bug"></i>
+                    </button>
+                {% endif %}
             </nav>
         </header>
 
@@ -111,6 +119,56 @@
         </div>
         <div class="dialog-body" id="history-content"></div>
     </dialog>
+
+    {% if config.DEBUG %}
+        <dialog id="dev-dialog">
+            <div class="dialog-header">
+                <h2>Dev tools</h2>
+                <button type="button" class="dialog-close" title="Sluiten">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="dialog-body">
+                <form method="post" action="{{ url_for('game.dev_game') }}" class="dev-section">
+                    <input type="hidden" name="action" value="reset">
+                    <button type="submit" class="btn dev-section__full-btn">Vernieuw huidig spel</button>
+                </form>
+                <form method="post" action="{{ url_for('game.dev_game') }}" class="dev-section">
+                    <label class="dev-section__label" for="dev-day">Simuleer dag</label>
+                    <div class="dev-section__row">
+                        <input type="number"
+                               id="dev-day"
+                               name="day"
+                               class="dev-section__input"
+                               min="1"
+                               value="{{ day_number }}"
+                               required>
+                        <button type="submit" class="btn">Ga</button>
+                    </div>
+                </form>
+                <form method="post" action="{{ url_for('game.dev_game') }}" class="dev-section">
+                    <input type="hidden" name="action" value="gemeente">
+                    <label class="dev-section__label" for="dev-gemeente">Simuleer gemeente</label>
+                    <div class="dev-section__row">
+                        <div class="autocomplete">
+                            <input type="text"
+                                   id="dev-gemeente"
+                                   name="gemeente"
+                                   class="autocomplete__input"
+                                   placeholder="Typ een gemeente..."
+                                   autocomplete="off"
+                                   autocorrect="off"
+                                   autocapitalize="off"
+                                   spellcheck="false"
+                                   required>
+                            <ul class="autocomplete__list" hidden></ul>
+                        </div>
+                        <button type="submit" class="btn">Ga</button>
+                    </div>
+                </form>
+            </div>
+        </dialog>
+    {% endif %}
 
     {# djlint:off #}
     <script>

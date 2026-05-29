@@ -2,7 +2,7 @@ import os
 import random
 from datetime import date
 
-from flask import session
+from flask import current_app, session
 
 import data.gemeente_info as gemeente_info
 
@@ -45,7 +45,14 @@ def _get_revealed_indices(gemeente, hints_revealed, max_hints):
 
 def get_daily_gemeente():
     gemeenten = _get_shuffled_gemeenten()
+    if current_app.debug and "dev_gemeente" in session:
+        return session["dev_gemeente"]
     day = (date.today() - EPOCH).days
+    return gemeenten[day % len(gemeenten)]
+
+
+def gemeente_for_day(day):
+    gemeenten = _get_shuffled_gemeenten()
     return gemeenten[day % len(gemeenten)]
 
 

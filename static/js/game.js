@@ -313,8 +313,10 @@ function initHtmx() {
 }
 
 function init() {
-    const form = document.querySelector(".guess-form");
-    if (form) initAutocomplete(form);
+    const autoForms = new Set(
+        [...document.querySelectorAll(".autocomplete")].map((el) => el.closest("form")).filter(Boolean)
+    );
+    autoForms.forEach(initAutocomplete);
 
     syncResult();
     initShareButton();
