@@ -466,6 +466,44 @@
     }
 }
 
+.error-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-xl) var(--spacing-md);
+    text-align: center;
+
+    .error-page__code {
+        font-family: var(--font-family-mono);
+        font-size: var(--font-size-4xl);
+        font-weight: var(--font-weight-bold);
+        color: var(--color-accent);
+        line-height: 1;
+    }
+
+    .error-page__title {
+        margin: 0;
+        font-size: var(--font-size-2xl);
+        font-weight: var(--font-weight-bold);
+        font-family: var(--font-family-mono);
+        color: var(--color-fg);
+    }
+
+    .error-page__desc {
+        margin: 0;
+        color: var(--color-muted);
+        max-width: 28rem;
+    }
+
+    .btn {
+        margin-top: var(--spacing-md);
+        text-decoration: none;
+    }
+}
+
 @keyframes btn-spin {
     to {
         transform: translate(-50%, -50%) rotate(360deg);
