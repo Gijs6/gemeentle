@@ -1,3 +1,4 @@
+import locale
 import os
 
 from dotenv import load_dotenv
@@ -5,6 +6,8 @@ from flask import Flask, render_template
 from werkzeug.middleware.proxy_fix import ProxyFix
 from routes import register_routes
 from utils.filters import register_filters
+
+locale.setlocale(locale.LC_TIME, "nl_NL.UTF-8")
 
 
 load_dotenv(override=True)
