@@ -1,6 +1,6 @@
 :root {
-    --color-white: white;
-    --color-black: black;
+    --color-white: #ffffff;
+    --color-black: #000000;
 
     --color-beige-0: #faf7f2;
     --color-beige-1: #f5f0e8;
@@ -54,6 +54,10 @@
     --color-accent: var(--color-olive-5);
     --color-accent-dark: var(--color-olive-7);
     --color-accent-light: var(--color-olive-0);
+
+    --shadow-sm: 0 var(--spacing-2xs) var(--spacing-md) rgba(30, 21, 8, 0.1), 0 var(--spacing-sm) var(--spacing-2xl) rgba(30, 21, 8, 0.12);
+    --shadow-dropdown: 0 var(--spacing-2xs) var(--spacing-md) rgba(30, 21, 8, 0.08), 0 var(--spacing-sm) var(--spacing-xl) rgba(30, 21, 8, 0.06);
+    --color-backdrop: rgba(30, 21, 8, 0.45);
 }
 
 @media (prefers-color-scheme: dark) {

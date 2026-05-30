@@ -119,12 +119,13 @@ textarea:not([rows]) {
     --font-family-sans: "IBM Plex Sans", sans-serif;
     --font-family-mono: "IBM Plex Mono", monospace;
 
-    --font-size-xs: 0.75em;
-    --font-size-sm: 0.875em;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
     --font-size-base: 1rem;
-    --font-size-lg: 1.25em;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.25rem;
     --font-size-xl: 1.375rem;
-    --font-size-2xl: 2em;
+    --font-size-2xl: 2rem;
     --font-size-3xl: 2.5rem;
     --font-size-4xl: 3rem;
 
@@ -132,4 +133,10 @@ textarea:not([rows]) {
     --font-weight-regular: 400;
     --font-weight-semibold: 600;
     --font-weight-bold: 800;
+
+    --transition-fast: 0.15s;
+    --transition-faster: 0.1s;
+
+    --board-max-width: 34rem;
+    --icon-btn-size: 2.25rem;
 }

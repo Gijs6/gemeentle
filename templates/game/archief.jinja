@@ -5,27 +5,13 @@
         <section class="calendar-month">
             <h3 class="calendar-month__header">{{ m.month_date | strftime("%B %Y") }}</h3>
             <ol class="calendar-month__grid" role="list">
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Maandag">ma</abbr>
-                </li>
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Dinsdag">di</abbr>
-                </li>
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Woensdag">wo</abbr>
-                </li>
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Donderdag">do</abbr>
-                </li>
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Vrijdag">vr</abbr>
-                </li>
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Zaterdag">za</abbr>
-                </li>
-                <li class="calendar-month__day-label" aria-hidden="true">
-                    <abbr title="Zondag">zo</abbr>
-                </li>
+                <li class="calendar-month__day-label" aria-hidden="true">ma</li>
+                <li class="calendar-month__day-label" aria-hidden="true">di</li>
+                <li class="calendar-month__day-label" aria-hidden="true">wo</li>
+                <li class="calendar-month__day-label" aria-hidden="true">do</li>
+                <li class="calendar-month__day-label" aria-hidden="true">vr</li>
+                <li class="calendar-month__day-label" aria-hidden="true">za</li>
+                <li class="calendar-month__day-label" aria-hidden="true">zo</li>
                 {% for _ in range(m.weekday_offset) %}<li class="calendar-cell calendar-cell--empty" aria-hidden="true"></li>{% endfor %}
                 {% for d in m.days %}
                     {% if d.result == "won" %}

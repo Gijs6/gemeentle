@@ -109,6 +109,8 @@ function initAutocomplete(form) {
                 form.requestSubmit();
             } else {
                 closeList();
+                const canonical = (window.GEMEENTEN || []).find((g) => g.toLowerCase() === input.value.toLowerCase());
+                if (canonical) input.value = canonical;
             }
         } else if (e.key === "Escape") {
             closeList();
@@ -295,11 +297,15 @@ function initHtmx() {
         const form = document.querySelector(".guess-form");
         if (form) initAutocomplete(form);
 
-        const input = document.querySelector("[autofocus]");
-        if (input) requestAnimationFrame(() => input.focus());
+        if (!document.querySelector("dialog[open]")) {
+            const input = document.querySelector("[autofocus]");
+            if (input) requestAnimationFrame(() => input.focus());
+        }
     });
 
-    document.addEventListener("htmx:beforeRequest", () => {
+    document.addEventListener("htmx:beforeRequest", (e) => {
+        if (!e.detail.elt.closest(".guess-form")) return;
+
         const list = document.querySelector(".autocomplete__list");
         if (list) list.hidden = true;
 
@@ -307,6 +313,16 @@ function initHtmx() {
         const input = document.querySelector(".autocomplete__input");
         if (btn) btn.classList.add("btn--loading");
         if (input) input.disabled = true;
+    });
+
+    document.addEventListener("htmx:afterRequest", (e) => {
+        if (!e.detail.elt.closest(".guess-form")) return;
+        if (e.detail.successful) return;
+
+        const btn = document.querySelector(".guess-form .btn");
+        const input = document.querySelector(".autocomplete__input");
+        if (btn) btn.classList.remove("btn--loading");
+        if (input) input.disabled = false;
     });
 }
 

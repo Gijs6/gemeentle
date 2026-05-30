@@ -35,8 +35,8 @@ p {
     font-weight: var(--font-weight-semibold);
     cursor: pointer;
     transition:
-        background 0.15s,
-        border-color 0.15s;
+        background var(--transition-fast),
+        border-color var(--transition-fast);
     white-space: nowrap;
     text-decoration: none;
 
@@ -59,8 +59,8 @@ p {
     }
 
     &.btn--icon {
-        width: 2.25rem;
-        height: 2.25rem;
+        width: var(--icon-btn-size);
+        height: var(--icon-btn-size);
         padding: 0;
         background: none;
         border-color: var(--color-border);
@@ -82,12 +82,10 @@ dialog {
     color: var(--color-fg);
     max-width: 30rem;
     width: calc(100% - var(--spacing-xl));
-    box-shadow:
-        0 4px 16px rgba(30, 21, 8, 0.1),
-        0 12px 40px rgba(30, 21, 8, 0.12);
+    box-shadow: var(--shadow-sm);
 
     &::backdrop {
-        background: rgba(30, 21, 8, 0.45);
+        background: var(--color-backdrop);
         backdrop-filter: blur(2px);
     }
 
