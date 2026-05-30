@@ -166,8 +166,8 @@ def build_hints(info, revealed):
             "oppervlakte": info.get("oppervlakte"),
         },
         {"type": "provincie", "provincie": info.get("provincie")},
-        {"type": "buren", "buren": info.get("buren", [])},
         {"type": "kaart", "kaart": info.get("kaart")},
+        {"type": "buren", "buren": info.get("buren", [])},
     ]
     return all_hints[:revealed]
 
