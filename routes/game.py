@@ -132,7 +132,6 @@ def archief():
             }
         )
 
-    months.reverse()
     response = make_response(render_template("game/archief.jinja", months=months))
     response.headers["Cache-Control"] = "no-store"
     response.headers["Vary"] = "Cookie"

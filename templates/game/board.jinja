@@ -37,191 +37,210 @@
     {% endif %}
 </div>
 
-<ol class="hint-list" aria-label="Hints">
-    {% for hint in hints %}
-        {% if hint.type == "vlag_wapen" %}
-            <li class="hint hint--vlag-wapen">
-                {% if hint.vlag %}
-                    <figure>
-                        <img src="{{ hint.vlag }}"
-                             alt="Vlag van de gemeente"
-                             class="hint__img hint__img--vlag"
-                             loading="lazy"
-                             decoding="async" />
-                    </figure>
-                {% endif %}
-                {% if hint.wapen %}
-                    <figure>
-                        <img src="{{ hint.wapen }}"
-                             alt="Gemeentewapen"
-                             class="hint__img hint__img--wapen"
-                             loading="lazy"
-                             decoding="async" />
-                    </figure>
-                {% endif %}
-            </li>
-        {% elif hint.type == "kaart" %}
-            <li class="hint hint--kaart">
-                {% if hint.kaart %}
-                    <figure>
-                        <img src="{{ hint.kaart }}"
-                             alt="Kaart van de gemeente"
-                             class="hint__img hint__img--kaart"
-                             loading="lazy"
-                             decoding="async" />
-                    </figure>
-                {% endif %}
-            </li>
-        {% elif hint.type == "inwoners_oppervlakte" %}
-            <li class="hint hint--meta-pair">
-                <dl>
-                    <div class="hint__cell">
-                        <dt class="hint__label">Inwoners</dt>
-                        <dd class="hint__value">
-                            {% if hint.inwoners %}
-                                <data value="{{ hint.inwoners }}">{{ "{:,}".format(hint.inwoners).replace(",", ".") }}</data>
-                            {% else %}
-                                Onbekend
-                            {% endif %}
-                        </dd>
-                    </div>
-                    <div class="hint__cell">
-                        <dt class="hint__label">Oppervlakte</dt>
-                        <dd class="hint__value">
-                            {% if hint.oppervlakte %}
-                                <data value="{{ hint.oppervlakte }}">{{ hint.oppervlakte | int if hint.oppervlakte == hint.oppervlakte | int else hint.oppervlakte }}</data>
-                                <span class="hint__unit"><abbr title="vierkante kilometer">km²</abbr></span>
-                            {% else %}
-                                Onbekend
-                            {% endif %}
-                        </dd>
-                    </div>
-                </dl>
-            </li>
-        {% elif hint.type == "provincie" %}
-            <li class="hint hint--meta">
-                <dl>
-                    <dt class="hint__label">Provincie</dt>
-                    <dd class="hint__value">
-                        {{ hint.provincie or "Onbekend" }}
-                    </dd>
-                </dl>
-            </li>
-        {% elif hint.type == "buren" %}
-            <li class="hint hint--buren">
-                <dl>
-                    <dt class="hint__label">Buurgemeenten</dt>
-                    <dd class="hint__value hint__value--buren">
-                        {% if hint.buren %}
-                            <ul aria-label="Buurgemeenten">
-                                {% for b in hint.buren %}<li>{{ b }}</li>{% endfor %}
-                            </ul>
-                        {% else %}
-                            Geen
+<div class="board-columns">
+    <div class="board-col board-col--info">
+        <ol class="hint-list" aria-label="Hints">
+            {% for hint in hints %}
+                {% if hint.type == "vlag_wapen" %}
+                    <li class="hint hint--vlag-wapen">
+                        {% if hint.vlag %}
+                            <figure>
+                                <img src="{{ hint.vlag }}"
+                                     alt="Vlag van de gemeente"
+                                     class="hint__img hint__img--vlag"
+                                     loading="lazy"
+                                     decoding="async" />
+                            </figure>
                         {% endif %}
-                    </dd>
-                </dl>
-            </li>
-        {% elif hint.type == "burgemeester" %}
-            <li class="hint hint--meta">
-                <dl>
-                    <dt class="hint__label">Burgemeester</dt>
-                    <dd class="hint__value">
-                        {{ hint.burgemeester or "Onbekend" }}
-                    </dd>
-                </dl>
-            </li>
+                        {% if hint.wapen %}
+                            <figure>
+                                <img src="{{ hint.wapen }}"
+                                     alt="Gemeentewapen"
+                                     class="hint__img hint__img--wapen"
+                                     loading="lazy"
+                                     decoding="async" />
+                            </figure>
+                        {% endif %}
+                    </li>
+                {% elif hint.type == "kaart" %}
+                    <li class="hint hint--kaart">
+                        {% if hint.kaart %}
+                            <figure>
+                                <img src="{{ hint.kaart }}"
+                                     alt="Kaart van de gemeente"
+                                     class="hint__img hint__img--kaart"
+                                     loading="lazy"
+                                     decoding="async" />
+                            </figure>
+                        {% endif %}
+                    </li>
+                {% elif hint.type == "inwoners_oppervlakte" %}
+                    <li class="hint hint--meta-pair">
+                        <dl>
+                            <div class="hint__cell">
+                                <dt class="hint__label">Inwoners</dt>
+                                <dd class="hint__value">
+                                    {% if hint.inwoners %}
+                                        <data value="{{ hint.inwoners }}">{{ "{:,}".format(hint.inwoners).replace(",", ".") }}</data>
+                                    {% else %}
+                                        Onbekend
+                                    {% endif %}
+                                </dd>
+                            </div>
+                            <div class="hint__cell">
+                                <dt class="hint__label">Oppervlakte</dt>
+                                <dd class="hint__value">
+                                    {% if hint.oppervlakte %}
+                                        <data value="{{ hint.oppervlakte }}">{{ hint.oppervlakte | int if hint.oppervlakte == hint.oppervlakte | int else hint.oppervlakte }}</data>
+                                        <span class="hint__unit">km²</span>
+                                    {% else %}
+                                        Onbekend
+                                    {% endif %}
+                                </dd>
+                            </div>
+                        </dl>
+                    </li>
+                {% elif hint.type == "provincie" %}
+                    <li class="hint hint--meta">
+                        <dl>
+                            <dt class="hint__label">Provincie</dt>
+                            <dd class="hint__value">
+                                {{ hint.provincie or "Onbekend" }}
+                            </dd>
+                        </dl>
+                    </li>
+                {% elif hint.type == "buren" %}
+                    <li class="hint hint--buren">
+                        <dl>
+                            <dt class="hint__label">Buurgemeenten</dt>
+                            <dd class="hint__value hint__value--buren">
+                                {% if hint.buren %}
+                                    <ul aria-label="Buurgemeenten">
+                                        {% for b in hint.buren %}<li>{{ b }}</li>{% endfor %}
+                                    </ul>
+                                {% else %}
+                                    Geen
+                                {% endif %}
+                            </dd>
+                        </dl>
+                    </li>
+                {% elif hint.type == "burgemeester" %}
+                    <li class="hint hint--meta">
+                        <dl>
+                            <dt class="hint__label">Burgemeester</dt>
+                            <dd class="hint__value">
+                                {{ hint.burgemeester or "Onbekend" }}
+                            </dd>
+                        </dl>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </div>
+
+    <div class="board-col board-col--play">
+        {% if result == "playing" %}
+            <div class="guess-dots"
+                 aria-label="{{ max_hints - guesses | length }} pogingen over"
+                 role="status"
+                 aria-live="polite"
+                 aria-atomic="true">
+                {% for i in range(max_hints) %}
+                    <span class="guess-dots__dot{% if i < guesses | length %} guess-dots__dot--used{% endif %}"
+                          aria-hidden="true"></span>
+                {% endfor %}
+            </div>
         {% endif %}
-    {% endfor %}
-</ol>
+        {% set wrong_guesses = guesses[:-1] if result == "won" else guesses %}
+        {% if wrong_guesses %}
+            <ol class="guess-list" aria-label="Foute gokken">
+                {% for guess in wrong_guesses %}
+                    <li class="guess-row">
+                        <i class="fa-solid fa-xmark fa-fw guess-row__icon" aria-hidden="true"></i>
+                        <span>{{ guess }}</span>
+                    </li>
+                {% endfor %}
+            </ol>
+        {% endif %}
 
-{% set wrong_guesses = guesses[:-1] if result == "won" else guesses %}
-{% if wrong_guesses %}
-    <ol class="guess-list" aria-label="Foute gokken">
-        {% for guess in wrong_guesses %}
-            <li class="guess-row">
-                <i class="fa-solid fa-xmark fa-fw guess-row__icon" aria-hidden="true"></i>
-                <s>{{ guess }}</s>
-            </li>
-        {% endfor %}
-    </ol>
-{% endif %}
-
-{% if result == "won" %}
-    <section class="game-result game-result--won"
-             aria-live="polite"
-             aria-atomic="true">
-        <i class="fa-solid fa-circle-check game-result__icon" aria-hidden="true"></i>
-        <p class="game-result__title">Gewonnen!</p>
-        <p class="game-result__gemeente">
-            <strong>{{ gemeente }}</strong>
-        </p>
-        <p class="game-result__sub">
-            In <data class="game-result__guesses" value="{{ guesses | length }}">{{ guesses | length }}</data>
-            {{ "poging" if guesses | length == 1 else "pogingen" }}
-        </p>
-        <button type="button"
-                class="btn btn--share js-share"
-                data-day="{{ day_number }}"
-                data-guesses="{{ guesses | length }}">Kopieer resultaat</button>
-    </section>
-{% elif result == "lost" %}
-    <section class="game-result game-result--lost"
-             aria-live="polite"
-             aria-atomic="true">
-        <i class="fa-solid fa-circle-xmark game-result__icon" aria-hidden="true"></i>
-        <p class="game-result__title">Verloren</p>
-        <p class="game-result__gemeente">
-            <strong>{{ gemeente }}</strong>
-        </p>
-        <button type="button"
-                class="btn btn--share js-share"
-                data-day="{{ day_number }}"
-                data-guesses="X">Kopieer resultaat</button>
-    </section>
-{% else %}
-    {% if error == "duplicate" %}
-        <p class="guess-error" role="alert">Je hebt deze gemeente al geraden.</p>
-    {% elif error %}
-        <p class="guess-error" role="alert">Geen geldige gemeente. Kies een naam uit de lijst.</p>
-    {% endif %}
-    <form class="guess-form"
-          hx-post="{{ url_for('game.archief_guess', day=archive_day) if is_archive else url_for('game.guess') }}"
-          hx-target="#board"
-          hx-swap="innerHTML"
-          novalidate>
-        <div class="autocomplete">
-            <input type="text"
-                   id="guess-input"
-                   name="guess"
-                   aria-label="Gemeente"
-                   class="autocomplete__input"
-                   role="combobox"
-                   aria-expanded="false"
-                   aria-controls="guess-autocomplete-list"
-                   aria-autocomplete="list"
-                   aria-haspopup="listbox"
-                   placeholder="Typ een gemeente..."
-                   autocomplete="off"
-                   autocorrect="off"
-                   autocapitalize="off"
-                   spellcheck="false"
-                   autofocus
-                   required />
-            <ul id="guess-autocomplete-list"
-                class="autocomplete__list"
-                role="listbox"
-                aria-label="Gemeentesuggesties"
-                hidden>
-            </ul>
-        </div>
-        <button type="submit" class="btn">Raden</button>
-    </form>
-    <output class="guess-counter"
-            role="status"
-            aria-live="polite"
-            aria-atomic="true">Poging {{ guesses | length + 1 }} van {{ max_hints }}</output>
-{% endif %}
+        {% if result == "won" %}
+            <section class="game-result game-result--won"
+                     aria-live="polite"
+                     aria-atomic="true">
+                <div class="game-result__header">
+                    <i class="fa-solid fa-circle-check game-result__icon" aria-hidden="true"></i>
+                    <p class="game-result__title">Gewonnen!</p>
+                </div>
+                <p class="game-result__gemeente">
+                    <strong>{{ gemeente }}</strong>
+                </p>
+                <p class="game-result__sub">
+                    In <data class="game-result__guesses" value="{{ guesses | length }}">{{ guesses | length }}</data>
+                    {{ "poging" if guesses | length == 1 else "pogingen" }}
+                </p>
+                <button type="button"
+                        class="btn btn--share js-share"
+                        data-day="{{ day_number }}"
+                        data-guesses="{{ guesses | length }}">Kopieer resultaat</button>
+            </section>
+        {% elif result == "lost" %}
+            <section class="game-result game-result--lost"
+                     aria-live="polite"
+                     aria-atomic="true">
+                <div class="game-result__header">
+                    <i class="fa-solid fa-circle-xmark game-result__icon" aria-hidden="true"></i>
+                    <p class="game-result__title">Verloren</p>
+                </div>
+                <p class="game-result__sub">Het antwoord was:</p>
+                <p class="game-result__gemeente">
+                    <strong>{{ gemeente }}</strong>
+                </p>
+                <button type="button"
+                        class="btn btn--share js-share"
+                        data-day="{{ day_number }}"
+                        data-guesses="X">Kopieer resultaat</button>
+            </section>
+        {% else %}
+            {% if error == "duplicate" %}
+                <p class="guess-error" role="alert">Je hebt deze gemeente al geraden.</p>
+            {% elif error %}
+                <p class="guess-error" role="alert">Geen geldige gemeente. Kies een naam uit de lijst.</p>
+            {% endif %}
+            <form class="guess-form"
+                  hx-post="{{ url_for('game.archief_guess', day=archive_day) if is_archive else url_for('game.guess') }}"
+                  hx-target="#board"
+                  hx-swap="innerHTML"
+                  novalidate>
+                <div class="autocomplete">
+                    <input type="text"
+                           id="guess-input"
+                           name="guess"
+                           aria-label="Gemeente"
+                           class="autocomplete__input"
+                           role="combobox"
+                           aria-expanded="false"
+                           aria-controls="guess-autocomplete-list"
+                           aria-autocomplete="list"
+                           aria-haspopup="listbox"
+                           placeholder="Typ een gemeente..."
+                           autocomplete="off"
+                           autocorrect="off"
+                           autocapitalize="off"
+                           spellcheck="false"
+                           autofocus
+                           required />
+                    <ul id="guess-autocomplete-list"
+                        class="autocomplete__list"
+                        role="listbox"
+                        aria-label="Gemeentesuggesties"
+                        hidden>
+                    </ul>
+                </div>
+                <button type="submit" class="btn">Raden</button>
+            </form>
+        {% endif %}
+    </div>
+</div>
 
 {% if result != "playing" and not is_archive %}
     <div class="countdown">
