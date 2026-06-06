@@ -107,6 +107,18 @@ function initAutocomplete(form) {
                 input.value = items[activeIdx].dataset.value;
                 closeList();
                 form.requestSubmit();
+            } else if (!list.hidden) {
+                const realItems = Array.from(items).filter((el) => el.getAttribute("aria-disabled") !== "true");
+                if (realItems.length === 1) {
+                    e.preventDefault();
+                    input.value = realItems[0].dataset.value;
+                    closeList();
+                    form.requestSubmit();
+                } else {
+                    closeList();
+                    const canonical = (window.GEMEENTEN || []).find((g) => g.toLowerCase() === input.value.toLowerCase());
+                    if (canonical) input.value = canonical;
+                }
             } else {
                 closeList();
                 const canonical = (window.GEMEENTEN || []).find((g) => g.toLowerCase() === input.value.toLowerCase());
