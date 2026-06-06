@@ -678,7 +678,7 @@ dialog {
             gap: var(--spacing-2xs);
             padding: 0;
 
-            li {
+            .calendar-day {
                 display: contents;
             }
 

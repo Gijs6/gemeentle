@@ -24,7 +24,7 @@
                         {% set cls = "calendar-cell--unplayed" %}
                         {% set label = d.date | strftime("%-d %B %Y") + ", niet gespeeld" %}
                     {% endif %}
-                    <li>
+                    <li class="calendar-day">
                         <a href="{{ url_for('game.archief_dag', day=d.day) }}"
                            class="calendar-cell {{ cls }}"
                            aria-label="{{ label }}">
