@@ -13,6 +13,10 @@ function filterGemeenten(query) {
     return [...starts, ...contains].slice(0, 8);
 }
 
+function shouldSearch(value) {
+    return (value.match(/[a-zA-ZÀ-ÿ]/g) || []).length >= 2;
+}
+
 function initAutocomplete(form) {
     const input = form.querySelector(".autocomplete__input");
     const list = form.querySelector(".autocomplete__list");
@@ -85,7 +89,7 @@ function initAutocomplete(form) {
     }
 
     input.addEventListener("input", () => {
-        if (input.value) openList(filterGemeenten(input.value));
+        if (shouldSearch(input.value)) openList(filterGemeenten(input.value));
         else closeList();
     });
 
@@ -93,7 +97,7 @@ function initAutocomplete(form) {
         const items = getItems();
         if (e.key === "ArrowDown") {
             e.preventDefault();
-            if (list.hidden && input.value) {
+            if (list.hidden && shouldSearch(input.value)) {
                 const results = filterGemeenten(input.value);
                 if (results.length) openList(results);
             }
@@ -136,7 +140,7 @@ function initAutocomplete(form) {
     });
 
     input.addEventListener("focus", () => {
-        if (input.value) {
+        if (shouldSearch(input.value)) {
             const results = filterGemeenten(input.value);
             if (results.length) openList(results);
         }
