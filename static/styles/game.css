@@ -507,6 +507,13 @@
 
         #board {
             padding: var(--spacing-md) var(--spacing-sm) var(--spacing-3xl) var(--spacing-sm);
+
+            .name-display__slot,
+            .name-display__hyphen,
+            .name-display__apos,
+            .name-display__revealed {
+                font-size: var(--font-size-xl);
+            }
         }
 
         .game-footer {
