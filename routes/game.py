@@ -38,6 +38,7 @@ def proxy_image(url):
     resp.headers["Cache-Control"] = "public, max-age=86400"
     return resp
 
+
 game_bp = Blueprint("game", __name__)
 
 

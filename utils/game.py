@@ -158,7 +158,11 @@ def submit_archive_guess(day, guess):
 
 def build_hints(info, revealed):
     all_hints = [
-        {"type": "vlag_wapen", "vlag": bool(info.get("vlag")), "wapen": bool(info.get("wapen"))},
+        {
+            "type": "vlag_wapen",
+            "vlag": bool(info.get("vlag")),
+            "wapen": bool(info.get("wapen")),
+        },
         {"type": "burgemeester", "burgemeester": info.get("burgemeester")},
         {
             "type": "inwoners_oppervlakte",
