@@ -158,7 +158,7 @@ def submit_archive_guess(day, guess):
 
 def build_hints(info, revealed):
     all_hints = [
-        {"type": "vlag_wapen", "vlag": info.get("vlag"), "wapen": info.get("wapen")},
+        {"type": "vlag_wapen", "vlag": bool(info.get("vlag")), "wapen": bool(info.get("wapen"))},
         {"type": "burgemeester", "burgemeester": info.get("burgemeester")},
         {
             "type": "inwoners_oppervlakte",
@@ -166,7 +166,7 @@ def build_hints(info, revealed):
             "oppervlakte": info.get("oppervlakte"),
         },
         {"type": "provincie", "provincie": info.get("provincie")},
-        {"type": "kaart", "kaart": info.get("kaart")},
+        {"type": "kaart", "kaart": bool(info.get("kaart"))},
         {"type": "buren", "buren": info.get("buren", [])},
     ]
     return all_hints[:revealed]

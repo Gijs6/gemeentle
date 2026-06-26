@@ -45,7 +45,7 @@
                     <li class="hint hint--vlag-wapen">
                         {% if hint.vlag %}
                             <figure>
-                                <img src="{{ hint.vlag }}"
+                                <img src="{{ url_for('game.archief_img', day=archive_day, kind='vlag') if is_archive else url_for('game.img', kind='vlag') }}"
                                      alt="Vlag van de gemeente"
                                      class="hint__img hint__img--vlag"
                                      loading="lazy"
@@ -54,7 +54,7 @@
                         {% endif %}
                         {% if hint.wapen %}
                             <figure>
-                                <img src="{{ hint.wapen }}"
+                                <img src="{{ url_for('game.archief_img', day=archive_day, kind='wapen') if is_archive else url_for('game.img', kind='wapen') }}"
                                      alt="Gemeentewapen"
                                      class="hint__img hint__img--wapen"
                                      loading="lazy"
@@ -66,7 +66,7 @@
                     <li class="hint hint--kaart">
                         {% if hint.kaart %}
                             <figure>
-                                <img src="{{ hint.kaart }}"
+                                <img src="{{ url_for('game.archief_img', day=archive_day, kind='kaart') if is_archive else url_for('game.img', kind='kaart') }}"
                                      alt="Kaart van de gemeente"
                                      class="hint__img hint__img--kaart"
                                      loading="lazy"

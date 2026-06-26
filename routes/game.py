@@ -1,5 +1,6 @@
 from datetime import date
 
+import requests as http
 from flask import (
     Blueprint,
     abort,
@@ -21,6 +22,21 @@ from utils.game import (
     submit_archive_guess,
     submit_guess,
 )
+
+ALLOWED_IMG_KINDS = {"vlag", "wapen", "kaart"}
+
+
+def proxy_image(url):
+    try:
+        r = http.get(url, timeout=10, headers={"User-Agent": "gemeentle/1.0"})
+        r.raise_for_status()
+    except Exception:
+        abort(502)
+    content_type = r.headers.get("Content-Type", "image/svg+xml")
+    resp = make_response(r.content)
+    resp.headers["Content-Type"] = content_type
+    resp.headers["Cache-Control"] = "public, max-age=86400"
+    return resp
 
 game_bp = Blueprint("game", __name__)
 
@@ -99,6 +115,32 @@ def dev_game():
     session.pop("gemeente", None)
     session.modified = True
     return redirect(url_for("game.index"), 303)
+
+
+@game_bp.get("/img/<kind>")
+def img(kind):
+    if kind not in ALLOWED_IMG_KINDS:
+        abort(404)
+    gemeente = session.get("gemeente")
+    if not gemeente:
+        abort(404)
+    url = gemeente_info.get(gemeente).get(kind)
+    if not url:
+        abort(404)
+    return proxy_image(url)
+
+
+@game_bp.get("/archief/<int:day>/img/<kind>")
+def archief_img(day, kind):
+    if kind not in ALLOWED_IMG_KINDS:
+        abort(404)
+    today_day = (date.today() - EPOCH).days
+    if day >= today_day or day < 0:
+        abort(404)
+    url = gemeente_info.get(gemeente_for_day(day)).get(kind)
+    if not url:
+        abort(404)
+    return proxy_image(url)
 
 
 @game_bp.get("/archief")
